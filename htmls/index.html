@@ -1,0 +1,4744 @@
+ <!DOCTYPE html>
+		<html
+			class="layout layout-sidecar-left    page-template-tag  default-focus"
+			lang="en-us"
+			dir="ltr"
+			data-authenticated="false"
+			data-auth-status-determined="false"
+			data-target="docs"
+			x-ms-format-detection="none"
+		>
+			
+		<head>
+			<title>Windows for home - Microsoft Q&amp;A</title>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta name="color-scheme" content="light dark" />
+
+			<meta name="description" content="A family of Microsoft operating systems that run across personal computers, tablets, laptops, phones, internet of things devices, self-contained mixed reality headsets, large collaboration screens, and other devices." />
+			<link rel="canonical" href="https://learn.microsoft.com/en-us/answers/tags/824/windows-home" /> 
+
+			<!-- Non-customizable open graph and sharing-related metadata -->
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:site" content="@MicrosoftLearn" />
+			<meta property="og:type" content="website" />
+			<meta property="og:image:alt" content="Microsoft Learn" />
+			<meta property="og:image" content="https://learn.microsoft.com/en-us/media/open-graph-image.png" />
+			<!-- Page specific open graph and sharing-related metadata -->
+			<meta property="og:title" content="Windows for home - Microsoft Q&amp;A" />
+			<meta property="og:url" content="https://learn.microsoft.com/en-us/answers/tags/824/windows-home" />
+			<meta property="og:description" content="A family of Microsoft operating systems that run across personal computers, tablets, laptops, phones, internet of things devices, self-contained mixed reality headsets, large collaboration screens, and other devices." />
+			 
+			<meta name="locale" content="en-us" />
+			 
+			<meta name="uhfHeaderId" content="answersv2" />
+
+			<meta name="page_type" content="QnA" />
+
+			<!--page specific meta tags-->
+			
+
+			<!-- custom meta tags -->
+			 
+
+			<!-- assets and js globals -->
+			
+			<link rel="stylesheet" href="/static/assets/0.4.03169.7094-55aba905/styles/site-ltr.css" />
+			
+			<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+			<script src="https://js.monitor.azure.com/scripts/c/ms.jsll-4.min.js"></script>
+			<script src="/_themes/docs.theme/master/en-us/_themes/global/deprecation.js"></script>
+
+			<!-- msdocs global object -->
+			<script id="msdocs-script">
+		var msDocs = {
+  "environment": {
+    "accessLevel": "online",
+    "azurePortalHostname": "portal.azure.com",
+    "reviewFeatures": false,
+    "supportLevel": "production",
+    "systemContent": true,
+    "siteName": "learn",
+    "legacyHosting": false
+  },
+  "data": {
+    "contentLocale": "en-us",
+    "contentDir": "ltr",
+    "userLocale": "en-us",
+    "userDir": "ltr",
+    "pageTemplate": "Tag",
+    "brand": "",
+    "context": {},
+    "standardFeedback": false,
+    "showFeedbackReport": false,
+    "feedbackHelpLinkType": "",
+    "feedbackHelpLinkUrl": "",
+    "feedbackSystem": "",
+    "feedbackGitHubRepo": "",
+    "feedbackProductUrl": "",
+    "extendBreadcrumb": false,
+    "isEditDisplayable": false,
+    "isPrivateUnauthorized": false,
+    "hideViewSource": false,
+    "isPermissioned": false,
+    "hasRecommendations": false,
+    "contributors": []
+  },
+  "functions": {}
+};;
+	</script>
+
+			<!-- base scripts, msdocs global should be before this -->
+			
+				<script src="/static/assets/0.4.03169.7094-55aba905/scripts/en-us/index-critical-qna.js"></script>
+				<script defer src="/static/assets/0.4.03169.7094-55aba905/scripts/en-us/index-qna.js"></script>
+			
+			
+
+			<!-- json-ld -->
+			
+		</head>
+	
+			<body
+				id="body"
+				data-bi-name="body"
+				class="layout-body "
+				lang="en-us"
+				dir="ltr"
+			>
+				<header class="layout-body-header">
+		<div class="header-holder has-default-focus">
+			
+		<a
+			href="#main"
+			
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			
+		>
+			Skip to main content
+		</a>
+	
+
+			<div hidden id="cookie-consent-holder" data-test-id="cookie-consent-container"></div>
+			<!-- Unsupported browser warning -->
+			<div
+				id="unsupported-browser"
+				style="background-color: white; color: black; padding: 16px; border-bottom: 1px solid grey;"
+				hidden
+			>
+				<div style="max-width: 800px; margin: 0 auto;">
+					<p style="font-size: 24px">This browser is no longer supported.</p>
+					<p style="font-size: 16px; margin-top: 16px;">
+						Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+					</p>
+					<div style="margin-top: 12px;">
+						<a
+							href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+							style="background-color: #0078d4; border: 1px solid #0078d4; color: white; padding: 6px 12px; border-radius: 2px; display: inline-block;"
+						>
+							Download Microsoft Edge
+						</a>
+						<a
+							href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+							style="background-color: white; padding: 6px 12px; border: 1px solid #505050; color: #171717; border-radius: 2px; display: inline-block;"
+						>
+							More info about Internet Explorer and Microsoft Edge
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- site header -->
+			<header
+				id="ms--site-header"
+				data-test-id="site-header-wrapper"
+				role="banner"
+				itemscope="itemscope"
+				itemtype="http://schema.org/Organization"
+			>
+				<div
+					id="ms--mobile-nav"
+					class="site-header display-none-tablet padding-inline-none gap-none"
+					data-bi-name="mobile-header"
+					data-test-id="mobile-header"
+				></div>
+				<div
+					id="ms--primary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L1-header"
+					data-test-id="primary-header"
+				></div>
+				<div
+					id="ms--secondary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L2-header"
+					data-test-id="secondary-header"
+				></div>
+			</header>
+			
+		<!-- banner -->
+		<div data-banner>
+			<div id="disclaimer-holder"></div>
+			
+		</div>
+		<!-- banner end -->
+	
+		</div>
+	</header>
+				<section
+					id="layout-body-hero"
+					class="layout-body-hero "
+					data-bi-name="hero"
+			  >
+					
+		<section
+			id=tags-hero
+			data-bi-name=tags-hero
+			data-test-id=tags-hero
+			class="hero hero-image hero-xs background-color-body-accent gradient-border-right gradient-border-body-accent"
+			style="--hero-background-image-light: url(/en-us/media/qna/hero/hero-tags-light.jpg?branch=main); --hero-background-image-dark: url(/en-us/media/qna/hero/hero-tags-dark.jpg?branch=main);"
+		>
+			<div class="hero-content">
+		<div class="display-flex">
+			 <div class="is-hidden-mobile margin-right-md">
+				<div class="image is-96x96">
+					<img role="presentation" src="https://learn.microsoft.com/en-us/media/logos/logo_windows.svg" alt="" />
+				</div>
+			</div>
+			<div>
+				<p class="font-size-xs letter-spacing-wide text-transform-uppercase">
+					Microsoft Q&amp;A
+				</p>
+				<h1
+					class="title is-2 font-weight-semibold"
+					id="tagHeading"
+					data-tag-id="aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BTW9kZWwvMDFhYTFlNDYtZjFlOS00ZWMwLWFlMDUtOWE5YjFkY2MyZDc5"
+				>
+					Windows for home
+				</h1>
+				<p>532,333 questions</p>
+				<p class="margin-top-xxs">A family of Microsoft operating systems that run across personal computers, tablets, laptops, phones, internet of things devices, self-contained mixed reality headsets, large collaboration screens, and other devices.</p>
+				<div class="buttons margin-top-xs">
+					
+					<button
+						class="not-authenticated button button-primary button-sm button-filled docs-sign-in"
+						data-test-id="sign-in-to-follow-button"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BTW9kZWwvMDFhYTFlNDYtZjFlOS00ZWMwLWFlMDUtOWE5YjFkY2MyZDc5"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BTW9kZWwvMDFhYTFlNDYtZjFlOS00ZWMwLWFlMDUtOWE5YjFkY2MyZDc5
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</div>
+			
+		</section>
+	
+			  </section> <section
+					id="layout-body-menu"
+					class="layout-body-menu "
+					data-bi-name="menu"
+			  >
+					
+		<div class="layout-padding padding-top-xs">
+			
+		<div class="is-hidden-tablet margin-top-xxs">
+			<button
+				id="qna-mobile-filter-button"
+				data-test-id="qna-mobile-filter-button"
+				class="button button-clear border button-sm"
+				data-bi-name="qna-mobile-filter-button"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-filter-settings"></span>
+				</span>
+				<span>Filters</span>
+			</button>
+		</div>
+	
+			
+		<div
+			class="is-hidden-mobile"
+			data-bi-name="qna-filters"
+			data-test-id="qna-tablet-filter-container"
+		>
+			<legend>
+				<h2 class="title is-3">Filter</h2>
+			</legend>
+			<hr class="hr margin-block-xs" />
+			<div class="margin-bottom-xs border-bottom qna-filters-container">
+				<h3 id="ms--facet-heading-qna" class="title is-5 margin-bottom-xs">Content</h3>
+				<div class="">
+					<fieldset
+						class="field control margin-bottom-xs"
+						aria-labelledby=ms--facet-heading-qna
+					>
+						<div class="display-flex flex-direction-column">
+		
+		<a
+			href="?filterby=null"
+			class="radio text-decoration-none has-text-subtle margin-bottom-xxs padding-none "
+			aria-current="page"
+			data-test-id="answers-question-facet-null"
+		>
+			<div class="display-flex width-full flex-wrap-wrap">
+				<div class="display-flex">
+					<span class="radio-dot is-checked" aria-hidden="true"></span>
+					<span class="radio-label-text">All questions</span>
+				</div>
+				<div class="flex-grow-1 text-align-right">
+					<span class="badge badge-filled badge-sm badge-primary">
+						532.3K
+					</span>
+				</div>
+			</div>
+		</a>
+	
+		<a
+			href="?filterby=unanswered"
+			class="radio text-decoration-none has-text-subtle margin-bottom-xxs padding-none "
+			aria-current="false"
+			data-test-id="answers-question-facet-unanswered"
+		>
+			<div class="display-flex width-full flex-wrap-wrap">
+				<div class="display-flex">
+					<span class="radio-dot " aria-hidden="true"></span>
+					<span class="radio-label-text">No answers</span>
+				</div>
+				<div class="flex-grow-1 text-align-right">
+					<span class="badge badge-filled badge-sm ">
+						1.4K
+					</span>
+				</div>
+			</div>
+		</a>
+	
+		<a
+			href="?filterby=answered"
+			class="radio text-decoration-none has-text-subtle margin-bottom-xxs padding-none "
+			aria-current="false"
+			data-test-id="answers-question-facet-answered"
+		>
+			<div class="display-flex width-full flex-wrap-wrap">
+				<div class="display-flex">
+					<span class="radio-dot " aria-hidden="true"></span>
+					<span class="radio-label-text">Has answers</span>
+				</div>
+				<div class="flex-grow-1 text-align-right">
+					<span class="badge badge-filled badge-sm ">
+						530.9K
+					</span>
+				</div>
+			</div>
+		</a>
+	
+		<a
+			href="?filterby=withoutengagement"
+			class="radio text-decoration-none has-text-subtle margin-bottom-xxs padding-none "
+			aria-current="false"
+			data-test-id="answers-question-facet-withoutengagement"
+		>
+			<div class="display-flex width-full flex-wrap-wrap">
+				<div class="display-flex">
+					<span class="radio-dot " aria-hidden="true"></span>
+					<span class="radio-label-text">No answers or comments</span>
+				</div>
+				<div class="flex-grow-1 text-align-right">
+					<span class="badge badge-filled badge-sm ">
+						1.4K
+					</span>
+				</div>
+			</div>
+		</a>
+	
+		<a
+			href="?filterby=withacceptedanswer"
+			class="radio text-decoration-none has-text-subtle margin-bottom-xxs padding-none "
+			aria-current="false"
+			data-test-id="answers-question-facet-withacceptedanswer"
+		>
+			<div class="display-flex width-full flex-wrap-wrap">
+				<div class="display-flex">
+					<span class="radio-dot " aria-hidden="true"></span>
+					<span class="radio-label-text">With accepted answer</span>
+				</div>
+				<div class="flex-grow-1 text-align-right">
+					<span class="badge badge-filled badge-sm ">
+						137.6K
+					</span>
+				</div>
+			</div>
+		</a>
+	
+	</div>
+					</fieldset>
+				</div>
+			</div>
+		</div>
+	
+		</div>
+	
+			  </section>
+
+				<main
+					id="main"
+					role="main"
+					class="layout-body-main "
+					data-bi-name="content"
+					lang="en-us"
+					dir="ltr"
+				>
+					
+		<div
+			class="layout-padding padding-top-xs"
+			data-bi-name="qna-tag-page-content"
+		>
+			<div class="level is-mobile margin-bottom-xxs flex-wrap-wrap">
+				<div class="level-left">
+					<div class="level-item">
+						<h2 class="title is-6">
+							532,333 questions with Windows for home-related tags
+						</h2>
+					</div>
+				</div>
+				<div class="level-right">
+					
+		<details class="popover popover-bottom">
+			<summary class="button button-clear" data-test-id="sortby-popover-button">
+				<span
+					>Sort by: 
+		<span class="has-text-primary font-weight-semibold">
+			Updated
+			<span class="icon" aria-hidden="true">
+				<span class="expanded-indicator docon docon-chevron-down-light"></span>
+			</span>
+		</span></span
+				>
+			</summary>
+			<div class="popover-content padding-none" data-test-id="sortby-menu">
+				 <a
+			aria-label="Sort by: Updated"
+			class="button button-clear has-inner-focus button-block text-decoration-none justify-content-flex-start is-hovered"
+			aria-current=page
+			href="?orderby=updatedat&amp;page=1"
+			data-test-id="sortby-filter-link-updatedat"
+			>Updated</a
+		> <a
+			aria-label="Sort by: Created"
+			class="button button-clear has-inner-focus button-block text-decoration-none justify-content-flex-start "
+			
+			href="?orderby=createdat&amp;page=1"
+			data-test-id="sortby-filter-link-createdat"
+			>Created</a
+		> <a
+			aria-label="Sort by: Answers"
+			class="button button-clear has-inner-focus button-block text-decoration-none justify-content-flex-start "
+			
+			href="?orderby=answercount&amp;page=1"
+			data-test-id="sortby-filter-link-answercount"
+			>Answers</a
+		>
+			</div>
+		</details>
+	
+				</div>
+			</div>
+			<!-- If results are 0, noResults() will show -->
+			
+			<div class="box margin-bottom-xxs">
+				<div class="columns is-multiline">
+					<div class="column is-9-desktop is-12-tablet">
+						<div class="columns">
+							<div class="column is-narrow text-align-right-tablet width-200-tablet">
+								<span
+									class="has-text-subtle font-size-sm"
+									title=""
+								>
+									
+									0 answers
+									
+								</span>
+								
+							</div>
+							<div class="column">
+								<h2 class="title is-6 margin-bottom-xxs">
+									<a href="/en-us/answers/questions/5550774/how-do-how-install-usb-drivers-on-my-pc-on-windows"> How do how install usb drivers on my pc on windows11 and also my left keys are not working </a>
+								</h2>
+								<p class="has-text-wrap">my usb ports are not working on the right side of the pc and button on numlk are not working. the suddenly stopped.</p>
+								<div class="display-flex flex-wrap-wrap gap-xxs margin-top-xxs">
+									
+		<span class="tag tag-filled tag-interactive">
+			<details class="popover tag-popover popover-left">
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-11-platform-devices-drivers">
+					<span>Windows for home | Windows 11 | Devices and drivers</span>
+				</summary>
+				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
+					<article class="card border-left-lg border-left-color-accent">
+		<div class="card-content margin-bottom-none">
+			<a
+				class="card-title has-text-wrap"
+				data-test-id="tag-card-title-windows-home-windows-11-platform-devices-drivers"
+				data-bi-name="tag-card-link"
+				href="/en-us/answers/tags/1069/windows-home-windows-11-platform-devices-drivers/"
+			>
+				Windows for home | Windows 11 | Devices and drivers
+			</a>
+			<div class="card-content-description" data-test-id="tag-card-description">
+				
+			</div>
+		</div>
+		<div class="card-template">
+			<img alt="" class="card-template-icon image is-32x32" src=https://learn.microsoft.com/en-us/media/logos/logo_windows.svg />
+			<div class="card-template-detail">
+						<span
+							class="font-size-sm font-weight-semilight"
+							data-test-id="tag-card-count-windows-home-windows-11-platform-devices-drivers"
+						>
+							19,056 questions
+						</span>
+				  </div>
+		</div>
+		<div class="card-footer">
+			<div class="card-footer-item">
+				<div class="buttons">
+					<button
+						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
+						data-bi-name="follow-tag-sign-in"
+						data-test-id="tag-card-follow-button-windows-home-windows-11-platform-devices-drivers"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvNzM4ZjUyYmMtNTI4Ni00NjJiLTlkYTItZTkzNDAyNmM5YTRh"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvNzM4ZjUyYmMtNTI4Ni00NjJiLTlkYTItZTkzNDAyNmM5YTRh
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					button-sm margin-block-xxs
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</article>
+				</div>
+			</details>
+		</span>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3-desktop is-12-tablet">
+						
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-09-10T12:32:21.6133333+00:00" class="is-visually-hidden">2025-09-10T12:32:21.6133333+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(67.2, 36%, 16%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EAD%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=2136c059-0bc8-4b6c-8fd1-a1e385b91a10"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Amon David</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						<div
+							class="margin-top-xxs"
+							hidden
+						>
+							
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-09-10T12:32:21.6133333+00:00" class="is-visually-hidden">2025-09-10T12:32:21.6133333+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(67.2, 36%, 16%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EAD%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=2136c059-0bc8-4b6c-8fd1-a1e385b91a10"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Amon David</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="box margin-bottom-xxs">
+				<div class="columns is-multiline">
+					<div class="column is-9-desktop is-12-tablet">
+						<div class="columns">
+							<div class="column is-narrow text-align-right-tablet width-200-tablet">
+								<span
+									class="badge badge badge-success"
+									title=""
+								>
+									
+									1 answer
+									
+								</span>
+								
+							</div>
+							<div class="column">
+								<h2 class="title is-6 margin-bottom-xxs">
+									<a href="/en-us/answers/questions/5496303/how-to-fix-this-site-cannot-be-reached-on-my-windo"> How to fix This site cannot be reached on my windows 11 pc </a>
+								</h2>
+								<p class="has-text-wrap">How do I fix the error &quot;This site can't be reached&quot; when going to random websites in Google Chrome, Windows 11</p>
+								<div class="display-flex flex-wrap-wrap gap-xxs margin-top-xxs">
+									
+		<span class="tag tag-filled tag-interactive">
+			<details class="popover tag-popover popover-left">
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-11-platform-settings">
+					<span>Windows for home | Windows 11 | Settings</span>
+				</summary>
+				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
+					<article class="card border-left-lg border-left-color-accent">
+		<div class="card-content margin-bottom-none">
+			<a
+				class="card-title has-text-wrap"
+				data-test-id="tag-card-title-windows-home-windows-11-platform-settings"
+				data-bi-name="tag-card-link"
+				href="/en-us/answers/tags/1053/windows-home-windows-11-platform-settings/"
+			>
+				Windows for home | Windows 11 | Settings
+			</a>
+			<div class="card-content-description" data-test-id="tag-card-description">
+				
+			</div>
+		</div>
+		<div class="card-template">
+			<img alt="" class="card-template-icon image is-32x32" src=https://learn.microsoft.com/en-us/media/logos/logo_windows.svg />
+			<div class="card-template-detail">
+						<span
+							class="font-size-sm font-weight-semilight"
+							data-test-id="tag-card-count-windows-home-windows-11-platform-settings"
+						>
+							8,239 questions
+						</span>
+				  </div>
+		</div>
+		<div class="card-footer">
+			<div class="card-footer-item">
+				<div class="buttons">
+					<button
+						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
+						data-bi-name="follow-tag-sign-in"
+						data-test-id="tag-card-follow-button-windows-home-windows-11-platform-settings"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvNjNjYWM3ZWQtNTBjZC00Mjg1LTg0ZTktZjMzMDYyMjlhNzY0"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvNjNjYWM3ZWQtNTBjZC00Mjg1LTg0ZTktZjMzMDYyMjlhNzY0
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					button-sm margin-block-xxs
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</article>
+				</div>
+			</details>
+		</span>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3-desktop is-12-tablet">
+						
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-07-28T16:36:29.63+00:00" class="is-visually-hidden">2025-07-28T16:36:29.63+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(156.8, 77%, 25%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EAN%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=4e97781f-9079-4133-80ed-16740cb011c1"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Annette Neff</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						<div
+							class="margin-top-xxs"
+							
+						>
+							
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					commented <local-time format="datetime" datetime="2025-09-10T12:31:12.3366667+00:00" class="is-visually-hidden">2025-09-10T12:31:12.3366667+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(60.8, 0%, 15%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EBH%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=d1e9b008-38af-492a-9c3e-188fdf5e6b35"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Bonnie Haisten</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="box margin-bottom-xxs">
+				<div class="columns is-multiline">
+					<div class="column is-9-desktop is-12-tablet">
+						<div class="columns">
+							<div class="column is-narrow text-align-right-tablet width-200-tablet">
+								<span
+									class="badge badge badge-success"
+									title=""
+								>
+									
+									1 answer
+									
+								</span>
+								
+							</div>
+							<div class="column">
+								<h2 class="title is-6 margin-bottom-xxs">
+									<a href="/en-us/answers/questions/5550721/how-can-i-fix-windows-11-updates-getting-stuck-at"> How Can I Fix Windows 11 Updates Getting Stuck at 100%? </a>
+								</h2>
+								<p class="has-text-wrap">Iâve noticed that whenever I try to install the latest Windows 11 cumulative updates, the process often gets stuck at 100% for hours. Sometimes it eventually finishes after a restart, but other times I have to force reboot, which feels risky. Is this aâ¦</p>
+								<div class="display-flex flex-wrap-wrap gap-xxs margin-top-xxs">
+									
+		<span class="tag tag-filled tag-interactive">
+			<details class="popover tag-popover popover-left">
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-11-platform-windows-update">
+					<span>Windows for home | Windows 11 | Windows update</span>
+				</summary>
+				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
+					<article class="card border-left-lg border-left-color-accent">
+		<div class="card-content margin-bottom-none">
+			<a
+				class="card-title has-text-wrap"
+				data-test-id="tag-card-title-windows-home-windows-11-platform-windows-update"
+				data-bi-name="tag-card-link"
+				href="/en-us/answers/tags/1086/windows-home-windows-11-platform-windows-update/"
+			>
+				Windows for home | Windows 11 | Windows update
+			</a>
+			<div class="card-content-description" data-test-id="tag-card-description">
+				
+			</div>
+		</div>
+		<div class="card-template">
+			<img alt="" class="card-template-icon image is-32x32" src=https://learn.microsoft.com/en-us/media/logos/logo_windows.svg />
+			<div class="card-template-detail">
+						<span
+							class="font-size-sm font-weight-semilight"
+							data-test-id="tag-card-count-windows-home-windows-11-platform-windows-update"
+						>
+							11,511 questions
+						</span>
+				  </div>
+		</div>
+		<div class="card-footer">
+			<div class="card-footer-item">
+				<div class="buttons">
+					<button
+						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
+						data-bi-name="follow-tag-sign-in"
+						data-test-id="tag-card-follow-button-windows-home-windows-11-platform-windows-update"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvODRkMWY5MDItY2RjNC00OWUzLTgzYmQtZTNjYzg5ODhhYzU0"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvODRkMWY5MDItY2RjNC00OWUzLTgzYmQtZTNjYzg5ODhhYzU0
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					button-sm margin-block-xxs
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</article>
+				</div>
+			</details>
+		</span>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3-desktop is-12-tablet">
+						
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-09-10T11:41:19.4266667+00:00" class="is-visually-hidden">2025-09-10T11:41:19.4266667+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(252.8, 80%, 34%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EJL%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=7a9807d0-8702-4a23-9f50-27b9442e3664"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Jia Lames</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">5</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						<div
+							class="margin-top-xxs"
+							
+						>
+							
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					answered <local-time format="datetime" datetime="2025-09-10T12:30:49.8933333+00:00" class="is-visually-hidden">2025-09-10T12:30:49.8933333+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="https://techprofile.blob.core.windows.net/images/e8d00f0b575241fe8433069a7a2c2c78.png"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=873f553c-11b8-4f5c-b034-14c0940062ff"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>DaveM121</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">771.4K</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		<span aria-hidden="true">â¢ </span>Independent Advisor
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="box margin-bottom-xxs">
+				<div class="columns is-multiline">
+					<div class="column is-9-desktop is-12-tablet">
+						<div class="columns">
+							<div class="column is-narrow text-align-right-tablet width-200-tablet">
+								<span
+									class="badge badge badge-success"
+									title=""
+								>
+									
+									3 answers
+									
+								</span>
+								
+							</div>
+							<div class="column">
+								<h2 class="title is-6 margin-bottom-xxs">
+									<a href="/en-us/answers/questions/5546620/critical-process-died-0xef-whenever-i-close-a-game"> Critical Process Died 0xEF whenever I close a game </a>
+								</h2>
+								<p class="has-text-wrap">Whenever I close a game, I get a Critical Process Died error and my computer automatically restarts. This never happens during the gameplay, only when I close the game. I recently updated my BIOS to solve an issue where my computer randomly crashedâ¦</p>
+								<div class="display-flex flex-wrap-wrap gap-xxs margin-top-xxs">
+									
+		<span class="tag tag-filled tag-interactive">
+			<details class="popover tag-popover popover-left">
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-11-platform-windows-performance">
+					<span>Windows for home | Windows 11 | Performance and system failures</span>
+				</summary>
+				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
+					<article class="card border-left-lg border-left-color-accent">
+		<div class="card-content margin-bottom-none">
+			<a
+				class="card-title has-text-wrap"
+				data-test-id="tag-card-title-windows-home-windows-11-platform-windows-performance"
+				data-bi-name="tag-card-link"
+				href="/en-us/answers/tags/1129/windows-home-windows-11-platform-windows-performance/"
+			>
+				Windows for home | Windows 11 | Performance and system failures
+			</a>
+			<div class="card-content-description" data-test-id="tag-card-description">
+				
+			</div>
+		</div>
+		<div class="card-template">
+			<img alt="" class="card-template-icon image is-32x32" src=https://learn.microsoft.com/en-us/media/logos/logo_windows.svg />
+			<div class="card-template-detail">
+						<span
+							class="font-size-sm font-weight-semilight"
+							data-test-id="tag-card-count-windows-home-windows-11-platform-windows-performance"
+						>
+							27,327 questions
+						</span>
+				  </div>
+		</div>
+		<div class="card-footer">
+			<div class="card-footer-item">
+				<div class="buttons">
+					<button
+						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
+						data-bi-name="follow-tag-sign-in"
+						data-test-id="tag-card-follow-button-windows-home-windows-11-platform-windows-performance"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvYzA4MmFiN2QtZmIwMi00YzJkLWJmOTctZTJkZWVhMjk0MWFl"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvYzA4MmFiN2QtZmIwMi00YzJkLWJmOTctZTJkZWVhMjk0MWFl
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					button-sm margin-block-xxs
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</article>
+				</div>
+			</details>
+		</span>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3-desktop is-12-tablet">
+						
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-09-06T05:36:06.5666667+00:00" class="is-visually-hidden">2025-09-06T05:36:06.5666667+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(156.8, 57.99999999999999%, 25%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EAS%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=f49580c9-06e3-4b89-826f-8ef578dac6e4"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>AJ Salvitti</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">15</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						<div
+							class="margin-top-xxs"
+							
+						>
+							
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					commented <local-time format="datetime" datetime="2025-09-10T12:27:39.25+00:00" class="is-visually-hidden">2025-09-10T12:27:39.25+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(243.2, 96%, 33%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EDT%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=7b69fcc6-5090-4071-b6ad-fe3c8e9a0209"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>damon thomas</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="box margin-bottom-xxs">
+				<div class="columns is-multiline">
+					<div class="column is-9-desktop is-12-tablet">
+						<div class="columns">
+							<div class="column is-narrow text-align-right-tablet width-200-tablet">
+								<span
+									class="badge badge badge-filled badge-success"
+									title="One of the answers was accepted by the question author."
+								>
+									
+												<span class="icon" aria-hidden="true">
+													<span class="docon docon-check-mark"></span>
+												</span>
+										  
+									1 answer
+									<span class="is-visually-hidden"
+												>One of the answers was accepted by the question author.</span
+										  >
+								</span>
+								
+							</div>
+							<div class="column">
+								<h2 class="title is-6 margin-bottom-xxs">
+									<a href="/en-us/answers/questions/5550705/automatically"> Automatically </a>
+								</h2>
+								<p class="has-text-wrap">Why windows 10 and 11 does not have automatically repair option like windows 7 ?windows 7 was best in terms of automatically repairing.</p>
+								<div class="display-flex flex-wrap-wrap gap-xxs margin-top-xxs">
+									
+		<span class="tag tag-filled tag-interactive">
+			<details class="popover tag-popover popover-left">
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-10-platform-recovery-backup">
+					<span>Windows for home | Windows 10 | Recovery and backup</span>
+				</summary>
+				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
+					<article class="card border-left-lg border-left-color-accent">
+		<div class="card-content margin-bottom-none">
+			<a
+				class="card-title has-text-wrap"
+				data-test-id="tag-card-title-windows-home-windows-10-platform-recovery-backup"
+				data-bi-name="tag-card-link"
+				href="/en-us/answers/tags/1138/windows-home-windows-10-platform-recovery-backup/"
+			>
+				Windows for home | Windows 10 | Recovery and backup
+			</a>
+			<div class="card-content-description" data-test-id="tag-card-description">
+				
+			</div>
+		</div>
+		<div class="card-template">
+			<img alt="" class="card-template-icon image is-32x32" src=https://learn.microsoft.com/en-us/media/logos/logo_windows.svg />
+			<div class="card-template-detail">
+						<span
+							class="font-size-sm font-weight-semilight"
+							data-test-id="tag-card-count-windows-home-windows-10-platform-recovery-backup"
+						>
+							100 questions
+						</span>
+				  </div>
+		</div>
+		<div class="card-footer">
+			<div class="card-footer-item">
+				<div class="buttons">
+					<button
+						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
+						data-bi-name="follow-tag-sign-in"
+						data-test-id="tag-card-follow-button-windows-home-windows-10-platform-recovery-backup"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvY2MzZDNmZWQtODM5My00OGQwLTlkYTgtM2VjODMzODAyMjlj"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvY2MzZDNmZWQtODM5My00OGQwLTlkYTgtM2VjODMzODAyMjlj
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					button-sm margin-block-xxs
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</article>
+				</div>
+			</details>
+		</span>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3-desktop is-12-tablet">
+						
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-09-10T11:26:05.0633333+00:00" class="is-visually-hidden">2025-09-10T11:26:05.0633333+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(137.6, 63%, 23%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EHD%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=43e639f6-839c-423e-bbca-cc6b20183206"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Hitesh Deshmukh</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						<div
+							class="margin-top-xxs"
+							
+						>
+							
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					accepted <local-time format="datetime" datetime="2025-09-10T12:24:42.77+00:00" class="is-visually-hidden">2025-09-10T12:24:42.77+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(137.6, 63%, 23%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EHD%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=43e639f6-839c-423e-bbca-cc6b20183206"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Hitesh Deshmukh</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="box margin-bottom-xxs">
+				<div class="columns is-multiline">
+					<div class="column is-9-desktop is-12-tablet">
+						<div class="columns">
+							<div class="column is-narrow text-align-right-tablet width-200-tablet">
+								<span
+									class="badge badge badge-success"
+									title=""
+								>
+									
+									3 answers
+									
+								</span>
+								
+							</div>
+							<div class="column">
+								<h2 class="title is-6 margin-bottom-xxs">
+									<a href="/en-us/answers/questions/5550217/sfc-scannow"> sfc /scannow </a>
+								</h2>
+								<p class="has-text-wrap">Ran sfc /scannow and got error message- &quot;Unable to fix some of them&quot;
+Ran DISM /Online /Cleanup-Image /RestoreHealth
+It gets stuck @ 63.7 % 
+How can I repair this- it is a relatively new install on a new hard drive </p>
+								<div class="display-flex flex-wrap-wrap gap-xxs margin-top-xxs">
+									
+		<span class="tag tag-filled tag-interactive">
+			<details class="popover tag-popover popover-left">
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-11-platform-windows-performance">
+					<span>Windows for home | Windows 11 | Performance and system failures</span>
+				</summary>
+				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
+					<article class="card border-left-lg border-left-color-accent">
+		<div class="card-content margin-bottom-none">
+			<a
+				class="card-title has-text-wrap"
+				data-test-id="tag-card-title-windows-home-windows-11-platform-windows-performance"
+				data-bi-name="tag-card-link"
+				href="/en-us/answers/tags/1129/windows-home-windows-11-platform-windows-performance/"
+			>
+				Windows for home | Windows 11 | Performance and system failures
+			</a>
+			<div class="card-content-description" data-test-id="tag-card-description">
+				
+			</div>
+		</div>
+		<div class="card-template">
+			<img alt="" class="card-template-icon image is-32x32" src=https://learn.microsoft.com/en-us/media/logos/logo_windows.svg />
+			<div class="card-template-detail">
+						<span
+							class="font-size-sm font-weight-semilight"
+							data-test-id="tag-card-count-windows-home-windows-11-platform-windows-performance"
+						>
+							27,327 questions
+						</span>
+				  </div>
+		</div>
+		<div class="card-footer">
+			<div class="card-footer-item">
+				<div class="buttons">
+					<button
+						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
+						data-bi-name="follow-tag-sign-in"
+						data-test-id="tag-card-follow-button-windows-home-windows-11-platform-windows-performance"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvYzA4MmFiN2QtZmIwMi00YzJkLWJmOTctZTJkZWVhMjk0MWFl"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvYzA4MmFiN2QtZmIwMi00YzJkLWJmOTctZTJkZWVhMjk0MWFl
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					button-sm margin-block-xxs
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</article>
+				</div>
+			</details>
+		</span>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3-desktop is-12-tablet">
+						
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-09-10T00:48:50.4+00:00" class="is-visually-hidden">2025-09-10T00:48:50.4+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(67.2, 37%, 16%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EPB%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=a2137117-c606-4854-bd53-6f6985d72be4"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Paul Birmingham</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						<div
+							class="margin-top-xxs"
+							
+						>
+							
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					commented <local-time format="datetime" datetime="2025-09-10T12:23:21.5833333+00:00" class="is-visually-hidden">2025-09-10T12:23:21.5833333+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(67.2, 37%, 16%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EPB%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=a2137117-c606-4854-bd53-6f6985d72be4"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Paul Birmingham</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="box margin-bottom-xxs">
+				<div class="columns is-multiline">
+					<div class="column is-9-desktop is-12-tablet">
+						<div class="columns">
+							<div class="column is-narrow text-align-right-tablet width-200-tablet">
+								<span
+									class="badge badge badge-filled badge-success"
+									title="One of the answers was accepted by the question author."
+								>
+									
+												<span class="icon" aria-hidden="true">
+													<span class="docon docon-check-mark"></span>
+												</span>
+										  
+									1 answer
+									<span class="is-visually-hidden"
+												>One of the answers was accepted by the question author.</span
+										  >
+								</span>
+								
+							</div>
+							<div class="column">
+								<h2 class="title is-6 margin-bottom-xxs">
+									<a href="/en-us/answers/questions/5550625/trying-to-enroll-in-the-esu-for-windows-10"> Trying to Enroll in the ESU for Windows 10 </a>
+								</h2>
+								<p class="has-text-wrap">I'm tryin to enroll in the ESU for Windows 10.  When I log enter my microsoft account info it gives me the 'oops, something went wrong'.  I installed the latest updates that were released yesterday and I get the same thing.
+I'm using my local account asâ¦</p>
+								<div class="display-flex flex-wrap-wrap gap-xxs margin-top-xxs">
+									
+		<span class="tag tag-filled tag-interactive">
+			<details class="popover tag-popover popover-left">
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-10-platform-windows-10-esu">
+					<span>Windows for home | Windows 10 | Extended Security Update (ESU)</span>
+				</summary>
+				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
+					<article class="card border-left-lg border-left-color-accent">
+		<div class="card-content margin-bottom-none">
+			<a
+				class="card-title has-text-wrap"
+				data-test-id="tag-card-title-windows-home-windows-10-platform-windows-10-esu"
+				data-bi-name="tag-card-link"
+				href="/en-us/answers/tags/1081/windows-home-windows-10-platform-windows-10-esu/"
+			>
+				Windows for home | Windows 10 | Extended Security Update (ESU)
+			</a>
+			<div class="card-content-description" data-test-id="tag-card-description">
+				
+			</div>
+		</div>
+		<div class="card-template">
+			<img alt="" class="card-template-icon image is-32x32" src=https://learn.microsoft.com/en-us/media/logos/logo_windows.svg />
+			<div class="card-template-detail">
+						<span
+							class="font-size-sm font-weight-semilight"
+							data-test-id="tag-card-count-windows-home-windows-10-platform-windows-10-esu"
+						>
+							147 questions
+						</span>
+				  </div>
+		</div>
+		<div class="card-footer">
+			<div class="card-footer-item">
+				<div class="buttons">
+					<button
+						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
+						data-bi-name="follow-tag-sign-in"
+						data-test-id="tag-card-follow-button-windows-home-windows-10-platform-windows-10-esu"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvODE2MzRkMTQtNDlhZC00YjdlLWE1NTktOWE5NGYwNjAzZDg4"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvODE2MzRkMTQtNDlhZC00YjdlLWE1NTktOWE5NGYwNjAzZDg4
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					button-sm margin-block-xxs
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</article>
+				</div>
+			</details>
+		</span>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3-desktop is-12-tablet">
+						
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-09-10T09:53:03.1466667+00:00" class="is-visually-hidden">2025-09-10T09:53:03.1466667+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(64, 63%, 16%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3ECP%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=2063fe71-14b0-4535-b4a9-ca7829963397"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Chris P</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">5</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						<div
+							class="margin-top-xxs"
+							
+						>
+							
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					commented <local-time format="datetime" datetime="2025-09-10T12:12:59.6633333+00:00" class="is-visually-hidden">2025-09-10T12:12:59.6633333+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(64, 63%, 16%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3ECP%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=2063fe71-14b0-4535-b4a9-ca7829963397"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Chris P</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">5</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="box margin-bottom-xxs">
+				<div class="columns is-multiline">
+					<div class="column is-9-desktop is-12-tablet">
+						<div class="columns">
+							<div class="column is-narrow text-align-right-tablet width-200-tablet">
+								<span
+									class="badge badge badge-filled badge-success"
+									title="One of the answers was accepted by the question author."
+								>
+									
+												<span class="icon" aria-hidden="true">
+													<span class="docon docon-check-mark"></span>
+												</span>
+										  
+									1 answer
+									<span class="is-visually-hidden"
+												>One of the answers was accepted by the question author.</span
+										  >
+								</span>
+								
+							</div>
+							<div class="column">
+								<h2 class="title is-6 margin-bottom-xxs">
+									<a href="/en-us/answers/questions/5550082/downloading-a-program-so-all-users-can-use-it"> Downloading a program so all users can use it </a>
+								</h2>
+								<p class="has-text-wrap">When i want to download a program which i want all users to use should i download it from the administrator account and place its path within the D drive? And not within the C/Users/ path?
+Anything else i should do? Im asking since in some other programsâ¦</p>
+								<div class="display-flex flex-wrap-wrap gap-xxs margin-top-xxs">
+									
+		<span class="tag tag-filled tag-interactive">
+			<details class="popover tag-popover popover-left">
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-10-platform-files-folders-storage">
+					<span>Windows for home | Windows 10 | Files, folders, and storage</span>
+				</summary>
+				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
+					<article class="card border-left-lg border-left-color-accent">
+		<div class="card-content margin-bottom-none">
+			<a
+				class="card-title has-text-wrap"
+				data-test-id="tag-card-title-windows-home-windows-10-platform-files-folders-storage"
+				data-bi-name="tag-card-link"
+				href="/en-us/answers/tags/1140/windows-home-windows-10-platform-files-folders-storage/"
+			>
+				Windows for home | Windows 10 | Files, folders, and storage
+			</a>
+			<div class="card-content-description" data-test-id="tag-card-description">
+				
+			</div>
+		</div>
+		<div class="card-template">
+			<img alt="" class="card-template-icon image is-32x32" src=https://learn.microsoft.com/en-us/media/logos/logo_windows.svg />
+			<div class="card-template-detail">
+						<span
+							class="font-size-sm font-weight-semilight"
+							data-test-id="tag-card-count-windows-home-windows-10-platform-files-folders-storage"
+						>
+							23,163 questions
+						</span>
+				  </div>
+		</div>
+		<div class="card-footer">
+			<div class="card-footer-item">
+				<div class="buttons">
+					<button
+						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
+						data-bi-name="follow-tag-sign-in"
+						data-test-id="tag-card-follow-button-windows-home-windows-10-platform-files-folders-storage"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvZDI0OWI5MTgtZTk2NS00NWY1LTliNmItYTJkYzc4NWI4MzEx"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvZDI0OWI5MTgtZTk2NS00NWY1LTliNmItYTJkYzc4NWI4MzEx
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					button-sm margin-block-xxs
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</article>
+				</div>
+			</details>
+		</span>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3-desktop is-12-tablet">
+						
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-09-09T21:10:03.6433333+00:00" class="is-visually-hidden">2025-09-09T21:10:03.6433333+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(172.8, 1%, 26%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EZI%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=5ad4e01c-8aeb-4a10-8fff-b66a23c4c02a"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Zoran Isailoski</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						<div
+							class="margin-top-xxs"
+							
+						>
+							
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					accepted <local-time format="datetime" datetime="2025-09-10T12:11:54.8533333+00:00" class="is-visually-hidden">2025-09-10T12:11:54.8533333+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(172.8, 1%, 26%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EZI%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=5ad4e01c-8aeb-4a10-8fff-b66a23c4c02a"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Zoran Isailoski</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="box margin-bottom-xxs">
+				<div class="columns is-multiline">
+					<div class="column is-9-desktop is-12-tablet">
+						<div class="columns">
+							<div class="column is-narrow text-align-right-tablet width-200-tablet">
+								<span
+									class="badge badge badge-success"
+									title=""
+								>
+									
+									10 answers
+									
+								</span>
+								
+							</div>
+							<div class="column">
+								<h2 class="title is-6 margin-bottom-xxs">
+									<a href="/en-us/answers/questions/4379149/how-to-fix-wrong-location-in-windows-11"> How to fix wrong location in Windows 11 </a>
+								</h2>
+								<p class="has-text-wrap">My windows 11 desktop returns all searches as if I am in the Philippines. My location services are on. I turned off the override location option. No help either way. 
+A search of my IP address returns to NCTC Tennessee (close enough). Windows settingsâ¦</p>
+								<div class="display-flex flex-wrap-wrap gap-xxs margin-top-xxs">
+									
+		<span class="tag tag-filled tag-interactive">
+			<details class="popover tag-popover popover-left">
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-11-platform-settings">
+					<span>Windows for home | Windows 11 | Settings</span>
+				</summary>
+				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
+					<article class="card border-left-lg border-left-color-accent">
+		<div class="card-content margin-bottom-none">
+			<a
+				class="card-title has-text-wrap"
+				data-test-id="tag-card-title-windows-home-windows-11-platform-settings"
+				data-bi-name="tag-card-link"
+				href="/en-us/answers/tags/1053/windows-home-windows-11-platform-settings/"
+			>
+				Windows for home | Windows 11 | Settings
+			</a>
+			<div class="card-content-description" data-test-id="tag-card-description">
+				
+			</div>
+		</div>
+		<div class="card-template">
+			<img alt="" class="card-template-icon image is-32x32" src=https://learn.microsoft.com/en-us/media/logos/logo_windows.svg />
+			<div class="card-template-detail">
+						<span
+							class="font-size-sm font-weight-semilight"
+							data-test-id="tag-card-count-windows-home-windows-11-platform-settings"
+						>
+							8,239 questions
+						</span>
+				  </div>
+		</div>
+		<div class="card-footer">
+			<div class="card-footer-item">
+				<div class="buttons">
+					<button
+						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
+						data-bi-name="follow-tag-sign-in"
+						data-test-id="tag-card-follow-button-windows-home-windows-11-platform-settings"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvNjNjYWM3ZWQtNTBjZC00Mjg1LTg0ZTktZjMzMDYyMjlhNzY0"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvNjNjYWM3ZWQtNTBjZC00Mjg1LTg0ZTktZjMzMDYyMjlhNzY0
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					button-sm margin-block-xxs
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</article>
+				</div>
+			</details>
+		</span>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3-desktop is-12-tablet">
+						
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-07-20T20:05:13.0566667+00:00" class="is-visually-hidden">2025-07-20T20:05:13.0566667+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(124.80000000000001, 49%, 22%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3ERP%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=39a49d79-4ef8-4d3b-bb46-8fb07781e272"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Roger P</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">10</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						<div
+							class="margin-top-xxs"
+							
+						>
+							
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					commented <local-time format="datetime" datetime="2025-09-10T12:07:23.5433333+00:00" class="is-visually-hidden">2025-09-10T12:07:23.5433333+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(268.8, 57.00000000000001%, 36%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3ELK%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=e845ad77-f6fd-4d53-9908-7d8658de81c3"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Laurie Keller</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="box margin-bottom-xxs">
+				<div class="columns is-multiline">
+					<div class="column is-9-desktop is-12-tablet">
+						<div class="columns">
+							<div class="column is-narrow text-align-right-tablet width-200-tablet">
+								<span
+									class="badge badge badge-success"
+									title=""
+								>
+									
+									1 answer
+									
+								</span>
+								
+							</div>
+							<div class="column">
+								<h2 class="title is-6 margin-bottom-xxs">
+									<a href="/en-us/answers/questions/5550702/random-apps-appearing-and-crashing"> Random apps appearing and crashing </a>
+								</h2>
+								<p class="has-text-wrap">Hello!  
+Microsoft Edge, Norton, and Roblox have randomly opened in the background and keep crashing repeatedly. I find this REALLY annoying since if I open Roblox manually, it crashes after a few seconds then the websites appear.   
+I've tried a cleanâ¦</p>
+								<div class="display-flex flex-wrap-wrap gap-xxs margin-top-xxs">
+									
+		<span class="tag tag-filled tag-interactive">
+			<details class="popover tag-popover popover-left">
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-11-platform-apps">
+					<span>Windows for home | Windows 11 | Apps</span>
+				</summary>
+				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
+					<article class="card border-left-lg border-left-color-accent">
+		<div class="card-content margin-bottom-none">
+			<a
+				class="card-title has-text-wrap"
+				data-test-id="tag-card-title-windows-home-windows-11-platform-apps"
+				data-bi-name="tag-card-link"
+				href="/en-us/answers/tags/273/windows-home-windows-11-platform-apps/"
+			>
+				Windows for home | Windows 11 | Apps
+			</a>
+			<div class="card-content-description" data-test-id="tag-card-description">
+				
+			</div>
+		</div>
+		<div class="card-template">
+			<img alt="" class="card-template-icon image is-32x32" src=https://learn.microsoft.com/en-us/media/logos/logo_windows.svg />
+			<div class="card-template-detail">
+						<span
+							class="font-size-sm font-weight-semilight"
+							data-test-id="tag-card-count-windows-home-windows-11-platform-apps"
+						>
+							705 questions
+						</span>
+				  </div>
+		</div>
+		<div class="card-footer">
+			<div class="card-footer-item">
+				<div class="buttons">
+					<button
+						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
+						data-bi-name="follow-tag-sign-in"
+						data-test-id="tag-card-follow-button-windows-home-windows-11-platform-apps"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvYWUzZTA4NTQtMWI0Ni00YThmLTlkMGItYjg4MDRmN2FkZGRh"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvYWUzZTA4NTQtMWI0Ni00YThmLTlkMGItYjg4MDRmN2FkZGRh
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					button-sm margin-block-xxs
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</article>
+				</div>
+			</details>
+		</span>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3-desktop is-12-tablet">
+						
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-09-10T11:25:23.94+00:00" class="is-visually-hidden">2025-09-10T11:25:23.94+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(44.800000000000004, 0%, 14%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EEM%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=1ac400b6-d3d0-483c-bc2b-7a1bca452af5"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Eddie M</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						<div
+							class="margin-top-xxs"
+							
+						>
+							
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					answered <local-time format="datetime" datetime="2025-09-10T12:03:52.1333333+00:00" class="is-visually-hidden">2025-09-10T12:03:52.1333333+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(160, 91%, 25%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3ERB%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=5091bd0d-32c2-45ce-a2a8-2023b2d31da3"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Randy Baroja</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">6,510</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		<span aria-hidden="true">â¢ </span>Independent Advisor
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="box margin-bottom-xxs">
+				<div class="columns is-multiline">
+					<div class="column is-9-desktop is-12-tablet">
+						<div class="columns">
+							<div class="column is-narrow text-align-right-tablet width-200-tablet">
+								<span
+									class="badge badge badge-success"
+									title=""
+								>
+									
+									1 answer
+									
+								</span>
+								
+							</div>
+							<div class="column">
+								<h2 class="title is-6 margin-bottom-xxs">
+									<a href="/en-us/answers/questions/5550707/c-drive-full-due-to-125-gb-windows-and-64-gb-progr"> C drive full due to 125 GB Windows and 64 GB program file updates </a>
+								</h2>
+								<p class="has-text-wrap">My 237 GB C drive is full with 125 GB of WINDOWS updates and another 65 GB of program files but my computer does not have that many programs. Please help on how to free disk space as once I delete my personal files, the freed space quickly gets filled </p>
+								<div class="display-flex flex-wrap-wrap gap-xxs margin-top-xxs">
+									
+		<span class="tag tag-filled tag-interactive">
+			<details class="popover tag-popover popover-left">
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-11-platform-input-language">
+					<span>Windows for home | Windows 11 | Input and language</span>
+				</summary>
+				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
+					<article class="card border-left-lg border-left-color-accent">
+		<div class="card-content margin-bottom-none">
+			<a
+				class="card-title has-text-wrap"
+				data-test-id="tag-card-title-windows-home-windows-11-platform-input-language"
+				data-bi-name="tag-card-link"
+				href="/en-us/answers/tags/1153/windows-home-windows-11-platform-input-language/"
+			>
+				Windows for home | Windows 11 | Input and language
+			</a>
+			<div class="card-content-description" data-test-id="tag-card-description">
+				
+			</div>
+		</div>
+		<div class="card-template">
+			<img alt="" class="card-template-icon image is-32x32" src=https://learn.microsoft.com/en-us/media/logos/logo_windows.svg />
+			<div class="card-template-detail">
+						<span
+							class="font-size-sm font-weight-semilight"
+							data-test-id="tag-card-count-windows-home-windows-11-platform-input-language"
+						>
+							1,609 questions
+						</span>
+				  </div>
+		</div>
+		<div class="card-footer">
+			<div class="card-footer-item">
+				<div class="buttons">
+					<button
+						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
+						data-bi-name="follow-tag-sign-in"
+						data-test-id="tag-card-follow-button-windows-home-windows-11-platform-input-language"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvZGViYjIzNjYtMGJhOS00OWJhLTkyNWQtNzE1M2ZmZWFmNGM0"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvZGViYjIzNjYtMGJhOS00OWJhLTkyNWQtNzE1M2ZmZWFmNGM0
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					button-sm margin-block-xxs
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</article>
+				</div>
+			</details>
+		</span>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3-desktop is-12-tablet">
+						
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-09-10T11:26:39.5833333+00:00" class="is-visually-hidden">2025-09-10T11:26:39.5833333+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(166.4, 91%, 26%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3ECS%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=c529b190-c1cc-410c-94b4-b0a81733a4a3"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Chandni Singhal</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						<div
+							class="margin-top-xxs"
+							
+						>
+							
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					answered <local-time format="datetime" datetime="2025-09-10T12:02:20.9233333+00:00" class="is-visually-hidden">2025-09-10T12:02:20.9233333+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(89.60000000000001, 18%, 18%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EJD%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=c2818f03-b4cc-4ff5-aa62-7367f04d03c1"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>John DeV</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">137.8K</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		<span aria-hidden="true">â¢ </span>Independent Advisor
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="box margin-bottom-xxs">
+				<div class="columns is-multiline">
+					<div class="column is-9-desktop is-12-tablet">
+						<div class="columns">
+							<div class="column is-narrow text-align-right-tablet width-200-tablet">
+								<span
+									class="badge badge badge-success"
+									title=""
+								>
+									
+									1 answer
+									
+								</span>
+								
+							</div>
+							<div class="column">
+								<h2 class="title is-6 margin-bottom-xxs">
+									<a href="/en-us/answers/questions/5550706/reinstall-windows-on-ssd"> Reinstall Windows on SSD </a>
+								</h2>
+								<p class="has-text-wrap">I think my Windows got corrupted or something and need help reinstalling it. I got a Dell Inspiron that has an internal HDD but I got a SSD installed on it later on because it was very slow and the guy that installed the SSD also install a Windows on theâ¦</p>
+								<div class="display-flex flex-wrap-wrap gap-xxs margin-top-xxs">
+									
+		<span class="tag tag-filled tag-interactive">
+			<details class="popover tag-popover popover-left">
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-11-platform-recovery-backup">
+					<span>Windows for home | Windows 11 | Recovery and backup</span>
+				</summary>
+				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
+					<article class="card border-left-lg border-left-color-accent">
+		<div class="card-content margin-bottom-none">
+			<a
+				class="card-title has-text-wrap"
+				data-test-id="tag-card-title-windows-home-windows-11-platform-recovery-backup"
+				data-bi-name="tag-card-link"
+				href="/en-us/answers/tags/1126/windows-home-windows-11-platform-recovery-backup/"
+			>
+				Windows for home | Windows 11 | Recovery and backup
+			</a>
+			<div class="card-content-description" data-test-id="tag-card-description">
+				
+			</div>
+		</div>
+		<div class="card-template">
+			<img alt="" class="card-template-icon image is-32x32" src=https://learn.microsoft.com/en-us/media/logos/logo_windows.svg />
+			<div class="card-template-detail">
+						<span
+							class="font-size-sm font-weight-semilight"
+							data-test-id="tag-card-count-windows-home-windows-11-platform-recovery-backup"
+						>
+							4,216 questions
+						</span>
+				  </div>
+		</div>
+		<div class="card-footer">
+			<div class="card-footer-item">
+				<div class="buttons">
+					<button
+						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
+						data-bi-name="follow-tag-sign-in"
+						data-test-id="tag-card-follow-button-windows-home-windows-11-platform-recovery-backup"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvYmRmNTgwNmQtYWU4YS00NWNjLTliNGMtOTEwYzdhMmM4Y2Jm"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvYmRmNTgwNmQtYWU4YS00NWNjLTliNGMtOTEwYzdhMmM4Y2Jm
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					button-sm margin-block-xxs
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</article>
+				</div>
+			</details>
+		</span>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3-desktop is-12-tablet">
+						
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-09-10T11:26:17.7466667+00:00" class="is-visually-hidden">2025-09-10T11:26:17.7466667+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(128, 87%, 22%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EAG%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=40db87f7-cb25-47d2-a060-38672c4f7aba"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Aishwit Gupta</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						<div
+							class="margin-top-xxs"
+							
+						>
+							
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					answered <local-time format="datetime" datetime="2025-09-10T12:01:08.0333333+00:00" class="is-visually-hidden">2025-09-10T12:01:08.0333333+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="https://techprofile.blob.core.windows.net/images/D7PmJaIsoUSeGTKb-cHSXg.png?8DDB8A"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=25e6b30f-2ca2-44a1-9e19-329bf9c1d25e"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>David-M</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">83,635</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		<span aria-hidden="true">â¢ </span>Independent Advisor
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="box margin-bottom-xxs">
+				<div class="columns is-multiline">
+					<div class="column is-9-desktop is-12-tablet">
+						<div class="columns">
+							<div class="column is-narrow text-align-right-tablet width-200-tablet">
+								<span
+									class="badge badge badge-success"
+									title=""
+								>
+									
+									1 answer
+									
+								</span>
+								
+							</div>
+							<div class="column">
+								<h2 class="title is-6 margin-bottom-xxs">
+									<a href="/en-us/answers/questions/5550699/i-can-not-recovery-account"> I can not Recovery account </a>
+								</h2>
+								<p class="has-text-wrap">Permanently on screen appeared message recovery account for organization resources</p>
+								<div class="display-flex flex-wrap-wrap gap-xxs margin-top-xxs">
+									
+		<span class="tag tag-filled tag-interactive">
+			<details class="popover tag-popover popover-left">
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-11-platform-recovery-backup">
+					<span>Windows for home | Windows 11 | Recovery and backup</span>
+				</summary>
+				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
+					<article class="card border-left-lg border-left-color-accent">
+		<div class="card-content margin-bottom-none">
+			<a
+				class="card-title has-text-wrap"
+				data-test-id="tag-card-title-windows-home-windows-11-platform-recovery-backup"
+				data-bi-name="tag-card-link"
+				href="/en-us/answers/tags/1126/windows-home-windows-11-platform-recovery-backup/"
+			>
+				Windows for home | Windows 11 | Recovery and backup
+			</a>
+			<div class="card-content-description" data-test-id="tag-card-description">
+				
+			</div>
+		</div>
+		<div class="card-template">
+			<img alt="" class="card-template-icon image is-32x32" src=https://learn.microsoft.com/en-us/media/logos/logo_windows.svg />
+			<div class="card-template-detail">
+						<span
+							class="font-size-sm font-weight-semilight"
+							data-test-id="tag-card-count-windows-home-windows-11-platform-recovery-backup"
+						>
+							4,216 questions
+						</span>
+				  </div>
+		</div>
+		<div class="card-footer">
+			<div class="card-footer-item">
+				<div class="buttons">
+					<button
+						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
+						data-bi-name="follow-tag-sign-in"
+						data-test-id="tag-card-follow-button-windows-home-windows-11-platform-recovery-backup"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvYmRmNTgwNmQtYWU4YS00NWNjLTliNGMtOTEwYzdhMmM4Y2Jm"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvYmRmNTgwNmQtYWU4YS00NWNjLTliNGMtOTEwYzdhMmM4Y2Jm
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					button-sm margin-block-xxs
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</article>
+				</div>
+			</details>
+		</span>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3-desktop is-12-tablet">
+						
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-09-10T11:23:37.0733333+00:00" class="is-visually-hidden">2025-09-10T11:23:37.0733333+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(12.8, 5%, 11%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EA%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=a0a4d0df-a52e-4ae0-9c86-a9020ea6b996"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>ÐÑÐ¸Ð³Ð¾ÑÑÐµÐ² ÐÐ»ÐµÐºÑÐµÐ¹ ÐÐ»ÐµÐºÑÐ°Ð½Ð´ÑÐ¾Ð²Ð¸Ñ</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						<div
+							class="margin-top-xxs"
+							
+						>
+							
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					answered <local-time format="datetime" datetime="2025-09-10T11:57:31.04+00:00" class="is-visually-hidden">2025-09-10T11:57:31.04+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="https://techprofile.blob.core.windows.net/images/e8d00f0b575241fe8433069a7a2c2c78.png"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=873f553c-11b8-4f5c-b034-14c0940062ff"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>DaveM121</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">771.4K</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		<span aria-hidden="true">â¢ </span>Independent Advisor
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="box margin-bottom-xxs">
+				<div class="columns is-multiline">
+					<div class="column is-9-desktop is-12-tablet">
+						<div class="columns">
+							<div class="column is-narrow text-align-right-tablet width-200-tablet">
+								<span
+									class="has-text-subtle font-size-sm"
+									title=""
+								>
+									
+									0 answers
+									
+								</span>
+								
+							</div>
+							<div class="column">
+								<h2 class="title is-6 margin-bottom-xxs">
+									<a href="/en-us/answers/questions/5550704/why-is-my-computer-not-working"> Why is my computer not working </a>
+								</h2>
+								<p class="has-text-wrap">My comuter gives a blue screen error and now its not opening</p>
+								<div class="display-flex flex-wrap-wrap gap-xxs margin-top-xxs">
+									
+		<span class="tag tag-filled tag-interactive">
+			<details class="popover tag-popover popover-left">
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-unknown-platform-windows-performance">
+					<span>Windows for home | Other | Performance and system failures</span>
+				</summary>
+				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
+					<article class="card border-left-lg border-left-color-accent">
+		<div class="card-content margin-bottom-none">
+			<a
+				class="card-title has-text-wrap"
+				data-test-id="tag-card-title-windows-home-unknown-platform-windows-performance"
+				data-bi-name="tag-card-link"
+				href="/en-us/answers/tags/981/windows-home-unknown-platform-windows-performance/"
+			>
+				Windows for home | Other | Performance and system failures
+			</a>
+			<div class="card-content-description" data-test-id="tag-card-description">
+				
+			</div>
+		</div>
+		<div class="card-template">
+			<img alt="" class="card-template-icon image is-32x32" src=https://learn.microsoft.com/en-us/media/logos/logo_windows.svg />
+			<div class="card-template-detail">
+						<span
+							class="font-size-sm font-weight-semilight"
+							data-test-id="tag-card-count-windows-home-unknown-platform-windows-performance"
+						>
+							1,693 questions
+						</span>
+				  </div>
+		</div>
+		<div class="card-footer">
+			<div class="card-footer-item">
+				<div class="buttons">
+					<button
+						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
+						data-bi-name="follow-tag-sign-in"
+						data-test-id="tag-card-follow-button-windows-home-unknown-platform-windows-performance"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvNGY1NDA3ZTEtNmVmOC00NDAzLThjZDEtNzkyYjEwNWRiYjA0"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvNGY1NDA3ZTEtNmVmOC00NDAzLThjZDEtNzkyYjEwNWRiYjA0
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					button-sm margin-block-xxs
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</article>
+				</div>
+			</details>
+		</span>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3-desktop is-12-tablet">
+						
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-09-10T11:26:03.5366667+00:00" class="is-visually-hidden">2025-09-10T11:26:03.5366667+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(137.6, 46%, 23%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EHM%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=4a34691b-3de4-4c1a-82b8-a077a21c6140"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Hopkins Maloney</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						<div
+							class="margin-top-xxs"
+							
+						>
+							
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					edited the question <local-time format="datetime" datetime="2025-09-10T11:53:18.64+00:00" class="is-visually-hidden">2025-09-10T11:53:18.64+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="https://techprofile.blob.core.windows.net/images/DSq8thXX1EC7bjdlrVIvlQ.png?8DD343"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=b6bc2a0d-d715-40d4-bb6e-3765ad522f95"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>GÃ©rard Oomens</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">107.3K</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		<span aria-hidden="true">â¢ </span>Volunteer Moderator
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="box margin-bottom-xxs">
+				<div class="columns is-multiline">
+					<div class="column is-9-desktop is-12-tablet">
+						<div class="columns">
+							<div class="column is-narrow text-align-right-tablet width-200-tablet">
+								<span
+									class="has-text-subtle font-size-sm"
+									title=""
+								>
+									
+									0 answers
+									
+								</span>
+								
+							</div>
+							<div class="column">
+								<h2 class="title is-6 margin-bottom-xxs">
+									<a href="/en-us/answers/questions/5550728/can-passkeys-be-synced-through-the-email-account-l"> Can passkeys be synced through the email account like on android </a>
+								</h2>
+								<p class="has-text-wrap">On Android, passkeys are synced through Gmail as long as the same email is used to register them. Is it the same process on Windows?</p>
+								<div class="display-flex flex-wrap-wrap gap-xxs margin-top-xxs">
+									
+		<span class="tag tag-filled tag-interactive">
+			<details class="popover tag-popover popover-left">
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-11-platform-accounts-profiles-login">
+					<span>Windows for home | Windows 11 | Accounts, profiles, and login</span>
+				</summary>
+				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
+					<article class="card border-left-lg border-left-color-accent">
+		<div class="card-content margin-bottom-none">
+			<a
+				class="card-title has-text-wrap"
+				data-test-id="tag-card-title-windows-home-windows-11-platform-accounts-profiles-login"
+				data-bi-name="tag-card-link"
+				href="/en-us/answers/tags/1064/windows-home-windows-11-platform-accounts-profiles-login/"
+			>
+				Windows for home | Windows 11 | Accounts, profiles, and login
+			</a>
+			<div class="card-content-description" data-test-id="tag-card-description">
+				
+			</div>
+		</div>
+		<div class="card-template">
+			<img alt="" class="card-template-icon image is-32x32" src=https://learn.microsoft.com/en-us/media/logos/logo_windows.svg />
+			<div class="card-template-detail">
+						<span
+							class="font-size-sm font-weight-semilight"
+							data-test-id="tag-card-count-windows-home-windows-11-platform-accounts-profiles-login"
+						>
+							6,873 questions
+						</span>
+				  </div>
+		</div>
+		<div class="card-footer">
+			<div class="card-footer-item">
+				<div class="buttons">
+					<button
+						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
+						data-bi-name="follow-tag-sign-in"
+						data-test-id="tag-card-follow-button-windows-home-windows-11-platform-accounts-profiles-login"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvNmMyN2VlZWQtMTc4Yy00MjhmLWI2MGMtYTA0ODkyMDg1OTE3"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvNmMyN2VlZWQtMTc4Yy00MjhmLWI2MGMtYTA0ODkyMDg1OTE3
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					button-sm margin-block-xxs
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</article>
+				</div>
+			</details>
+		</span>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3-desktop is-12-tablet">
+						
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-09-10T11:50:27.23+00:00" class="is-visually-hidden">2025-09-10T11:50:27.23+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(16, 50%, 11%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EBM%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=0ad550f9-a70c-4622-8ea0-9abf36d6cdb3"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>brian maina</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						<div
+							class="margin-top-xxs"
+							hidden
+						>
+							
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-09-10T11:50:27.23+00:00" class="is-visually-hidden">2025-09-10T11:50:27.23+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(16, 50%, 11%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EBM%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=0ad550f9-a70c-4622-8ea0-9abf36d6cdb3"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>brian maina</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="box margin-bottom-xxs">
+				<div class="columns is-multiline">
+					<div class="column is-9-desktop is-12-tablet">
+						<div class="columns">
+							<div class="column is-narrow text-align-right-tablet width-200-tablet">
+								<span
+									class="badge badge badge-success"
+									title=""
+								>
+									
+									1 answer
+									
+								</span>
+								
+							</div>
+							<div class="column">
+								<h2 class="title is-6 margin-bottom-xxs">
+									<a href="/en-us/answers/questions/5548577/full-screen-games-randomly-lose-focus-(alt-tab)-ho"> Full screen games randomly lose focus (alt-tab), how to resolve &quot;OpenProcess had error 5&quot;? </a>
+								</h2>
+								<p class="has-text-wrap">Running Windows 11 Pro 24H2. I have been having recurring issues where games being played in fullscreen mode randomly lose focus (or alt-tab). I have downloaded a focus logger (focus.exe) and every time this happens the log just says &quot;OpenProcessâ¦</p>
+								<div class="display-flex flex-wrap-wrap gap-xxs margin-top-xxs">
+									
+		<span class="tag tag-filled tag-interactive">
+			<details class="popover tag-popover popover-left">
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-11-platform-windows-gaming">
+					<span>Windows for home | Windows 11 | Gaming</span>
+				</summary>
+				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
+					<article class="card border-left-lg border-left-color-accent">
+		<div class="card-content margin-bottom-none">
+			<a
+				class="card-title has-text-wrap"
+				data-test-id="tag-card-title-windows-home-windows-11-platform-windows-gaming"
+				data-bi-name="tag-card-link"
+				href="/en-us/answers/tags/1105/windows-home-windows-11-platform-windows-gaming/"
+			>
+				Windows for home | Windows 11 | Gaming
+			</a>
+			<div class="card-content-description" data-test-id="tag-card-description">
+				
+			</div>
+		</div>
+		<div class="card-template">
+			<img alt="" class="card-template-icon image is-32x32" src=https://learn.microsoft.com/en-us/media/logos/logo_windows.svg />
+			<div class="card-template-detail">
+						<span
+							class="font-size-sm font-weight-semilight"
+							data-test-id="tag-card-count-windows-home-windows-11-platform-windows-gaming"
+						>
+							3,806 questions
+						</span>
+				  </div>
+		</div>
+		<div class="card-footer">
+			<div class="card-footer-item">
+				<div class="buttons">
+					<button
+						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
+						data-bi-name="follow-tag-sign-in"
+						data-test-id="tag-card-follow-button-windows-home-windows-11-platform-windows-gaming"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvYTFlMzc2NWItYjViZC00YmU3LWFiZGUtNGE2Y2ExOTE3MGM4"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvYTFlMzc2NWItYjViZC00YmU3LWFiZGUtNGE2Y2ExOTE3MGM4
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					button-sm margin-block-xxs
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</article>
+				</div>
+			</details>
+		</span>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3-desktop is-12-tablet">
+						
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-09-08T16:16:35.5+00:00" class="is-visually-hidden">2025-09-08T16:16:35.5+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(32, 26%, 13%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EJ%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=1e026145-bf04-4067-96b5-f707746ee640"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>J082291</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						<div
+							class="margin-top-xxs"
+							
+						>
+							
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					commented <local-time format="datetime" datetime="2025-09-10T11:45:01.95+00:00" class="is-visually-hidden">2025-09-10T11:45:01.95+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="https://techprofile.blob.core.windows.net/images/WFw8Zg9J4UmZtjK5-gQhSQ.png?8DB7B4"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=663c5c58-490f-49e1-99b6-32b9fa042149"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Francisco Montilla</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">12,315</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		<span aria-hidden="true">â¢ </span>Independent Advisor
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="box margin-bottom-xxs">
+				<div class="columns is-multiline">
+					<div class="column is-9-desktop is-12-tablet">
+						<div class="columns">
+							<div class="column is-narrow text-align-right-tablet width-200-tablet">
+								<span
+									class="badge badge badge-success"
+									title=""
+								>
+									
+									4 answers
+									
+								</span>
+								
+							</div>
+							<div class="column">
+								<h2 class="title is-6 margin-bottom-xxs">
+									<a href="/en-us/answers/questions/5550345/assistance-needed-for-windows-10-pro-digital-licen"> Assistance Needed for Windows 10 Pro Digital License Retrieval </a>
+								</h2>
+								<p class="has-text-wrap">Hello,
+I am experiencing issues with activating my Windows 10 Pro. I originally purchased a Windows 10 Pro digital license in 2022. When I moved to a new computer, I tried to transfer and reactivate my license, but it did not work, and I was forced toâ¦</p>
+								<div class="display-flex flex-wrap-wrap gap-xxs margin-top-xxs">
+									
+		<span class="tag tag-filled tag-interactive">
+			<details class="popover tag-popover popover-left">
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-10-platform-licensing-activation">
+					<span>Windows for home | Windows 10 | Licensing and activation</span>
+				</summary>
+				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
+					<article class="card border-left-lg border-left-color-accent">
+		<div class="card-content margin-bottom-none">
+			<a
+				class="card-title has-text-wrap"
+				data-test-id="tag-card-title-windows-home-windows-10-platform-licensing-activation"
+				data-bi-name="tag-card-link"
+				href="/en-us/answers/tags/1082/windows-home-windows-10-platform-licensing-activation/"
+			>
+				Windows for home | Windows 10 | Licensing and activation
+			</a>
+			<div class="card-content-description" data-test-id="tag-card-description">
+				
+			</div>
+		</div>
+		<div class="card-template">
+			<img alt="" class="card-template-icon image is-32x32" src=https://learn.microsoft.com/en-us/media/logos/logo_windows.svg />
+			<div class="card-template-detail">
+						<span
+							class="font-size-sm font-weight-semilight"
+							data-test-id="tag-card-count-windows-home-windows-10-platform-licensing-activation"
+						>
+							6,446 questions
+						</span>
+				  </div>
+		</div>
+		<div class="card-footer">
+			<div class="card-footer-item">
+				<div class="buttons">
+					<button
+						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
+						data-bi-name="follow-tag-sign-in"
+						data-test-id="tag-card-follow-button-windows-home-windows-10-platform-licensing-activation"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvODNhODU5NjgtNmJiNS00OGJhLWExOTktOWY4YzYxYTcwYTJl"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvODNhODU5NjgtNmJiNS00OGJhLWExOTktOWY4YzYxYTcwYTJl
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					button-sm margin-block-xxs
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</article>
+				</div>
+			</details>
+		</span>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3-desktop is-12-tablet">
+						
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-09-10T04:25:55.3966667+00:00" class="is-visually-hidden">2025-09-10T04:25:55.3966667+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(96, 12%, 19%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EN%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=30121440-2717-407f-aaf7-5e1d8d23cd4f"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Nica</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						<div
+							class="margin-top-xxs"
+							
+						>
+							
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					answered <local-time format="datetime" datetime="2025-09-10T11:43:52.17+00:00" class="is-visually-hidden">2025-09-10T11:43:52.17+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(204.8, 84%, 29%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EAS%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=6484adf9-4bb1-4211-a3bb-eb0e027fed42"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Alexandr S</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">96,310</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		<span aria-hidden="true">â¢ </span>Independent Advisor
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="box margin-bottom-xxs">
+				<div class="columns is-multiline">
+					<div class="column is-9-desktop is-12-tablet">
+						<div class="columns">
+							<div class="column is-narrow text-align-right-tablet width-200-tablet">
+								<span
+									class="badge badge badge-success"
+									title=""
+								>
+									
+									7 answers
+									
+								</span>
+								
+							</div>
+							<div class="column">
+								<h2 class="title is-6 margin-bottom-xxs">
+									<a href="/en-us/answers/questions/5546933/how-to-buy-activate-windows-10-extended-security-u"> How to buy / activate Windows 10 Extended Security Updates </a>
+								</h2>
+								<p class="has-text-wrap">Windows 10 Extended Security Updates
+Background:
+Strong Lenovo ThinkPad, Windows 10 Pro, updates always current.
+Swapped the C-Drive with a spare cloned C-drive and upgraded to Windows 11.
+Tried it for a week, didnât like it / donât need it.
+Put my Win10â¦</p>
+								<div class="display-flex flex-wrap-wrap gap-xxs margin-top-xxs">
+									
+		<span class="tag tag-filled tag-interactive">
+			<details class="popover tag-popover popover-left">
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-10-platform-windows-10-esu">
+					<span>Windows for home | Windows 10 | Extended Security Update (ESU)</span>
+				</summary>
+				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
+					<article class="card border-left-lg border-left-color-accent">
+		<div class="card-content margin-bottom-none">
+			<a
+				class="card-title has-text-wrap"
+				data-test-id="tag-card-title-windows-home-windows-10-platform-windows-10-esu"
+				data-bi-name="tag-card-link"
+				href="/en-us/answers/tags/1081/windows-home-windows-10-platform-windows-10-esu/"
+			>
+				Windows for home | Windows 10 | Extended Security Update (ESU)
+			</a>
+			<div class="card-content-description" data-test-id="tag-card-description">
+				
+			</div>
+		</div>
+		<div class="card-template">
+			<img alt="" class="card-template-icon image is-32x32" src=https://learn.microsoft.com/en-us/media/logos/logo_windows.svg />
+			<div class="card-template-detail">
+						<span
+							class="font-size-sm font-weight-semilight"
+							data-test-id="tag-card-count-windows-home-windows-10-platform-windows-10-esu"
+						>
+							147 questions
+						</span>
+				  </div>
+		</div>
+		<div class="card-footer">
+			<div class="card-footer-item">
+				<div class="buttons">
+					<button
+						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
+						data-bi-name="follow-tag-sign-in"
+						data-test-id="tag-card-follow-button-windows-home-windows-10-platform-windows-10-esu"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvODE2MzRkMTQtNDlhZC00YjdlLWE1NTktOWE5NGYwNjAzZDg4"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvODE2MzRkMTQtNDlhZC00YjdlLWE1NTktOWE5NGYwNjAzZDg4
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					button-sm margin-block-xxs
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</article>
+				</div>
+			</details>
+		</span>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3-desktop is-12-tablet">
+						
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-09-06T15:39:18.4133333+00:00" class="is-visually-hidden">2025-09-06T15:39:18.4133333+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(99.2, 43%, 19%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EO%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=e3143265-4428-4b77-82e7-40ecf45fa683"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>OldRetiredGuy</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						<div
+							class="margin-top-xxs"
+							
+						>
+							
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					answered <local-time format="datetime" datetime="2025-09-10T11:39:15.7566667+00:00" class="is-visually-hidden">2025-09-10T11:39:15.7566667+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(89.60000000000001, 72%, 18%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3ESD%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=28e72ad6-3c85-4fcf-b6f0-6ced8a88853d"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Sumit D - IA</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">137K</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		<span aria-hidden="true">â¢ </span>Independent Advisor
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="box margin-bottom-xxs">
+				<div class="columns is-multiline">
+					<div class="column is-9-desktop is-12-tablet">
+						<div class="columns">
+							<div class="column is-narrow text-align-right-tablet width-200-tablet">
+								<span
+									class="badge badge badge-success"
+									title=""
+								>
+									
+									1 answer
+									
+								</span>
+								
+							</div>
+							<div class="column">
+								<h2 class="title is-6 margin-bottom-xxs">
+									<a href="/en-us/answers/questions/5550688/windows-10-esu-pre-conditions-on-laptop"> Windows 10 ESU - Pre-conditions on laptop? </a>
+								</h2>
+								<p class="has-text-wrap">Is there any way to confirm ALL Pre-Requsites for the Windows 10 ESU update are instaled on my PC?</p>
+								<div class="display-flex flex-wrap-wrap gap-xxs margin-top-xxs">
+									
+		<span class="tag tag-filled tag-interactive">
+			<details class="popover tag-popover popover-left">
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-10-platform-windows-update">
+					<span>Windows for home | Windows 10 | Windows update</span>
+				</summary>
+				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
+					<article class="card border-left-lg border-left-color-accent">
+		<div class="card-content margin-bottom-none">
+			<a
+				class="card-title has-text-wrap"
+				data-test-id="tag-card-title-windows-home-windows-10-platform-windows-update"
+				data-bi-name="tag-card-link"
+				href="/en-us/answers/tags/1068/windows-home-windows-10-platform-windows-update/"
+			>
+				Windows for home | Windows 10 | Windows update
+			</a>
+			<div class="card-content-description" data-test-id="tag-card-description">
+				
+			</div>
+		</div>
+		<div class="card-template">
+			<img alt="" class="card-template-icon image is-32x32" src=https://learn.microsoft.com/en-us/media/logos/logo_windows.svg />
+			<div class="card-template-detail">
+						<span
+							class="font-size-sm font-weight-semilight"
+							data-test-id="tag-card-count-windows-home-windows-10-platform-windows-update"
+						>
+							22,836 questions
+						</span>
+				  </div>
+		</div>
+		<div class="card-footer">
+			<div class="card-footer-item">
+				<div class="buttons">
+					<button
+						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
+						data-bi-name="follow-tag-sign-in"
+						data-test-id="tag-card-follow-button-windows-home-windows-10-platform-windows-update"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvNzI4MWViYTMtNzEzMS00MGIyLTg0NWQtZjNiYzgzNjA1YTQ3"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvNzI4MWViYTMtNzEzMS00MGIyLTg0NWQtZjNiYzgzNjA1YTQ3
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					button-sm margin-block-xxs
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</article>
+				</div>
+			</details>
+		</span>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3-desktop is-12-tablet">
+						
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-09-10T11:03:28.34+00:00" class="is-visually-hidden">2025-09-10T11:03:28.34+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(163.2, 61%, 25%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3ETP%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=ca5e161d-c755-48e6-943b-cb3d504d5140"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>terry p</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">40</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						<div
+							class="margin-top-xxs"
+							
+						>
+							
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					answered <local-time format="datetime" datetime="2025-09-10T11:38:18.0033333+00:00" class="is-visually-hidden">2025-09-10T11:38:18.0033333+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(160, 91%, 25%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3ERB%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=5091bd0d-32c2-45ce-a2a8-2023b2d31da3"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Randy Baroja</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">6,510</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		<span aria-hidden="true">â¢ </span>Independent Advisor
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+			<div class="box margin-bottom-xxs">
+				<div class="columns is-multiline">
+					<div class="column is-9-desktop is-12-tablet">
+						<div class="columns">
+							<div class="column is-narrow text-align-right-tablet width-200-tablet">
+								<span
+									class="has-text-subtle font-size-sm"
+									title=""
+								>
+									
+									0 answers
+									
+								</span>
+								
+							</div>
+							<div class="column">
+								<h2 class="title is-6 margin-bottom-xxs">
+									<a href="/en-us/answers/questions/5550712/microphone-volume-extremely-low-in-teams-after-win"> Microphone volume extremely low in Teams after Windows 11 24H2 update </a>
+								</h2>
+								<p class="has-text-wrap">Teams microphone low only in Windows 11 24H2
+Hello Microsoft Support Team,
+I am experiencing an issue with my microphone after updating to Windows 11 version 24H2.
+The microphone works perfectly in Windows (e.g., Voice Recorder, Sound settings), and theâ¦</p>
+								<div class="display-flex flex-wrap-wrap gap-xxs margin-top-xxs">
+									
+		<span class="tag tag-filled tag-interactive">
+			<details class="popover tag-popover popover-left">
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-11-platform-settings">
+					<span>Windows for home | Windows 11 | Settings</span>
+				</summary>
+				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
+					<article class="card border-left-lg border-left-color-accent">
+		<div class="card-content margin-bottom-none">
+			<a
+				class="card-title has-text-wrap"
+				data-test-id="tag-card-title-windows-home-windows-11-platform-settings"
+				data-bi-name="tag-card-link"
+				href="/en-us/answers/tags/1053/windows-home-windows-11-platform-settings/"
+			>
+				Windows for home | Windows 11 | Settings
+			</a>
+			<div class="card-content-description" data-test-id="tag-card-description">
+				
+			</div>
+		</div>
+		<div class="card-template">
+			<img alt="" class="card-template-icon image is-32x32" src=https://learn.microsoft.com/en-us/media/logos/logo_windows.svg />
+			<div class="card-template-detail">
+						<span
+							class="font-size-sm font-weight-semilight"
+							data-test-id="tag-card-count-windows-home-windows-11-platform-settings"
+						>
+							8,239 questions
+						</span>
+				  </div>
+		</div>
+		<div class="card-footer">
+			<div class="card-footer-item">
+				<div class="buttons">
+					<button
+						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
+						data-bi-name="follow-tag-sign-in"
+						data-test-id="tag-card-follow-button-windows-home-windows-11-platform-settings"
+					>
+						Sign in to follow
+					</button>
+					 <form
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvNjNjYWM3ZWQtNTBjZC00Mjg1LTg0ZTktZjMzMDYyMjlhNzY0"
+		method="POST"
+		new
+		novalidate
+		hidden
+		
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvNjNjYWM3ZWQtNTBjZC00Mjg1LTg0ZTktZjMzMDYyMjlhNzY0
+		
+		class="authenticated "
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					button button-primary
+					
+					button-sm margin-block-xxs
+				"
+		data-bi-name=follow-tag
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				</div>
+			</div>
+		</div>
+	</article>
+				</div>
+			</details>
+		</span>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3-desktop is-12-tablet">
+						
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					asked <local-time format="datetime" datetime="2025-09-10T11:32:32.3966667+00:00" class="is-visually-hidden">2025-09-10T11:32:32.3966667+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(192, 24%, 28%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3EZL%3C/text%3E%3C/svg%3E"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=60e240bc-7143-4a6e-8957-294dc3e9539d"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>ZÃ¼lkÃ¼f Aytimur</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						<div
+							class="margin-top-xxs"
+							
+						>
+							
+			<div class="margin-bottom-xs">
+				<span class="display-block font-size-xs has-line-height-reset">
+					edited the question <local-time format="datetime" datetime="2025-09-10T11:35:15.68+00:00" class="is-visually-hidden">2025-09-10T11:35:15.68+00:00</local-time>
+				</span>
+				<div class="display-flex align-items-center margin-top-xxs">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="https://techprofile.blob.core.windows.net/images/DSq8thXX1EC7bjdlrVIvlQ.png?8DD343"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=b6bc2a0d-d715-40d4-bb6e-3765ad522f95"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>GÃ©rard Oomens</a
+						>
+						
+						
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">107.3K</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		<span aria-hidden="true">â¢ </span>Volunteer Moderator
+	</span>
+			
+		</div>
+				</div>
+			</div>
+		
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		
+			 <nav
+		class="pagination is-centered margin-top-lg margin-bottom-xs"
+		aria-label="pagination"
+		data-test-id="pagination-list"
+	>
+		<ul class="pagination-list">
+			<li>
+		<a
+			type="button"
+			data-test-id="pagination-button-back"
+			class="pagination-link display-none"
+			aria-label="Previous"
+			href="/en-us/answers/tags/824/windows-home?page=0"
+			aria-hidden="true"
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-arrow-left"></span>
+			</span>
+		</a>
+	</li>
+			<li>
+		<a
+			type="button"
+			class="is-hidden"
+			data-page="1"
+			aria-label="Page 1 of 26617"
+			aria-current="false"
+			3
+			href="/en-us/answers/tags/824/windows-home?page=1"
+		>
+			1
+		</a>
+	</li>
+			<li class="is-hidden">
+				<span>...</span>
+			</li>
+			
+			<li>
+				<a
+					data-test-id="pagination-button-1"
+					type="button"
+					class="pagination-link is-current"
+					data-page="1"
+					aria-label="Page 1 of 26617"
+					aria-current="true"
+					href="/en-us/answers/tags/824/windows-home?page=1"
+				>
+					1
+				</a>
+			</li>
+		
+			<li>
+				<a
+					data-test-id="pagination-button-2"
+					type="button"
+					class="pagination-link "
+					data-page="2"
+					aria-label="Page 2 of 26617"
+					aria-current="false"
+					href="/en-us/answers/tags/824/windows-home?page=2"
+				>
+					2
+				</a>
+			</li>
+		
+			<li>
+				<a
+					data-test-id="pagination-button-3"
+					type="button"
+					class="pagination-link "
+					data-page="3"
+					aria-label="Page 3 of 26617"
+					aria-current="false"
+					href="/en-us/answers/tags/824/windows-home?page=3"
+				>
+					3
+				</a>
+			</li>
+		
+			<li>
+				<a
+					data-test-id="pagination-button-4"
+					type="button"
+					class="pagination-link "
+					data-page="4"
+					aria-label="Page 4 of 26617"
+					aria-current="false"
+					href="/en-us/answers/tags/824/windows-home?page=4"
+				>
+					4
+				</a>
+			</li>
+		
+			<li class="">
+				<span>...</span>
+			</li>
+			<li>
+		<a
+			type="button"
+			class="pagination-link pagination-next"
+			data-page="26617"
+			aria-label="Page 26617 of 26617"
+			aria-current="true"
+			href="/en-us/answers/tags/824/windows-home?page=26617"
+		>
+			26617
+		</a>
+	</li>
+			<li> <a
+		type="button"
+		data-test-id="pagination-button-forward"
+		class="pagination-next "
+		aria-label="Next"
+		href="/en-us/answers/tags/824/windows-home?page=2"
+		aria-hidden="false"
+	>
+		<span class="icon" aria-hidden="true">
+			<span class="docon docon-arrow-right"> </span>
+		</span>
+	</a></li>
+		</ul>
+	</nav>
+		</div>
+	
+				</main>
+				  <div class="layout-body-footer " data-bi-name="layout-footer">
+		<footer
+			id="footer"
+			data-test-id="footer"
+			data-bi-name="footer"
+			class="footer-layout has-padding has-default-focus border-top  uhf-container"
+			role="contentinfo"
+		>
+			<div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop">
+				
+		<a
+			data-mscc-ic="false"
+			href="#"
+			data-bi-name="select-locale"
+			class="locale-selector-link flex-shrink-0 button button-sm button-clear external-link-indicator"
+			id=""
+			title=""
+			><span class="icon" aria-hidden="true"
+				><span class="docon docon-world"></span></span
+			><span class="local-selector-link-text">en-us</span></a
+		>
+	
+				<div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://aka.ms/yourcaliforniaprivacychoices"
+			data-bi-name="your-privacy-choices"
+			class="button button-sm button-clear flex-shrink-0 external-link-indicator"
+			id=""
+			title=""
+			>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 30 14"
+			xml:space="preserve"
+			height="16"
+			width="43"
+			aria-hidden="true"
+			focusable="false"
+		>
+			<path
+				d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"
+			></path>
+			<path
+				d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"
+			></path>
+			<path
+				d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+				style="fill:#fff"
+			></path>
+			<path
+				d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+				style="fill:#06f"
+			></path>
+		</svg>
+	
+			<span>Your Privacy Choices</span></a
+		>
+	
+	</div>
+				<div class="flex-shrink-0">
+		<div class="dropdown has-caret-up">
+			<button
+				data-test-id="theme-selector-button"
+				class="dropdown-trigger button button-clear button-sm has-inner-focus theme-dropdown-trigger"
+				aria-controls="{{ themeMenuId }}"
+				aria-expanded="false"
+				title="Theme"
+				data-bi-name="theme"
+			>
+				<span class="icon">
+					<span class="docon docon-sun" aria-hidden="true"></span>
+				</span>
+				<span>Theme</span>
+				<span class="icon expanded-indicator" aria-hidden="true">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<div class="dropdown-menu" id="{{ themeMenuId }}" role="menu">
+				<ul class="theme-selector padding-xxs" data-test-id="theme-dropdown-menu">
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="light"
+						>
+							<span class="theme-light margin-right-xxs">
+								<span
+									class="theme-selector-icon border display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> Light </span>
+						</button>
+					</li>
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="dark"
+						>
+							<span class="theme-dark margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> Dark </span>
+						</button>
+					</li>
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="high-contrast"
+						>
+							<span class="theme-high-contrast margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> High contrast </span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			</div>
+			<ul class="links" data-bi-name="footerlinks">
+				<li class="manage-cookies-holder" hidden=""></li>
+				<li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/principles-for-ai-generated-content"
+			data-bi-name="aiDisclaimer"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>AI Disclaimer</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/previous-versions/"
+			data-bi-name="archivelink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Previous Versions</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog"
+			data-bi-name="bloglink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Blog</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/contribute"
+			data-bi-name="contributorGuide"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Contribute</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?LinkId=521839"
+			data-bi-name="privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/legal/termsofuse"
+			data-bi-name="termsofuse"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Terms of Use</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://aka.ms/msftqacodeconduct"
+			data-bi-name="codeofconduct"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Code of Conduct</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/"
+			data-bi-name="trademarks"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Trademarks</a
+		>
+	
+	</li>
+				<li>&copy; Microsoft 2025</li>
+			</ul>
+		</footer>
+	</footer>
+			</body>
+		</html>

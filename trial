@@ -1,0 +1,57 @@
+import requests
+from bs4 import BeautifulSoup
+import re
+
+def extract_question_details(question_link):
+    # Fetch the page content
+    response = requests.get(question_link)
+    response.raise_for_status()  # Ensure the request was successful
+    
+    # Parse the HTML content
+    soup = BeautifulSoup(response.text, 'lxml')
+    
+    # Extract the question ID from the URL
+    question_id = re.search(r'/questions/(\d+)/', question_link).group(1)
+    
+    # Extract the title
+    title = soup.find('h1', class_='title').get_text(strip=True) if soup.find('h1', class_='title') else 'No title found'
+    
+    # Extract the description
+    description_div = soup.find('div', class_='message-body')
+    description = description_div.get_text(separator='\n', strip=True) if description_div else 'No description found'
+    
+    # Extract answers and comments
+    answers = []
+    answer_elements = soup.find_all('div', class_="column margin-top-sm is-full")
+    
+    for answer in answer_elements:
+        answer_text = ''
+        comments = []
+        
+        # Extract answer text
+        answer_content = answer.find('div', class_="content")
+        if answer_content:
+            answer_text = answer_content.get_text(separator='\n', strip=True)
+        
+        # Extract comments for this answer
+        comment_elements = answer.find_all('div', class_='comment')
+        for comment in comment_elements:
+            comment_text = comment.get_text(separator='\n', strip=True)
+            comments.append(comment_text)
+        
+        answers.append({
+            'answer_text': answer_text,
+            'comments': comments
+        })
+    
+    return {
+        'question_id': question_id,
+        'title': title,
+        'description': description,
+        'answers': answers
+    }
+
+# Example usage
+question_link = "https://learn.microsoft.com/en-us/answers/questions/5534932/how-to-fix-microsoft-store-region-does-not-match-w"
+details = extract_question_details(question_link)
+print(details)
