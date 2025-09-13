@@ -10,13 +10,20 @@
 		>
 			
 		<head>
-			<title>Intermittent &quot;Critical Process Died 0xEF&quot; Error When Closing Games - Microsoft Q&amp;A</title>
+			<title>Installing Windows 11 fails with multiple BSOD error screens despite PC passing PC Health Check for Windows 11 - Microsoft Q&amp;A</title>
 			<meta charset="utf-8" />
 			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 			<meta name="color-scheme" content="light dark" />
 
-			<meta name="description" content="Experiencing an intermittent error &amp;quot;Critical Process Died 0xEF&amp;quot; when closing games. This issue has been occurring recently, and I have seen others discussing similar problems. Looking for assistance to resolve this error." />
-			<link rel="canonical" href="https://learn.microsoft.com/en-us/answers/questions/5547782/intermittent-critical-process-died-0xef-error-when" /> 
+			<meta name="description" content="I have a custom built PC currently running Windows 10 that I would like to run Windows 11. The hardware is as follows:
+
+ Intel i5-9600k
+ Gigabyte B365M DS3H on F7 firmware
+ Crucial 8GB DDR4 2666
+ WD Blue 2.5&#39; SATAIII 256GB SSD
+
+I&#39;ve enabled Intel PTT andâ¦" />
+			<link rel="canonical" href="https://learn.microsoft.com/en-us/answers/questions/5549812/installing-windows-11-fails-with-multiple-bsod-err" /> 
 
 			<!-- Non-customizable open graph and sharing-related metadata -->
 			<meta name="twitter:card" content="summary_large_image" />
@@ -25,9 +32,16 @@
 			<meta property="og:image:alt" content="Microsoft Learn" />
 			<meta property="og:image" content="https://learn.microsoft.com/en-us/media/open-graph-image.png" />
 			<!-- Page specific open graph and sharing-related metadata -->
-			<meta property="og:title" content="Intermittent &quot;Critical Process Died 0xEF&quot; Error When Closing Games - Microsoft Q&amp;A" />
-			<meta property="og:url" content="https://learn.microsoft.com/en-us/answers/questions/5547782/intermittent-critical-process-died-0xef-error-when" />
-			<meta property="og:description" content="Experiencing an intermittent error &amp;quot;Critical Process Died 0xEF&amp;quot; when closing games. This issue has been occurring recently, and I have seen others discussing similar problems. Looking for assistance to resolve this error." />
+			<meta property="og:title" content="Installing Windows 11 fails with multiple BSOD error screens despite PC passing PC Health Check for Windows 11 - Microsoft Q&amp;A" />
+			<meta property="og:url" content="https://learn.microsoft.com/en-us/answers/questions/5549812/installing-windows-11-fails-with-multiple-bsod-err" />
+			<meta property="og:description" content="I have a custom built PC currently running Windows 10 that I would like to run Windows 11. The hardware is as follows:
+
+ Intel i5-9600k
+ Gigabyte B365M DS3H on F7 firmware
+ Crucial 8GB DDR4 2666
+ WD Blue 2.5&#39; SATAIII 256GB SSD
+
+I&#39;ve enabled Intel PTT andâ¦" />
 			 
 			<meta name="locale" content="en-us" />
 			 
@@ -40,17 +54,17 @@
 
 			<!-- custom meta tags -->
 			
-		<meta name="authorId" content="ce6a3771-b38a-45ed-b322-bf9d05723adf" />
+		<meta name="authorId" content="781ca8df-9459-46c1-81bd-3107be0ae769" />
 	
-		<meta name="createdAt" content="2025-09-07T22:43:40.0933333+00:00" />
+		<meta name="createdAt" content="2025-09-09T16:02:17.45+00:00" />
 	
-		<meta name="updatedAt" content="2025-09-09T19:54:05.69+00:00" />
+		<meta name="updatedAt" content="2025-09-09T20:13:20.75+00:00" />
 	
 		<meta name="pageCount" content="1" />
 	
-		<meta name="tag" content="https://microsoft-devrel.poolparty.biz/QnACompound/a1e3765b-b5bd-4be7-abde-4a6ca19170c8" />
+		<meta name="tag" content="https://microsoft-devrel.poolparty.biz/QnACompound/f4c1a483-1833-49b1-86fc-6579c730c6a9" />
 	
-		<meta name="questionId" content="5547782" />
+		<meta name="questionId" content="5549812" />
 	
 		<meta name="search.isTopContent" content="true" />
 	 
@@ -111,7 +125,7 @@
 
 			<!-- json-ld -->
 			<script type="application/ld+json">
-				{"@context":"https://schema.org","@type":"QAPage","mainEntity":{"@type":"Question","id":5547782,"name":"Intermittent \"Critical Process Died 0xEF\" Error When Closing Games","text":"\u003cp\u003eExperiencing an intermittent error \u0026quot;Critical Process Died 0xEF\u0026quot; when closing games. This issue has been occurring recently, and I have seen others discussing similar problems. Looking for assistance to resolve this error.\u003c/p\u003e","answerCount":3,"upvoteCount":0,"author":"Sean Garrison","authorId":"ce6a3771-b38a-45ed-b322-bf9d05723adf","acceptedAnswer":[{"@type":"Answer","id":12228002,"text":"\u003cp\u003eHi, thanks for the detailed information. As per checking and analyzing the event files you have, there are general errors in the event files. Moreover, kindly follow the steps below for us to fix the issue:\u003c/p\u003e\n\u003cp\u003eMethod 1. Do a clean boot:\u003c/p\u003e\n\u003cp\u003eA âclean bootâ starts Windows with a minimal set of drivers and startup programs, so that you can determine whether a background program is interfering with your game or program.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e In the search box on the taskbar, type msconfig and select System Configuration from the results.\u003c/li\u003e\n\u003cli\u003e On the Services tab of System Configuration, select Hide all Microsoft services, and then select Disable all.\u003c/li\u003e\n\u003cli\u003e On the Startup tab of System Configuration, select Open Task Manager.\u003c/li\u003e\n\u003cli\u003e Under Startup in Task Manager, for each startup item, select the item and then select Disable.\u003c/li\u003e\n\u003cli\u003e Close Task Manager.\u003c/li\u003e\n\u003cli\u003e On the Startup tab of System Configuration, select OK. When you restart the computer, it's in a clean boot environment.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eTroubleshooting reference: \u003ca href=\"https://support.microsoft.com/en-us/help/929135/how-to-perform-a-clean-boot-in-windows\" rel=\"ugc nofollow\"\u003ehttps://support.microsoft.com/en-us/help/929135/how-to-perform-a-clean-boot-in-windows\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eMethod 2. Run memory diagnostic tool: The memory diagnostic tool is a RAM test to check if there are any RAM issues.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e Press Windows key + R, then type in mdsched.exe hit OK, then restart the device.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eNote: If the issue persists, please let me know the make and model of your graphics card. A clean installation of the display driver might be necessary.\u003c/p\u003e\n","upvoteCount":1,"author":"Lester Bernard Reyes","authorId":"a2077aed-450b-464a-bd1b-b2568caebc16","url":"https://learn.microsoft.com/en-us/answers/a/12228002"},{"@type":"Answer","id":12225729,"text":"\u003cp\u003eHi, I'm Bernard, a fellow Windows user. I'm happy to help!\u003c/p\u003e\n\u003cp\u003eJust to confirm, can you still use the affected device? If so, I need to analyze the error. Can you please check if you have minidump files on the PC so that I can further examine what is the root cause of the issue?\u003c/p\u003e\n\u003cp\u003eÂ \u003c/p\u003e\n\u003cp\u003ePress Windows key + E (To open File Explorer)\u003c/p\u003e\n\u003cp\u003eÂ \u003c/p\u003e\n\u003cp\u003eClick \u0026quot;This PC\u0026quot; \u0026gt; then follow the file path:\u003c/p\u003e\n\u003cp\u003eÂ \u003c/p\u003e\n\u003cp\u003eC:\\Windows\\Minidump\u003c/p\u003e\n\u003cp\u003eÂ \u003c/p\u003e\n\u003cp\u003eCopy the Minidump files and save them to another location, like the Desktop or Documents.\u003c/p\u003e\n\u003cp\u003eÂ \u003c/p\u003e\n\u003cp\u003eThen please upload it to Cloud storage like OneDrive or any cloud storage you are using, and please share the shareable link here.\u003c/p\u003e\n\u003cp\u003eTo upload and share the link using OneDrive:\u003c/p\u003e\n\u003cp\u003eGo to this link: \u003ca href=\"https://onedrive.live.com/\" rel=\"ugc nofollow\"\u003ehttps://onedrive.live.com/\u003c/a\u003e, then upload the file\u003c/p\u003e\n\u003cp\u003eThen provide the shareable link by following the steps from this link: \u003ca href=\"https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07\" rel=\"ugc nofollow\"\u003ehttps://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07\u003c/a\u003e\u003c/p\u003e\n","upvoteCount":0,"author":"Lester Bernard Reyes","authorId":"a2077aed-450b-464a-bd1b-b2568caebc16","url":"https://learn.microsoft.com/en-us/answers/a/12225729"}],"suggestedAnswer":[{"@type":"Answer","id":12226220,"text":"\u003cp\u003eHi, thank you for replying. Can you further check if you have more dump files on the PC? As per checking the Minidump files, it is only displaying general errors. In addition, can you please check the System logs on the PC so I can further examine the root cause of the issue?\u003c/p\u003e\n\u003cp\u003eTo do this, kindly follow the steps from this link:\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://www.yourwindowsguide.com/2017/12/how-to-share-event-logs-in-case-of/#.ZFfoIRFByUk\" rel=\"ugc nofollow\"\u003ehttps://www.yourwindowsguide.com/2017/12/how-to-share-event-logs-in-case-of/#.ZFfoIRFByUk\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eNote: This is a non-Microsoft website. The page appears to be providing accurate, safe information. Watch out for ads on the site that may advertise products frequently classified as a PUP (Potentially Unwanted Products). Thoroughly research any product advertised on the site before you decide to download and install it.\u003c/p\u003e\n\u003cp\u003eThen please upload it by following the steps from the link.\u003c/p\u003e\n","upvoteCount":0,"author":"Lester Bernard Reyes","authorId":"a2077aed-450b-464a-bd1b-b2568caebc16","url":"https://learn.microsoft.com/en-us/answers/a/12226220"}]}}
+				{"@context":"https://schema.org","@type":"QAPage","mainEntity":{"@type":"Question","id":5549812,"name":"Installing Windows 11 fails with multiple BSOD error screens despite PC passing PC Health Check for Windows 11","text":"\u003cp\u003eI have a custom built PC currently running Windows 10 that I would like to run Windows 11. The hardware is as follows:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e Intel i5-9600k\u003c/li\u003e\n\u003cli\u003e Gigabyte B365M DS3H on F7 firmware\u003c/li\u003e\n\u003cli\u003e Crucial 8GB DDR4 2666\u003c/li\u003e\n\u003cli\u003e WD Blue 2.5' SATAIII 256GB SSD\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eI've enabled Intel PTT and Windows shows the TPM 2.0 active. CSM is disabled so that UEFI is being used and Secure Boot is enabled. I've tried doing an in place upgrade, running setup from a Windows 11 ISO mounted locally as well as running it from a USB and cleaning the disk first. Every option fails with various BSOD screens. In particular, I've seen \u0026quot;Kernel Security Check Failure\u0026quot;, \u0026quot;IRQL_NOT_LESS_THAN_OR_EQUAL\u0026quot;, \u0026quot;MEMORY_MANAGEMENT\u0026quot; and \u0026quot;WORKER INVALID\u0026quot;. It always fails during install, even on a blank drive, before ever getting to the OS. Windows 10 installs without issue, even after the Windows 11 blue screens (I reinstalled Windows 10 to get it back up for now). I've used memtest to check the memory with no errors, swapped out the SSD and changed which slot my RAM is in with no luck. With no issues for Windows 10, it feels like a compatibility issue, but it meets all the Windows 11 requirements on the website and passed the PC health check without issue. Has anyone seen this issue before? Thanks!\u003c/p\u003e","answerCount":2,"upvoteCount":0,"author":"Nathan Petty","authorId":"781ca8df-9459-46c1-81bd-3107be0ae769","acceptedAnswer":[],"suggestedAnswer":[{"@type":"Answer","id":12229043,"text":"\u003cp\u003eHi. I'm David, and I'm happy to help you.\u003c/p\u003e\n\u003chr /\u003e\n\u003cp\u003ePlease share a screenshot of your system information.\u003c/p\u003e\n\u003cp\u003e(You've already provided some of your PC's specifications. However, some details were not covered.)\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e Press \u0026quot;Windows + R\u0026quot;, type msinfo32 and press Enter.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eMaximize the window and use the shortcut \u0026quot;Windows + Shift + S\u0026quot; to use the screenshot tool.\u003c/p\u003e\n\u003chr /\u003e\n\u003cp\u003eI await your reply.\u003c/p\u003e\n","upvoteCount":0,"author":"David-M","authorId":"25e6b30f-2ca2-44a1-9e19-329bf9c1d25e","url":"https://learn.microsoft.com/en-us/answers/a/12229043"},{"@type":"Answer","id":12229220,"text":"\u003cp\u003eThanks for the screenshot.\u003c/p\u003e\n\u003chr /\u003e\n\u003cp\u003eThere is no obvious factor that explains the error.\u003c/p\u003e\n\u003cp\u003eHere's a suggestion.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e Try resetting your BIOS settings to factory defaults. This ensures that no advanced settings are interfering with the installation process.\u003c/li\u003e\n\u003cli\u003e Also, make sure the XMP/DOCP/EXPO (RAM overclock) memory profile is disabled.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eAfter these adjustments, try to install Windows 11 again. If possible, disconnect non-essential peripherals and avoid connecting to the internet during the installation to prevent drivers from loading automatically.\u003c/p\u003e\n\u003chr /\u003e\n\u003cp\u003eLet me know the result.\u003c/p\u003e\n\u003cp\u003eFeel free to ask back any questions.\u003c/p\u003e\n","upvoteCount":0,"author":"David-M","authorId":"25e6b30f-2ca2-44a1-9e19-329bf9c1d25e","url":"https://learn.microsoft.com/en-us/answers/a/12229220"}]}}
 		  </script>
 		</head>
 	
@@ -286,7 +300,7 @@
 		></div>
 		<h4 class="font-size-sm padding-left-xxs">Share via</h4>
 		 <a
-					href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fanswers%2Fquestions%2F5547782%2Fintermittent-critical-process-died-0xef-error-when
+					href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fanswers%2Fquestions%2F5549812%2Finstalling-windows-11-fails-with-multiple-bsod-err
 											"
 					class="button button-clear text-decoration-none has-inner-focus margin-bottom-none button-sm button-block justify-content-flex-start has-inner-focus margin-none share-facebook"
 					data-bi-name="facebook"
@@ -298,9 +312,9 @@
 					<span class="margin-left-xxs color-text">Facebook</span>
 			  </a>
 		 <a
-					href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fanswers%2Fquestions%2F5547782%2Fintermittent-critical-process-died-0xef-error-when
-											&text=Intermittent%20%22Critical%20Process%20Died%200xEF%22%20Error%20When%20Closing%20Games
-											&tw_p=tweetbutton&url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fanswers%2Fquestions%2F5547782%2Fintermittent-critical-process-died-0xef-error-when"
+					href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fanswers%2Fquestions%2F5549812%2Finstalling-windows-11-fails-with-multiple-bsod-err
+											&text=Installing%20Windows%2011%20fails%20with%20multiple%20BSOD%20error%20screens%20despite%20PC%20passing%20PC%20Health%20Check%20for%20Windows%2011
+											&tw_p=tweetbutton&url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fanswers%2Fquestions%2F5549812%2Finstalling-windows-11-fails-with-multiple-bsod-err"
 					class="button button-clear text-decoration-none has-inner-focus margin-bottom-none button-sm button-block justify-content-flex-start has-inner-focus margin-none share-twitter"
 					data-bi-name="twitter"
 					data-page-action-item="overflow-all"
@@ -311,7 +325,7 @@
 					<span class="margin-left-xxs color-text">x.com</span>
 			  </a>
 		 <a
-					href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fanswers%2Fquestions%2F5547782%2Fintermittent-critical-process-died-0xef-error-when"
+					href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fanswers%2Fquestions%2F5549812%2Finstalling-windows-11-fails-with-multiple-bsod-err"
 					class="button button-clear text-decoration-none has-inner-focus margin-bottom-none button-sm button-block justify-content-flex-start has-inner-focus margin-none share-linkedin"
 					data-bi-name="linkedin"
 					data-page-action-item="overflow-all"
@@ -324,7 +338,7 @@
 		
 		 <a
 					href="mailto:?subject=
-												%5BShared%20Question%5D%20Intermittent%20%22Critical%20Process%20Died%200xEF%22%20Error%20When%20Closing%20Games&body=Intermittent &quot;Critical Process Died 0xEF&quot; Error When Closing Gameshttps%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fanswers%2Fquestions%2F5547782%2Fintermittent-critical-process-died-0xef-error-when"
+												%5BShared%20Question%5D%20Installing%20Windows%2011%20fails%20with%20multiple%20BSOD%20error%20screens%20despite%20PC%20passing%20PC%20Health%20Check%20for%20Windows%2011&body=Installing Windows 11 fails with multiple BSOD error screens despite PC passing PC Health Check for Windows 11https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fanswers%2Fquestions%2F5549812%2Finstalling-windows-11-fails-with-multiple-bsod-err"
 					class="button button-clear text-decoration-none has-inner-focus margin-bottom-none button-sm button-block justify-content-flex-start has-inner-focus margin-none share-email"
 					data-bi-name="email"
 					data-page-action-item="overflow-all"
@@ -349,14 +363,14 @@
 		
 		
 		
-		<h1 class="title is-2">Intermittent &quot;Critical Process Died 0xEF&quot; Error When Closing Games</h1>
+		<h1 class="title is-2">Installing Windows 11 fails with multiple BSOD error screens despite PC passing PC Health Check for Windows 11</h1>
 		<div class="display-flex flex-direction-row">
 			
 			
 		</div>
 		<div class="level margin-none align-items-flex-start">
 			
-			<div class="level-left flex-direction-column" data-id="ce6a3771-b38a-45ed-b322-bf9d05723adf">
+			<div class="level-left flex-direction-column" data-id="781ca8df-9459-46c1-81bd-3107be0ae769">
 				<div class="display-flex align-items-center">
 					  <div class="image is-32x32 margin-right-xxs">
 					
@@ -364,16 +378,16 @@
 			class="border-radius-rounded background-color-body-medium"
 			loading="eager"
 			alt=""
-			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(201.6, 77%, 29%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3ESG%3C/text%3E%3C/svg%3E"
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(249.60000000000002, 18%, 34%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3ENP%3C/text%3E%3C/svg%3E"
 		/>
 	
 			  </div> <div class="has-line-height-reset has-text-wrap width-250">
 			<span class="display-block"
 						><a
-							href="/en-us/users/na/?userid=ce6a3771-b38a-45ed-b322-bf9d05723adf"
+							href="/en-us/users/na/?userid=781ca8df-9459-46c1-81bd-3107be0ae769"
 							class="profile-url has-text-color font-weight-semibold font-size-sm"
 							data-bi-name="user-link"
-							>Sean Garrison</a
+							>Nathan Petty</a
 						>
 						
 						
@@ -381,7 +395,7 @@
 			<span
 		class=" display-block font-size-xs has-text-subtle"
 	>
-		<span title="Reputation points">40</span>
+		<span title="Reputation points">0</span>
 		<span class="is-visually-hidden">Reputation points</span> 
 		
 	</span>
@@ -390,30 +404,37 @@
 				</div>
 			</div>
 			<div class="level-right margin-top-none">
-				<span class="font-size-xs"> <local-time format="datetime" datetime="2025-09-07T22:43:40.0933333+00:00" class="is-visually-hidden">2025-09-07T22:43:40.0933333+00:00</local-time> </span>
+				<span class="font-size-xs"> <local-time format="datetime" datetime="2025-09-09T16:02:17.45+00:00" class="is-visually-hidden">2025-09-09T16:02:17.45+00:00</local-time> </span>
 			</div>
 		
 		</div>
 		
-					<div class="content margin-top-xxs"><p>Experiencing an intermittent error &quot;Critical Process Died 0xEF&quot; when closing games. This issue has been occurring recently, and I have seen others discussing similar problems. Looking for assistance to resolve this error.</p>
+					<div class="content margin-top-xxs"><p>I have a custom built PC currently running Windows 10 that I would like to run Windows 11. The hardware is as follows:</p>
+<ul>
+<li> Intel i5-9600k</li>
+<li> Gigabyte B365M DS3H on F7 firmware</li>
+<li> Crucial 8GB DDR4 2666</li>
+<li> WD Blue 2.5' SATAIII 256GB SSD</li>
+</ul>
+<p>I've enabled Intel PTT and Windows shows the TPM 2.0 active. CSM is disabled so that UEFI is being used and Secure Boot is enabled. I've tried doing an in place upgrade, running setup from a Windows 11 ISO mounted locally as well as running it from a USB and cleaning the disk first. Every option fails with various BSOD screens. In particular, I've seen &quot;Kernel Security Check Failure&quot;, &quot;IRQL_NOT_LESS_THAN_OR_EQUAL&quot;, &quot;MEMORY_MANAGEMENT&quot; and &quot;WORKER INVALID&quot;. It always fails during install, even on a blank drive, before ever getting to the OS. Windows 10 installs without issue, even after the Windows 11 blue screens (I reinstalled Windows 10 to get it back up for now). I've used memtest to check the memory with no errors, swapped out the SSD and changed which slot my RAM is in with no luck. With no issues for Windows 10, it feels like a compatibility issue, but it meets all the Windows 11 requirements on the website and passed the PC health check without issue. Has anyone seen this issue before? Thanks!</p>
 </div>
 					<div class="display-flex flex-wrap-wrap gap-xxs margin-block-xs">
 						
 		<span class="tag tag-filled tag-interactive">
 			<details class="popover tag-popover popover-left">
-				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-11-platform-windows-gaming">
-					<span>Windows for home | Windows 11 | Gaming</span>
+				<summary class="tag-summary has-text-wrap tag-sm" data-test-id="question-tag-windows-home-windows-11-platform-install-upgrade">
+					<span>Windows for home | Windows 11 | Install and upgrade</span>
 				</summary>
 				<div class="popover-content width-350-tablet padding-none" data-test-id="tag-card-popover">
 					<article class="card border-left-lg border-left-color-accent">
 		<div class="card-content margin-bottom-none">
 			<a
 				class="card-title has-text-wrap"
-				data-test-id="tag-card-title-windows-home-windows-11-platform-windows-gaming"
+				data-test-id="tag-card-title-windows-home-windows-11-platform-install-upgrade"
 				data-bi-name="tag-card-link"
-				href="/en-us/answers/tags/1105/windows-home-windows-11-platform-windows-gaming/"
+				href="/en-us/answers/tags/999/windows-home-windows-11-platform-install-upgrade/"
 			>
-				Windows for home | Windows 11 | Gaming
+				Windows for home | Windows 11 | Install and upgrade
 			</a>
 			<div class="card-content-description" data-test-id="tag-card-description">
 				
@@ -429,18 +450,18 @@
 					<button
 						class="not-authenticated link-button font-size-sm margin-block-xs docs-sign-in"
 						data-bi-name="follow-tag-sign-in"
-						data-test-id="tag-card-follow-button-windows-home-windows-11-platform-windows-gaming"
+						data-test-id="tag-card-follow-button-windows-home-windows-11-platform-install-upgrade"
 					>
 						Sign in to follow
 					</button>
 					 <form
-		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvYTFlMzc2NWItYjViZC00YmU3LWFiZGUtNGE2Y2ExOTE3MGM4"
+		action="/api/profiles/follow/tag/aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvZjRjMWE0ODMtMTgzMy00OWIxLTg2ZmMtNjU3OWM3MzBjNmE5"
 		method="POST"
 		new
 		novalidate
 		hidden
 		
-		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvYTFlMzc2NWItYjViZC00YmU3LWFiZGUtNGE2Y2ExOTE3MGM4
+		data-follow-tag-id=aHR0cHM6Ly9taWNyb3NvZnQtZGV2cmVsLnBvb2xwYXJ0eS5iaXovUW5BQ29tcG91bmQvZjRjMWE0ODMtMTgzMy00OWIxLTg2ZmMtNjU3OWM3MzBjNmE5
 		
 		class="authenticated "
 	>
@@ -487,14 +508,14 @@
 										Sign in to follow
 									</a>
 									 <form
-		action="/api/profiles/follow/question/5547782?locale=en-us"
+		action="/api/profiles/follow/question/5549812?locale=en-us"
 		method="POST"
 		new
 		novalidate
 		hidden
 		
 		
-		data-follow-question-id=5547782
+		data-follow-question-id=5549812
 		class="authenticated "
 	>
 		<form-behavior
@@ -539,13 +560,13 @@
 			class="button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary qna-report-post-button  "
 			data-list-type="report"
 			data-bi-name="report"
-			data-reportedUserId="ce6a3771-b38a-45ed-b322-bf9d05723adf"
-			data-questionId="5547782"
-			data-entityId="5547782"
+			data-reportedUserId="781ca8df-9459-46c1-81bd-3107be0ae769"
+			data-questionId="5549812"
+			data-entityId="5549812"
 			data-entityType="question"
 			data-action="/api/questions/moderation/reportconcern?_method=PUT&amp;locale=en-us"
 			data-page-action-item="overflow-mobile"
-			data-test-id="report-post-button-question-5547782"
+			data-test-id="report-post-button-question-5549812"
 		>
 			<span class="icon " aria-hidden="true">
 				<span class="docon docon-flag"></span>
@@ -572,7 +593,7 @@
 									id="question-vote-button"
 									title="You have the same or similar question"
 									class="authenticated link-button font-size-sm "
-									data-id="5547782"
+									data-id="5549812"
 									data-vote-count="0"
 									data-bi-name="question-vote-up"
 								>
@@ -592,9 +613,9 @@
 			</div>
 			<div class="question-vote-error"></div>
 			
-		<div id="question-5547782-expander" class="width-full">
+		<div id="question-5549812-expander" class="width-full">
 			<div class="expandable is-expanded">
-				<div id="question-5547782-moreThan">
+				<div id="question-5549812-moreThan">
 					
 		<ol>
 			
@@ -641,10 +662,10 @@
 						<div class="column is-12">
 							
 		<form
-			action="/api/questions/5547782/comments?locale=en-us&amp;translated=false"
+			action="/api/questions/5549812/comments?locale=en-us&amp;translated=false"
 			method="POST"
 			data-form-type="comment"
-			data-question-id="5547782"
+			data-question-id="5549812"
 			
 			data-question-locale="en-us"
 			data-translation-value="false"
@@ -671,7 +692,7 @@
 			></form-behavior>
 			<input hidden aria-hidden="true" name="locale" value="en-us" />
 			<div class="field">
-				<label class="label margin-none" for="body-5547782-comment" hidden>
+				<label class="label margin-none" for="body-5549812-comment" hidden>
 					Comment
 				</label>
 				<span
@@ -695,7 +716,7 @@
 					
 					<textarea
 						hidden
-						id="body-5547782-comment"
+						id="body-5549812-comment"
 						aria-label="Comment"
 						class="textarea"
 						name="body"
@@ -727,7 +748,7 @@
 			data-modal-type="qna-discard-draft"
 			class="button button-clear"
 			data-bi-name="comment-discard-draft"
-			data-question-id="5547782"
+			data-question-id="5549812"
 			
 			type="button"
 			hidden="true"
@@ -766,1162 +787,9 @@
 				<div class="margin-top-xxs">
 					
 		
-		<article
-			class="card is-branded border-color-success padding-none margin-bottom-lg margin-top-xl border-radius-lg"
-		>
-			<div
-				class="card-header background-color-success color-success-invert padding-xxs padding-inline-sm margin-bottom-none font-weight-semibold"
-			>
-				<span
-					class="icon docon docon-status-circle-checkmark color-success background-color-success-invert border-radius-rounded font-size-lg margin-right-xxs"
-					aria-hidden="true"
-				></span>
-				<span>Accepted answer</span>
-			</div>
-			<div class="card-content padding-none margin-none">
-				<ol class="list-style-none">
-					
-			<li
-				id="answer-12228002"
-				class="margin-sm border-radius-lg"
-				itemprop="suggestedAnswer"
-				itemscope
-				itemtype="https://schema.org/Answer0"
-				data-test-id="answer-12228002"
-			>
-				<div
-					class="columns is-multiline "
-				>
-					<div class="column is-12">
-		
-		<div class="level margin-none align-items-flex-start">
-			
-			<div class="level-left flex-direction-column" data-id="a2077aed-450b-464a-bd1b-b2568caebc16">
-				<div class="display-flex align-items-center">
-					  <div class="image is-32x32 margin-right-xxs">
-					
-		<img
-			class="border-radius-rounded background-color-body-medium"
-			loading="lazy"
-			alt=""
-			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(64, 77%, 16%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3ELB%3C/text%3E%3C/svg%3E"
-		/>
-	
-			  </div> <div class="has-line-height-reset has-text-wrap width-250">
-			<span class="display-block"
-						><a
-							href="/en-us/users/na/?userid=a2077aed-450b-464a-bd1b-b2568caebc16"
-							class="profile-url has-text-color font-weight-semibold font-size-sm"
-							data-bi-name="user-link"
-							>Lester Bernard Reyes</a
-						>
-						
-						<span hidden aria-hidden="true" data-bi-name="user-follow-separator"> â¢ </span
-									> <form
-		action="/api/profiles/follow/user/a2077aed-450b-464a-bd1b-b2568caebc16?locale=en-us"
-		method="POST"
-		new
-		novalidate
-		hidden
-		data-follow-user-id=a2077aed-450b-464a-bd1b-b2568caebc16
-		
-		
-		class="authenticated display-inline-block"
-	>
-		<form-behavior
-			navigation="reload"
-			navigation-href="empty"
-			header-content-type="application/json"
-			header-X-DocsAuth="cookie"
-			new
-		></form-behavior>
-		<button
-		class="
-					link-button font-size-sm font-weight-semibold
-					
-					
-				"
-		data-bi-name=follow-user
-		type="submit"
-	>
-		Follow
-	</button>
-	</form>
-				  </span>
-			<span
-		class=" display-block font-size-xs has-text-subtle"
-	>
-		<span title="Reputation points">55,350</span>
-		<span class="is-visually-hidden">Reputation points</span> 
-		<span aria-hidden="true">â¢ </span>Independent Advisor
-	</span>
-			
-		</div>
-				</div>
-			</div>
-			<div class="level-right margin-top-none">
-				<span class="font-size-xs"> <local-time format="datetime" datetime="2025-09-09T07:05:08.9833333+00:00" class="is-visually-hidden">2025-09-09T07:05:08.9833333+00:00</local-time> </span>
-			</div>
-		
-		</div>
-		
-		<div>
-			 <div class="content" itemprop="text"><p>Hi, thanks for the detailed information. As per checking and analyzing the event files you have, there are general errors in the event files. Moreover, kindly follow the steps below for us to fix the issue:</p>
-<p>Method 1. Do a clean boot:</p>
-<p>A âclean bootâ starts Windows with a minimal set of drivers and startup programs, so that you can determine whether a background program is interfering with your game or program.</p>
-<ul>
-<li> In the search box on the taskbar, type msconfig and select System Configuration from the results.</li>
-<li> On the Services tab of System Configuration, select Hide all Microsoft services, and then select Disable all.</li>
-<li> On the Startup tab of System Configuration, select Open Task Manager.</li>
-<li> Under Startup in Task Manager, for each startup item, select the item and then select Disable.</li>
-<li> Close Task Manager.</li>
-<li> On the Startup tab of System Configuration, select OK. When you restart the computer, it's in a clean boot environment.</li>
-</ul>
-<p>Troubleshooting reference: <a href="https://support.microsoft.com/en-us/help/929135/how-to-perform-a-clean-boot-in-windows" rel="ugc nofollow">https://support.microsoft.com/en-us/help/929135/how-to-perform-a-clean-boot-in-windows</a></p>
-<p>Method 2. Run memory diagnostic tool: The memory diagnostic tool is a RAM test to check if there are any RAM issues.</p>
-<ul>
-<li> Press Windows key + R, then type in mdsched.exe hit OK, then restart the device.</li>
-</ul>
-<p>Note: If the issue persists, please let me know the make and model of your graphics card. A clean installation of the display driver might be necessary.</p>
-</div> 
-		</div>
-		<div>
-			
-			<div
-		class="margin-block-xxs padding-xs background-color-body-medium font-size-sm display-flex flex-direction-column border-radius-lg"
-	>
-		<div class="display-flex justify-content-space-between flex-wrap-wrap align-items-baseline">
-			<div class="display-flex flex-grow-1">
-				 <form
-		method="POST"
-		id="answer-rating-form-12228002"
-		data-answer-id="12228002"
-		new
-		novalidate
-		class="width-full"
-	>
-		<form-behavior header-X-DocsAuth="cookie" new></form-behavior>
-		<div
-			class="display-flex justify-content-space-between align-items-center flex-wrap-wrap"
-		>
-			
-						<div
-							class="field display-inline-flex flex-wrap-wrap align-items-center margin-bottom-none"
-						>
-							<label
-								class="field-label margin-bottom-none margin-right-xs"
-								for="answer-helpful-rating-12228002"
-								>
-				<a
-					class="not-authenticated link-button font-size-sm margin-right-sm docs-sign-in"
-					data-bi-name="answer-rating-sign-in"
-					href="#"
-				>
-					Please sign in to rate this answer.
-				</a>
-		  
-							</label>
-							<div
-								id="answer-helpful-rating-12228002"
-								class="field-body flex-grow-0 margin-top-none"
-							>
-								
-		<button
-			id="answer-rating-12228002-reset"
-			class="authenticated thumb-rating button button-primary button-sm button-filled button-selected like"
-			type="submit"
-			form="answer-rating-form-12228002"
-			formaction="/api/questions/answers/12228002/helpful/notSet?_method=PUT&amp;locale=en-us"
-			
-			data-answer-rating-button
-			data-bi-name="answer-rating-reset"
-			title="Reset answer feedback"
-			
-		>
-			<span aria-hidden="true" class="icon docon docon-like"></span>
-			<span>Yes</span>
-		</button>
-	
-								
-		<button
-			id="answer-rating-12228002-no"
-			class="authenticated thumb-rating button button-primary button-sm  dislike"
-			type="submit"
-			form="answer-rating-form-12228002"
-			formaction="/api/questions/answers/12228002/helpful/no?_method=PUT&amp;locale=en-us"
-			
-			data-answer-rating-button
-			data-bi-name="answer-rating-no"
-			title="This answer was not helpful"
-			
-		>
-			<span aria-hidden="true" class="icon docon docon-dislike"></span>
-			<span>No</span>
-		</button>
-	
-							</div>
-						</div>
-				  
-			<span class="margin-top-xxs margin-top-none-tablet" id="answer-helpful-text-12228002"
-				>You found this answer helpful.</span
-			>
-		</div>
-	</form>
-			</div>
-		</div>
-		
-	</div>
-			<div class="buttons margin-block-xxs margin-top-xs">
-				
-				<button
-					class="comment-expander button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary "
-					aria-expanded=false
-					aria-controls="question-answer0-12228002-expander"
-					
-					data-show-more=""
-					data-title="Show comments for this answer"
-					data-bi-name="show-hide-comments"
-					data-expanded-title="Hide comments for this answer"
-					data-test-id="question-Hide comments for this answer"
-					title="Show comments for this answer"
-				>
-					<span class="icon" aria-hidden="true">
-						<span class="docon docon-comment-outline"></span>
-					</span>
-					<span class="font-size-sm is-visually-hidden-mobile">1 comment</span>
-					<span class="is-visually-hidden show-more-text">
-						Show comments for this answer
-					</span>
-				</button>
-		  
-				
-		
-		
-		<button
-			title="Report a concern"
-			class="button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary qna-report-post-button  "
-			data-list-type="report"
-			data-bi-name="report"
-			data-reportedUserId="a2077aed-450b-464a-bd1b-b2568caebc16"
-			data-questionId="5547782"
-			data-entityId="12228002"
-			data-entityType="answer"
-			data-action="/api/questions/moderation/reportconcern?_method=PUT&amp;locale=en-us"
-			data-page-action-item="overflow-mobile"
-			data-test-id="report-post-button-answer-12228002"
-		>
-			<span class="icon " aria-hidden="true">
-				<span class="docon docon-flag"></span>
-			</span>
-			<span class="font-size-sm is-visually-hidden-mobile"
-				>Report a concern</span
-			>
-		</button>
-	
-		
-		
-	
-			</div>
-			
-		<div id="question-answer0-12228002-expander" class="width-full">
-			<div class="expandable ">
-				<div id="question-answer0-12228002-moreThan">
-					
-		<ol>
-			
-						<li
-							id="comment-2208271"
-							data-test-id="comment-2208271"
-							data="0"
-							class="margin-top-xxs is-unstyled padding-block-xxs
-							
-							"
-						>
-							
-					<div class="display-flex flex-direction-row">
-						<div class="image is-32x32 margin-top-xs margin-right-xxs">
-							
-		<img
-			class="border-radius-rounded background-color-body-medium"
-			loading="lazy"
-			alt=""
-			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(201.6, 77%, 29%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3ESG%3C/text%3E%3C/svg%3E"
-		/>
-	
-						</div>
-						<div class="background-color-body-medium padding-xs is-full-width border-radius-lg">
-							
-							<div
-								
-								class="level margin-none align-items-flex-start"
-							>
-								
-			<div class="level-left flex-direction-column" data-id="ce6a3771-b38a-45ed-b322-bf9d05723adf">
-				<div class="display-flex align-items-center">
-					  <div class="has-line-height-reset has-text-wrap width-250">
-			<span class="display-block"
-						><a
-							href="/en-us/users/na/?userid=ce6a3771-b38a-45ed-b322-bf9d05723adf"
-							class="profile-url has-text-color font-weight-semibold font-size-sm"
-							data-bi-name="user-link"
-							>Sean Garrison</a
-						>
-						
-						<span hidden aria-hidden="true" data-bi-name="user-follow-separator"> â¢ </span
-									> <form
-		action="/api/profiles/follow/user/ce6a3771-b38a-45ed-b322-bf9d05723adf?locale=en-us"
-		method="POST"
-		new
-		novalidate
-		hidden
-		data-follow-user-id=ce6a3771-b38a-45ed-b322-bf9d05723adf
-		
-		
-		class="authenticated display-inline-block"
-	>
-		<form-behavior
-			navigation="reload"
-			navigation-href="empty"
-			header-content-type="application/json"
-			header-X-DocsAuth="cookie"
-			new
-		></form-behavior>
-		<button
-		class="
-					link-button font-size-sm font-weight-semibold
-					
-					
-				"
-		data-bi-name=follow-user
-		type="submit"
-	>
-		Follow
-	</button>
-	</form>
-				  </span>
-			<span
-		class=" display-block font-size-xs has-text-subtle"
-	>
-		<span title="Reputation points">40</span>
-		<span class="is-visually-hidden">Reputation points</span> 
-		
-	</span>
-			
-		</div>
-				</div>
-			</div>
-			<div class="level-right margin-top-none">
-				<span class="font-size-xs"> <local-time format="datetime" datetime="2025-09-09T19:54:05.69+00:00" class="is-visually-hidden">2025-09-09T19:54:05.69+00:00</local-time> </span>
-			</div>
-		
-							</div>
-							<div>
-								 <div class="content font-size-sm">
-											<p>Thank you sir!</p>
-
-									  </div>
-							</div>
-						</div>
-					</div>
-					
-								<div
-									class="margin-top-xxs margin-left-md padding-left-xxs answer-comment-holder"
-								>
-									
-		
-		<button
-			class="comment-vote button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary button-sm sign-in-modal "
-			title="This comment is helpful"
-			data-bi-name="comment-vote-up"
-			data-id="2208271"
-			data-vote-count="0"
-		>
-			<span class="icon" aria-hidden="true">
-				<span class="docon docon-like"></span>
-			</span>
-			<span class="vote-text is-visually-hidden-mobile">0 votes</span>
-		</button>
-	
-		
-		<button
-			title="Report a concern"
-			class="button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary qna-report-post-button button-sm "
-			data-list-type="report"
-			data-bi-name="report"
-			data-reportedUserId="ce6a3771-b38a-45ed-b322-bf9d05723adf"
-			data-questionId="5547782"
-			data-entityId="2208271"
-			data-entityType="comment"
-			data-action="/api/questions/moderation/reportconcern?_method=PUT&amp;locale=en-us"
-			data-page-action-item="overflow-mobile"
-			data-test-id="report-post-button-comment-2208271"
-		>
-			<span class="icon margin-none" aria-hidden="true">
-				<span class="docon docon-flag"></span>
-			</span>
-			<span class="is-visually-hidden"
-				>Report a concern</span
-			>
-		</button>
-	
-		
-		
-	
-									<div class="comment-vote-error"></div>
-								</div>
-						  
-				
-						</li>
-					
-		</ol>
-	
-				</div>
-				
-			</div>
-		</div>
-	
-			
-		<hr class="hr margin-block-xxs" />
-		<a
-			class="not-authenticated link-button font-size-sm margin-right-sm docs-sign-in"
-			data-bi-name="comment-sign-in"
-			href="#"
-		>
-			Sign in to comment
-		</a>
-		<div class="authenticated columns margin-top-xs">
-			<div class="column is-narrow padding-right-none display-none display-flex-tablet">
-				<div class="image is-32x32">
-					
-				</div>
-			</div>
-			<div class="column is-11 flex-grow-1">
-				<button
-					class="button button-secondary button-block button-sm justify-content-flex-start color-text-subtle font-weight-normal"
-					aria-expanded="false"
-					aria-controls="answer-comment-editor-12228002-expander"
-					data-show-more=""
-					data-title="Add comment"
-					data-bi-name="add-comment"
-					data-expanded-title="Add comment"
-					data-show-once="true"
-					title="Add comment"
-				>
-					Add comment
-				</button>
-				<div
-					id="answer-comment-editor-12228002-expander"
-				>
-					<div class="expandable">
-						<div class="column is-12">
-							
-		<form
-			action="/api/questions/5547782/answers/12228002/comments?locale=en-us&amp;translated=false"
-			method="POST"
-			data-form-type="answerComment"
-			data-question-id="5547782"
-			data-answer-id=12228002
-			data-question-locale="en-us"
-			data-translation-value="false"
-			new
-			novalidate
-		>
-			<form-behavior
-				navigation="follow"
-				navigation-href=?page=1&amp;orderby=Helpful&amp;comment=answer-12228002&amp;translated=false#newest-answer-comment
-				header-content-type="application/json"
-				header-X-DocsAuth="cookie"
-				new
-				noUnload
-				loc-content-has-changed="Content has changed, please reload the page to get the latest changes."
-				loc-input-max-length="{inputLabel} cannot be longer than {maxLength} characters."
-				loc-input-min-length="{inputLabel} must be at least {minLength} characters."
-				loc-input-required="{inputLabel} is required."
-				loc-not-authenticated="You are not authenticated. Please refresh the page and try again. If this issue persists, please log out and log back in."
-				loc-not-authorized="You are not authorized to make this response. If you believe this to be in error, please refresh the page and try again."
-				loc-please-fix-the-following-issues="Please fix the following issues to continue:"
-				loc-there-are-no-edits-to-submit="There are no edits to submit."
-				loc-too-many-requests="You have sent too many requests. Please wait a few minutes and try again."
-				loc-we-encountered-an-unexpected-error="We encountered an unexpected error. Please try again later. If this issue continues, please open a ticket at https://sitehelp.microsoft.com."
-			></form-behavior>
-			<input hidden aria-hidden="true" name="locale" value="en-us" />
-			<div class="field">
-				<label class="label margin-none" for="body-5547782-12228002-answerComment" hidden>
-					Comment
-				</label>
-				<span
-					id="qna-answerComment-12228002-hint"
-					class="field-description help margin-bottom-xxs"
-					>Use comments to ask for clarification, additional information, or improvements to the question.</span
-				>
-				<div class="field-body">
-					
-						<docs-markdown-editor
-							aria-describedby="qna-answerComment-12228002-hint"
-							initialHeightClass="hmn1"
-							isLocal="false"
-							isProduction="true"
-							mode="qna"
-							locStrings="{&quot;loc_admin_markdownEditor&quot;:&quot;Markdown Editor&quot;,&quot;loc_admin_markdownEditor_aDescriptionForTheImage&quot;:&quot;A description for the image&quot;,&quot;loc_admin_markdownEditor_address&quot;:&quot;Address&quot;,&quot;loc_admin_markdownEditor_apply&quot;:&quot;Apply&quot;,&quot;loc_admin_markdownEditor_alert&quot;:&quot;Alert&quot;,&quot;loc_admin_markdownEditor_attachment&quot;:&quot;Attachment&quot;,&quot;loc_admin_markdownEditor_attachment_browse&quot;:&quot;Browse&quot;,&quot;loc_admin_markdownEditor_attachment_maxSize&quot;:&quot;Max size {maxSize} MB&quot;,&quot;loc_admin_markdownEditor_attachment_sizeLessThanMinimum&quot;:&quot;The attachment does not meet the minimum required size. The min size is 1 byte.&quot;,&quot;loc_admin_markdownEditor_attachment_sizeMoreThanMaximum&quot;:&quot;The attachment exceeds the maximum size allowed. The max size is 3145728 bytes.&quot;,&quot;loc_admin_markdownEditor_attachment_extensionNotPermitted&quot;:&quot;The attachment extension is not valid. It could be caused by a wrong attachment signature. Valid extensions are .xml, .pdf, .txt, .log, .gif, .png, .jpg, .jpeg.&quot;,&quot;loc_admin_markdownEditor_attachment_numberMoreThanMaximum&quot;:&quot;The number of attachments exceed the maximum number allowed. Upload up to 20 attachments.&quot;,&quot;loc_admin_markdownEditor_attachment_platformInvalid&quot;:&quot;Platform is not supported.&quot;,&quot;loc_admin_markdownEditor_attachment_internalServerError&quot;:&quot;Internal server error.&quot;,&quot;loc_admin_markdownEditor_attachment_unauthorizedRequest&quot;:&quot;Unauthorized request. Please make sure you are using the correct credential.&quot;,&quot;loc_admin_markdownEditor_blockquote&quot;:&quot;Blockquote&quot;,&quot;loc_admin_markdownEditor_bold&quot;:&quot;Bold&quot;,&quot;loc_admin_markdownEditor_bulletedList&quot;:&quot;Bulleted list&quot;,&quot;loc_admin_markdownEditor_caution&quot;:&quot;Caution&quot;,&quot;loc_admin_markdownEditor_cancel&quot;:&quot;Cancel&quot;,&quot;loc_admin_markdownEditor_code&quot;:&quot;Code&quot;,&quot;loc_admin_markdownEditor_codeBlock&quot;:&quot;Code block&quot;,&quot;loc_admin_markdownEditor_codeBlockLanguagePlaceholder&quot;:&quot;Select development language&quot;,&quot;loc_admin_markdownEditor_codeBlockLanguage&quot;:&quot;Select development language&quot;,&quot;loc_admin_markdownEditor_codeBlockLanguageEdit&quot;:&quot;Edit development language&quot;,&quot;loc_admin_markdownEditor_complex&quot;:&quot;Complex&quot;,&quot;loc_admin_markdownEditor_content&quot;:&quot;Content&quot;,&quot;loc_admin_markdownEditor_disabled&quot;:&quot;Disabled&quot;,&quot;loc_admin_markdownEditor_displayText&quot;:&quot;Display text&quot;,&quot;loc_admin_markdownEditor_devLangsInputPlaceholder&quot;:&quot;Search for a language&quot;,&quot;loc_admin_markdownEditor_file&quot;:&quot;File&quot;,&quot;loc_admin_markdownEditor_fileUpload&quot;:&quot;, drag &amp; drop, or paste a file.&quot;,&quot;loc_admin_markdownEditor_fileUploadFailedMessage&quot;:&quot;File upload failed. Please try again.&quot;,&quot;loc_admin_markdownEditor_headings&quot;:&quot;Headings&quot;,&quot;loc_admin_markdownEditor_heading&quot;:&quot;Heading {number}&quot;,&quot;loc_admin_markdownEditor_help&quot;:&quot;Help&quot;,&quot;loc_admin_markdownEditor_horizontalRule&quot;:&quot;Horizontal rule&quot;,&quot;loc_admin_markdownEditor_icon&quot;:&quot;Icon&quot;,&quot;loc_admin_markdownEditor_image&quot;:&quot;Image&quot;,&quot;loc_admin_markdownEditor_imageAlt&quot;:&quot;User&#39;s image&quot;,&quot;loc_admin_markdownEditor_imageUpload&quot;:&quot;, drag &amp; drop, or paste an image&quot;,&quot;loc_admin_markdownEditor_imageUploadFailedMessage&quot;:&quot;Image upload failed. Please try again.&quot;,&quot;loc_admin_markdownEditor_imageBorder&quot;:&quot;Image border&quot;,&quot;loc_admin_markdownEditor_imageDescription&quot;:&quot;Image description&quot;,&quot;loc_admin_markdownEditor_imageDescriptionAltText&quot;:&quot;Image description (alt text)&quot;,&quot;loc_admin_markdownEditor_imageDescriptionAltTextPlaceholder&quot;:&quot;Enter a description (alt text) for the image&quot;,&quot;loc_admin_markdownEditor_imageHasALightbox&quot;:&quot;Image has a lightbox&quot;,&quot;loc_admin_markdownEditor_imageLightbox&quot;:&quot;Image lightbox&quot;,&quot;loc_admin_markdownEditor_imageLocScope&quot;:&quot;Image loc-scope&quot;,&quot;loc_admin_markdownEditor_imageSource&quot;:&quot;Image source&quot;,&quot;loc_admin_markdownEditor_important&quot;:&quot;Important&quot;,&quot;loc_admin_markdownEditor_inlineCode&quot;:&quot;Inline Code&quot;,&quot;loc_admin_markdownEditor_insertCodeBlock&quot;:&quot;Insert code block&quot;,&quot;loc_admin_markdownEditor_insertFile&quot;:&quot;Insert file&quot;,&quot;loc_admin_markdownEditor_insertHorizontalRule&quot;:&quot;Insert horizontal rule&quot;,&quot;loc_admin_markdownEditor_insertImage&quot;:&quot;Insert image&quot;,&quot;loc_admin_markdownEditor_insertLink&quot;:&quot;Insert link&quot;,&quot;loc_admin_markdownEditor_insertTable&quot;:&quot;Insert table&quot;,&quot;loc_admin_markdownEditor_italics&quot;:&quot;Italics&quot;,&quot;loc_admin_markdownEditor_link&quot;:&quot;Link&quot;,&quot;loc_admin_markdownEditor_markdown&quot;:&quot;Markdown&quot;,&quot;loc_admin_markdownEditor_noMatches&quot;:&quot;We couldn&#39;t find any matches.&quot;,&quot;loc_admin_markdownEditor_note&quot;:&quot;Note&quot;,&quot;loc_admin_markdownEditor_numberedList&quot;:&quot;Numbered list&quot;,&quot;loc_admin_markdownEditor_pleaseSelectImageType&quot;:&quot;Please select image type&quot;,&quot;loc_admin_markdownEditor_quote&quot;:&quot;Quote&quot;,&quot;loc_admin_markdownEditor_redo&quot;:&quot;Redo&quot;,&quot;loc_admin_markdownEditor_remove&quot;:&quot;Remove&quot;,&quot;loc_admin_markdownEditor_removeLink&quot;:&quot;Remove link&quot;,&quot;loc_admin_markdownEditor_save&quot;:&quot;Save&quot;,&quot;loc_admin_markdownEditor_saveNewLink&quot;:&quot;Save Link&quot;,&quot;loc_admin_markdownEditor_selectImageTypePlaceholder&quot;:&quot;Select an image type&quot;,&quot;loc_admin_markdownEditor_showCountResults&quot;:&quot;Showing {count} results&quot;,&quot;loc_admin_markdownEditor_strikethrough&quot;:&quot;Strikethrough&quot;,&quot;loc_admin_markdownEditor_suggestions&quot;:&quot;Suggestions&quot;,&quot;loc_admin_markdownEditor_table&quot;:&quot;Table&quot;,&quot;loc_admin_markdownEditor_table_column&quot;:&quot;Column&quot;,&quot;loc_admin_markdownEditor_table_editTable&quot;:&quot;Edit table&quot;,&quot;loc_admin_markdownEditor_table_insertColumnAfter&quot;:&quot;Insert column after&quot;,&quot;loc_admin_markdownEditor_table_insertColumnBefore&quot;:&quot;Insert column before&quot;,&quot;loc_admin_markdownEditor_table_insertRowBefore&quot;:&quot;Insert row after&quot;,&quot;loc_admin_markdownEditor_table_insertRowAfter&quot;:&quot;Insert row before&quot;,&quot;loc_admin_markdownEditor_table_removeColumn&quot;:&quot;Remove column&quot;,&quot;loc_admin_markdownEditor_table_row&quot;:&quot;Row&quot;,&quot;loc_admin_markdownEditor_table_removeRow&quot;:&quot;Remove row&quot;,&quot;loc_admin_markdownEditor_tip&quot;:&quot;Tip&quot;,&quot;loc_admin_markdownEditor_toggleMarkdownEditing&quot;:&quot;Toggle Markdown editing&quot;,&quot;loc_admin_markdownEditor_typeHere&quot;:&quot;Type here&quot;,&quot;loc_admin_markdownEditor_undo&quot;:&quot;Undo&quot;,&quot;loc_admin_markdownEditor_validations&quot;:&quot;Validation&quot;,&quot;loc_admin_markdownEditor_validations_altTextEndWithPeriod&quot;:&quot;Alt text should end with a period.&quot;,&quot;loc_admin_markdownEditor_validations_altTextStartWithUppercaseLetter&quot;:&quot;Alt text should start with an uppercase letter.&quot;,&quot;loc_admin_markdownEditor_validations_altTextTooLong&quot;:&quot;Alt text too long. The max is 150 characters, including spaces.&quot;,&quot;loc_admin_markdownEditor_validations_imageWidthTooLarge&quot;:&quot;invalid file width&quot;,&quot;loc_admin_markdownEditor_validations_imageWidthTooLargeMessage&quot;:&quot;Image too large. Resize to a max of 1200 pixels on each side.&quot;,&quot;loc_admin_markdownEditor_validations_imageCorrupted&quot;:&quot;image corrupted&quot;,&quot;loc_admin_markdownEditor_validations_imageCorruptedMessage&quot;:&quot;Image corrupted or it is not a valid image&quot;,&quot;loc_admin_markdownEditor_validations_imageInvalidPosition&quot;:&quot;invalid image position&quot;,&quot;loc_admin_markdownEditor_validations_imageInvalidPositionMessage&quot;:&quot;Inline images aren&#39;t supported. Add your image on a new line.&quot;,&quot;loc_admin_markdownEditor_validations_attachmentTooLarge&quot;:&quot;attachment too large&quot;,&quot;loc_admin_markdownEditor_validations_attachmentInvalidName&quot;:&quot;attachment invalid name&quot;,&quot;loc_admin_markdownEditor_validations_attachmentInvalidNameMessage&quot;:&quot;Attachment upload error. Invalid characters in attachment name. Only letters, numbers, and hyphens (-) are allowed.&quot;,&quot;loc_admin_markdownEditor_validations_attachmentInvalidExtension&quot;:&quot;Invalid attachment extension&quot;,&quot;loc_admin_markdownEditor_validations_attachmentTooSmall&quot;:&quot;attachment too small&quot;,&quot;loc_admin_markdownEditor_validations_qnaAttachmentTooSmallMessage&quot;:&quot;Attachment upload error. {filename} is too small to upload (less than {minSize} byte).&quot;,&quot;loc_admin_markdownEditor_validations_multipleAttachments&quot;:&quot;Multiple attachments&quot;,&quot;loc_admin_markdownEditor_validations_qnaMultipleAttachmentsMessage&quot;:&quot;Attachment upload error. You are adding {filecount} attachments and the maximum allowed is {maxCount}. Some attachments were not uploaded.&quot;,&quot;loc_admin_markdownEditor_validations_qnaAttachmentTooLargeMessage&quot;:&quot;Attachment upload error. {filename} is too large to upload (more than {maxSize} MB).&quot;,&quot;loc_admin_markdownEditor_validations_qnaAttachmentInvalidExtensionMessage&quot;:&quot;Attachment upload error. {filename} has an invalid extension. Valid extensions are {validExtensions}.&quot;,&quot;loc_admin_markdownEditor_validations_qnaAttachmentInvalidNameMessage&quot;:&quot;Attachment upload error. {filename} has an invalid character in Unix and Windows system, for other limitations, please go to websites to check: https://kb.acronis.com/content/39790, http://en.wikipedia.org/wiki/C0_and_C1_control_codes.&quot;,&quot;loc_admin_markdownEditor_viewMarkdown&quot;:&quot;View Markdown&quot;,&quot;loc_admin_markdownEditor_viewRichText&quot;:&quot;View rich text&quot;,&quot;loc_admin_markdownEditor_warning&quot;:&quot;Warning&quot;}"
-							placeHolder="Do not use comments to answer questions."
-							isrtl=false
-						>
-						</docs-markdown-editor>
-					
-					<textarea
-						hidden
-						id="body-5547782-12228002-answerComment"
-						aria-label="Comment"
-						class="textarea"
-						name="body"
-						rows="1"
-						data-expanded-rows="5"
-						placeholder="Add a comment..."
-						minlength="5"
-						required
-					></textarea>
-					<input
-						id="attachment-count"
-						aria-label="attachmentCount"
-						class="attachment-input input"
-						maxCount="20"
-						hidden
-						data-skip-validation
-					/>
-					
-				</div>
-			</div>
-			<div class="control">
-				
-							<div class="level">
-								<div class="level-left align-items-flex-start"><div aria-live="polite" class="qna-saved-draft text-align-left font-size-xs"></div></div>
-								<div class="level-right margin-top-xxs margin-top-none-tablet">
-									<div class="buttons justify-content-flex-end">
-										
-		<button
-			data-modal-type="qna-discard-draft"
-			class="button button-clear"
-			data-bi-name="comment-discard-draft"
-			data-question-id="5547782"
-			data-answer-id=12228002
-			type="button"
-			hidden="true"
-		>
-			<span class="icon" aria-hidden="true">
-				<span class="docon docon-delete"></span>
-			</span>
-			<span>Discard draft</span>
-		</button>
-	 
-		<button
-			type="submit"
-			data-bi-name="comment-submit"
-			class="button button-primary button-filled margin-right-none"
-		>
-			Add comment
-		</button>
-	
-									</div>
-								</div>
-							</div>
-					  
-			</div>
-		</form>
-	
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	
-		</div>
-	</div>
-				</div>
-			</li>
-		
-				</ol>
-			</div>
-		</article>
-	
-		<article
-			class="card is-branded border-color-success padding-none margin-bottom-lg margin-top-xl border-radius-lg"
-		>
-			<div
-				class="card-header background-color-success color-success-invert padding-xxs padding-inline-sm margin-bottom-none font-weight-semibold"
-			>
-				<span
-					class="icon docon docon-status-circle-checkmark color-success background-color-success-invert border-radius-rounded font-size-lg margin-right-xxs"
-					aria-hidden="true"
-				></span>
-				<span>Accepted answer</span>
-			</div>
-			<div class="card-content padding-none margin-none">
-				<ol class="list-style-none">
-					
-			<li
-				id="answer-12225729"
-				class="margin-sm border-radius-lg"
-				itemprop="suggestedAnswer"
-				itemscope
-				itemtype="https://schema.org/Answer1"
-				data-test-id="answer-12225729"
-			>
-				<div
-					class="columns is-multiline "
-				>
-					<div class="column is-12">
-		
-		<div class="level margin-none align-items-flex-start">
-			
-			<div class="level-left flex-direction-column" data-id="a2077aed-450b-464a-bd1b-b2568caebc16">
-				<div class="display-flex align-items-center">
-					  <div class="image is-32x32 margin-right-xxs">
-					
-		<img
-			class="border-radius-rounded background-color-body-medium"
-			loading="lazy"
-			alt=""
-			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(64, 77%, 16%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3ELB%3C/text%3E%3C/svg%3E"
-		/>
-	
-			  </div> <div class="has-line-height-reset has-text-wrap width-250">
-			<span class="display-block"
-						><a
-							href="/en-us/users/na/?userid=a2077aed-450b-464a-bd1b-b2568caebc16"
-							class="profile-url has-text-color font-weight-semibold font-size-sm"
-							data-bi-name="user-link"
-							>Lester Bernard Reyes</a
-						>
-						
-						<span hidden aria-hidden="true" data-bi-name="user-follow-separator"> â¢ </span
-									> <form
-		action="/api/profiles/follow/user/a2077aed-450b-464a-bd1b-b2568caebc16?locale=en-us"
-		method="POST"
-		new
-		novalidate
-		hidden
-		data-follow-user-id=a2077aed-450b-464a-bd1b-b2568caebc16
-		
-		
-		class="authenticated display-inline-block"
-	>
-		<form-behavior
-			navigation="reload"
-			navigation-href="empty"
-			header-content-type="application/json"
-			header-X-DocsAuth="cookie"
-			new
-		></form-behavior>
-		<button
-		class="
-					link-button font-size-sm font-weight-semibold
-					
-					
-				"
-		data-bi-name=follow-user
-		type="submit"
-	>
-		Follow
-	</button>
-	</form>
-				  </span>
-			<span
-		class=" display-block font-size-xs has-text-subtle"
-	>
-		<span title="Reputation points">55,350</span>
-		<span class="is-visually-hidden">Reputation points</span> 
-		<span aria-hidden="true">â¢ </span>Independent Advisor
-	</span>
-			
-		</div>
-				</div>
-			</div>
-			<div class="level-right margin-top-none">
-				<span class="font-size-xs"> <local-time format="datetime" datetime="2025-09-07T23:17:22.1666667+00:00" class="is-visually-hidden">2025-09-07T23:17:22.1666667+00:00</local-time> </span>
-			</div>
-		
-		</div>
-		
-		<div>
-			 <div class="content" itemprop="text"><p>Hi, I'm Bernard, a fellow Windows user. I'm happy to help!</p>
-<p>Just to confirm, can you still use the affected device? If so, I need to analyze the error. Can you please check if you have minidump files on the PC so that I can further examine what is the root cause of the issue?</p>
-<p>Â </p>
-<p>Press Windows key + E (To open File Explorer)</p>
-<p>Â </p>
-<p>Click &quot;This PC&quot; &gt; then follow the file path:</p>
-<p>Â </p>
-<p>C:\Windows\Minidump</p>
-<p>Â </p>
-<p>Copy the Minidump files and save them to another location, like the Desktop or Documents.</p>
-<p>Â </p>
-<p>Then please upload it to Cloud storage like OneDrive or any cloud storage you are using, and please share the shareable link here.</p>
-<p>To upload and share the link using OneDrive:</p>
-<p>Go to this link: <a href="https://onedrive.live.com/" rel="ugc nofollow">https://onedrive.live.com/</a>, then upload the file</p>
-<p>Then provide the shareable link by following the steps from this link: <a href="https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07" rel="ugc nofollow">https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07</a></p>
-</div> 
-		</div>
-		<div>
-			
-			<div
-		class="margin-block-xxs padding-xs background-color-body-medium font-size-sm display-flex flex-direction-column border-radius-lg"
-	>
-		<div class="display-flex justify-content-space-between flex-wrap-wrap align-items-baseline">
-			<div class="display-flex flex-grow-1">
-				 <form
-		method="POST"
-		id="answer-rating-form-12225729"
-		data-answer-id="12225729"
-		new
-		novalidate
-		class="width-full"
-	>
-		<form-behavior header-X-DocsAuth="cookie" new></form-behavior>
-		<div
-			class="display-flex justify-content-space-between align-items-center flex-wrap-wrap"
-		>
-			
-						<div
-							class="field display-inline-flex flex-wrap-wrap align-items-center margin-bottom-none"
-						>
-							<label
-								class="field-label margin-bottom-none margin-right-xs"
-								for="answer-helpful-rating-12225729"
-								>
-				<a
-					class="not-authenticated link-button font-size-sm margin-right-sm docs-sign-in"
-					data-bi-name="answer-rating-sign-in"
-					href="#"
-				>
-					Please sign in to rate this answer.
-				</a>
-		  
-							</label>
-							<div
-								id="answer-helpful-rating-12225729"
-								class="field-body flex-grow-0 margin-top-none"
-							>
-								
-		<button
-			id="answer-rating-12225729-yes"
-			class="authenticated thumb-rating button button-primary button-sm  like"
-			type="submit"
-			form="answer-rating-form-12225729"
-			formaction="/api/questions/answers/12225729/helpful/yes?_method=PUT&amp;locale=en-us"
-			data-action=/api/questions/answers/12225729/accept?_method=PUT&amp;locale=en-us
-			data-answer-rating-button
-			data-bi-name="answer-rating-yes"
-			title="This answer was helpful"
-			
-		>
-			<span aria-hidden="true" class="icon docon docon-like"></span>
-			<span>Yes</span>
-		</button>
-	
-								
-		<button
-			id="answer-rating-12225729-no"
-			class="authenticated thumb-rating button button-primary button-sm  dislike"
-			type="submit"
-			form="answer-rating-form-12225729"
-			formaction="/api/questions/answers/12225729/helpful/no?_method=PUT&amp;locale=en-us"
-			
-			data-answer-rating-button
-			data-bi-name="answer-rating-no"
-			title="This answer was not helpful"
-			
-		>
-			<span aria-hidden="true" class="icon docon docon-dislike"></span>
-			<span>No</span>
-		</button>
-	
-							</div>
-						</div>
-				  
-			<span class="margin-top-xxs margin-top-none-tablet" id="answer-helpful-text-12225729"
-				></span
-			>
-		</div>
-	</form>
-			</div>
-		</div>
-		
-	</div>
-			<div class="buttons margin-block-xxs margin-top-xs">
-				
-				<button
-					class="comment-expander button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary "
-					aria-expanded=false
-					aria-controls="question-answer1-12225729-expander"
-					
-					data-show-more=""
-					data-title="Show comments for this answer"
-					data-bi-name="show-hide-comments"
-					data-expanded-title="Hide comments for this answer"
-					data-test-id="question-Hide comments for this answer"
-					title="Show comments for this answer"
-				>
-					<span class="icon" aria-hidden="true">
-						<span class="docon docon-comment-outline"></span>
-					</span>
-					<span class="font-size-sm is-visually-hidden-mobile">1 comment</span>
-					<span class="is-visually-hidden show-more-text">
-						Show comments for this answer
-					</span>
-				</button>
-		  
-				
-		
-		
-		<button
-			title="Report a concern"
-			class="button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary qna-report-post-button  "
-			data-list-type="report"
-			data-bi-name="report"
-			data-reportedUserId="a2077aed-450b-464a-bd1b-b2568caebc16"
-			data-questionId="5547782"
-			data-entityId="12225729"
-			data-entityType="answer"
-			data-action="/api/questions/moderation/reportconcern?_method=PUT&amp;locale=en-us"
-			data-page-action-item="overflow-mobile"
-			data-test-id="report-post-button-answer-12225729"
-		>
-			<span class="icon " aria-hidden="true">
-				<span class="docon docon-flag"></span>
-			</span>
-			<span class="font-size-sm is-visually-hidden-mobile"
-				>Report a concern</span
-			>
-		</button>
-	
-		
-		
-	
-			</div>
-			
-		<div id="question-answer1-12225729-expander" class="width-full">
-			<div class="expandable ">
-				<div id="question-answer1-12225729-moreThan">
-					
-		<ol>
-			
-						<li
-							id="comment-2204770"
-							data-test-id="comment-2204770"
-							data="0"
-							class="margin-top-xxs is-unstyled padding-block-xxs
-							
-							"
-						>
-							
-					<div class="display-flex flex-direction-row">
-						<div class="image is-32x32 margin-top-xs margin-right-xxs">
-							
-		<img
-			class="border-radius-rounded background-color-body-medium"
-			loading="lazy"
-			alt=""
-			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(201.6, 77%, 29%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3ESG%3C/text%3E%3C/svg%3E"
-		/>
-	
-						</div>
-						<div class="background-color-body-medium padding-xs is-full-width border-radius-lg">
-							
-							<div
-								
-								class="level margin-none align-items-flex-start"
-							>
-								
-			<div class="level-left flex-direction-column" data-id="ce6a3771-b38a-45ed-b322-bf9d05723adf">
-				<div class="display-flex align-items-center">
-					  <div class="has-line-height-reset has-text-wrap width-250">
-			<span class="display-block"
-						><a
-							href="/en-us/users/na/?userid=ce6a3771-b38a-45ed-b322-bf9d05723adf"
-							class="profile-url has-text-color font-weight-semibold font-size-sm"
-							data-bi-name="user-link"
-							>Sean Garrison</a
-						>
-						
-						<span hidden aria-hidden="true" data-bi-name="user-follow-separator"> â¢ </span
-									> <form
-		action="/api/profiles/follow/user/ce6a3771-b38a-45ed-b322-bf9d05723adf?locale=en-us"
-		method="POST"
-		new
-		novalidate
-		hidden
-		data-follow-user-id=ce6a3771-b38a-45ed-b322-bf9d05723adf
-		
-		
-		class="authenticated display-inline-block"
-	>
-		<form-behavior
-			navigation="reload"
-			navigation-href="empty"
-			header-content-type="application/json"
-			header-X-DocsAuth="cookie"
-			new
-		></form-behavior>
-		<button
-		class="
-					link-button font-size-sm font-weight-semibold
-					
-					
-				"
-		data-bi-name=follow-user
-		type="submit"
-	>
-		Follow
-	</button>
-	</form>
-				  </span>
-			<span
-		class=" display-block font-size-xs has-text-subtle"
-	>
-		<span title="Reputation points">40</span>
-		<span class="is-visually-hidden">Reputation points</span> 
-		
-	</span>
-			
-		</div>
-				</div>
-			</div>
-			<div class="level-right margin-top-none">
-				<span class="font-size-xs"> <local-time format="datetime" datetime="2025-09-08T00:06:46.23+00:00" class="is-visually-hidden">2025-09-08T00:06:46.23+00:00</local-time> </span>
-			</div>
-		
-							</div>
-							<div>
-								 <div class="content font-size-sm">
-											<p>Here are my minidump files in a folder if that works for you, and my PC is operational just sometimes it will blue screen with that error when i close a game. However it does not always do it, but pretty frequently it will. Thank you for your help, and let me know if you need anything else.</p>
-<p><a href="https://1drv.ms/f/c/aafa15db647bc993/ErsD-i8POVdCvbLuZXSzCdYBGbMx_YvrIPQFiFrhoVwIKQ?e=83QEv0" rel="ugc nofollow">https://1drv.ms/f/c/aafa15db647bc993/ErsD-i8POVdCvbLuZXSzCdYBGbMx_YvrIPQFiFrhoVwIKQ?e=83QEv0</a></p>
-
-									  </div>
-							</div>
-						</div>
-					</div>
-					
-								<div
-									class="margin-top-xxs margin-left-md padding-left-xxs answer-comment-holder"
-								>
-									
-		
-		<button
-			class="comment-vote button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary button-sm sign-in-modal "
-			title="This comment is helpful"
-			data-bi-name="comment-vote-up"
-			data-id="2204770"
-			data-vote-count="0"
-		>
-			<span class="icon" aria-hidden="true">
-				<span class="docon docon-like"></span>
-			</span>
-			<span class="vote-text is-visually-hidden-mobile">0 votes</span>
-		</button>
-	
-		
-		<button
-			title="Report a concern"
-			class="button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary qna-report-post-button button-sm "
-			data-list-type="report"
-			data-bi-name="report"
-			data-reportedUserId="ce6a3771-b38a-45ed-b322-bf9d05723adf"
-			data-questionId="5547782"
-			data-entityId="2204770"
-			data-entityType="comment"
-			data-action="/api/questions/moderation/reportconcern?_method=PUT&amp;locale=en-us"
-			data-page-action-item="overflow-mobile"
-			data-test-id="report-post-button-comment-2204770"
-		>
-			<span class="icon margin-none" aria-hidden="true">
-				<span class="docon docon-flag"></span>
-			</span>
-			<span class="is-visually-hidden"
-				>Report a concern</span
-			>
-		</button>
-	
-		
-		
-	
-									<div class="comment-vote-error"></div>
-								</div>
-						  
-				
-						</li>
-					
-		</ol>
-	
-				</div>
-				
-			</div>
-		</div>
-	
-			
-		<hr class="hr margin-block-xxs" />
-		<a
-			class="not-authenticated link-button font-size-sm margin-right-sm docs-sign-in"
-			data-bi-name="comment-sign-in"
-			href="#"
-		>
-			Sign in to comment
-		</a>
-		<div class="authenticated columns margin-top-xs">
-			<div class="column is-narrow padding-right-none display-none display-flex-tablet">
-				<div class="image is-32x32">
-					
-				</div>
-			</div>
-			<div class="column is-11 flex-grow-1">
-				<button
-					class="button button-secondary button-block button-sm justify-content-flex-start color-text-subtle font-weight-normal"
-					aria-expanded="false"
-					aria-controls="answer-comment-editor-12225729-expander"
-					data-show-more=""
-					data-title="Add comment"
-					data-bi-name="add-comment"
-					data-expanded-title="Add comment"
-					data-show-once="true"
-					title="Add comment"
-				>
-					Add comment
-				</button>
-				<div
-					id="answer-comment-editor-12225729-expander"
-				>
-					<div class="expandable">
-						<div class="column is-12">
-							
-		<form
-			action="/api/questions/5547782/answers/12225729/comments?locale=en-us&amp;translated=false"
-			method="POST"
-			data-form-type="answerComment"
-			data-question-id="5547782"
-			data-answer-id=12225729
-			data-question-locale="en-us"
-			data-translation-value="false"
-			new
-			novalidate
-		>
-			<form-behavior
-				navigation="follow"
-				navigation-href=?page=1&amp;orderby=Helpful&amp;comment=answer-12225729&amp;translated=false#newest-answer-comment
-				header-content-type="application/json"
-				header-X-DocsAuth="cookie"
-				new
-				noUnload
-				loc-content-has-changed="Content has changed, please reload the page to get the latest changes."
-				loc-input-max-length="{inputLabel} cannot be longer than {maxLength} characters."
-				loc-input-min-length="{inputLabel} must be at least {minLength} characters."
-				loc-input-required="{inputLabel} is required."
-				loc-not-authenticated="You are not authenticated. Please refresh the page and try again. If this issue persists, please log out and log back in."
-				loc-not-authorized="You are not authorized to make this response. If you believe this to be in error, please refresh the page and try again."
-				loc-please-fix-the-following-issues="Please fix the following issues to continue:"
-				loc-there-are-no-edits-to-submit="There are no edits to submit."
-				loc-too-many-requests="You have sent too many requests. Please wait a few minutes and try again."
-				loc-we-encountered-an-unexpected-error="We encountered an unexpected error. Please try again later. If this issue continues, please open a ticket at https://sitehelp.microsoft.com."
-			></form-behavior>
-			<input hidden aria-hidden="true" name="locale" value="en-us" />
-			<div class="field">
-				<label class="label margin-none" for="body-5547782-12225729-answerComment" hidden>
-					Comment
-				</label>
-				<span
-					id="qna-answerComment-12225729-hint"
-					class="field-description help margin-bottom-xxs"
-					>Use comments to ask for clarification, additional information, or improvements to the question.</span
-				>
-				<div class="field-body">
-					
-						<docs-markdown-editor
-							aria-describedby="qna-answerComment-12225729-hint"
-							initialHeightClass="hmn1"
-							isLocal="false"
-							isProduction="true"
-							mode="qna"
-							locStrings="{&quot;loc_admin_markdownEditor&quot;:&quot;Markdown Editor&quot;,&quot;loc_admin_markdownEditor_aDescriptionForTheImage&quot;:&quot;A description for the image&quot;,&quot;loc_admin_markdownEditor_address&quot;:&quot;Address&quot;,&quot;loc_admin_markdownEditor_apply&quot;:&quot;Apply&quot;,&quot;loc_admin_markdownEditor_alert&quot;:&quot;Alert&quot;,&quot;loc_admin_markdownEditor_attachment&quot;:&quot;Attachment&quot;,&quot;loc_admin_markdownEditor_attachment_browse&quot;:&quot;Browse&quot;,&quot;loc_admin_markdownEditor_attachment_maxSize&quot;:&quot;Max size {maxSize} MB&quot;,&quot;loc_admin_markdownEditor_attachment_sizeLessThanMinimum&quot;:&quot;The attachment does not meet the minimum required size. The min size is 1 byte.&quot;,&quot;loc_admin_markdownEditor_attachment_sizeMoreThanMaximum&quot;:&quot;The attachment exceeds the maximum size allowed. The max size is 3145728 bytes.&quot;,&quot;loc_admin_markdownEditor_attachment_extensionNotPermitted&quot;:&quot;The attachment extension is not valid. It could be caused by a wrong attachment signature. Valid extensions are .xml, .pdf, .txt, .log, .gif, .png, .jpg, .jpeg.&quot;,&quot;loc_admin_markdownEditor_attachment_numberMoreThanMaximum&quot;:&quot;The number of attachments exceed the maximum number allowed. Upload up to 20 attachments.&quot;,&quot;loc_admin_markdownEditor_attachment_platformInvalid&quot;:&quot;Platform is not supported.&quot;,&quot;loc_admin_markdownEditor_attachment_internalServerError&quot;:&quot;Internal server error.&quot;,&quot;loc_admin_markdownEditor_attachment_unauthorizedRequest&quot;:&quot;Unauthorized request. Please make sure you are using the correct credential.&quot;,&quot;loc_admin_markdownEditor_blockquote&quot;:&quot;Blockquote&quot;,&quot;loc_admin_markdownEditor_bold&quot;:&quot;Bold&quot;,&quot;loc_admin_markdownEditor_bulletedList&quot;:&quot;Bulleted list&quot;,&quot;loc_admin_markdownEditor_caution&quot;:&quot;Caution&quot;,&quot;loc_admin_markdownEditor_cancel&quot;:&quot;Cancel&quot;,&quot;loc_admin_markdownEditor_code&quot;:&quot;Code&quot;,&quot;loc_admin_markdownEditor_codeBlock&quot;:&quot;Code block&quot;,&quot;loc_admin_markdownEditor_codeBlockLanguagePlaceholder&quot;:&quot;Select development language&quot;,&quot;loc_admin_markdownEditor_codeBlockLanguage&quot;:&quot;Select development language&quot;,&quot;loc_admin_markdownEditor_codeBlockLanguageEdit&quot;:&quot;Edit development language&quot;,&quot;loc_admin_markdownEditor_complex&quot;:&quot;Complex&quot;,&quot;loc_admin_markdownEditor_content&quot;:&quot;Content&quot;,&quot;loc_admin_markdownEditor_disabled&quot;:&quot;Disabled&quot;,&quot;loc_admin_markdownEditor_displayText&quot;:&quot;Display text&quot;,&quot;loc_admin_markdownEditor_devLangsInputPlaceholder&quot;:&quot;Search for a language&quot;,&quot;loc_admin_markdownEditor_file&quot;:&quot;File&quot;,&quot;loc_admin_markdownEditor_fileUpload&quot;:&quot;, drag &amp; drop, or paste a file.&quot;,&quot;loc_admin_markdownEditor_fileUploadFailedMessage&quot;:&quot;File upload failed. Please try again.&quot;,&quot;loc_admin_markdownEditor_headings&quot;:&quot;Headings&quot;,&quot;loc_admin_markdownEditor_heading&quot;:&quot;Heading {number}&quot;,&quot;loc_admin_markdownEditor_help&quot;:&quot;Help&quot;,&quot;loc_admin_markdownEditor_horizontalRule&quot;:&quot;Horizontal rule&quot;,&quot;loc_admin_markdownEditor_icon&quot;:&quot;Icon&quot;,&quot;loc_admin_markdownEditor_image&quot;:&quot;Image&quot;,&quot;loc_admin_markdownEditor_imageAlt&quot;:&quot;User&#39;s image&quot;,&quot;loc_admin_markdownEditor_imageUpload&quot;:&quot;, drag &amp; drop, or paste an image&quot;,&quot;loc_admin_markdownEditor_imageUploadFailedMessage&quot;:&quot;Image upload failed. Please try again.&quot;,&quot;loc_admin_markdownEditor_imageBorder&quot;:&quot;Image border&quot;,&quot;loc_admin_markdownEditor_imageDescription&quot;:&quot;Image description&quot;,&quot;loc_admin_markdownEditor_imageDescriptionAltText&quot;:&quot;Image description (alt text)&quot;,&quot;loc_admin_markdownEditor_imageDescriptionAltTextPlaceholder&quot;:&quot;Enter a description (alt text) for the image&quot;,&quot;loc_admin_markdownEditor_imageHasALightbox&quot;:&quot;Image has a lightbox&quot;,&quot;loc_admin_markdownEditor_imageLightbox&quot;:&quot;Image lightbox&quot;,&quot;loc_admin_markdownEditor_imageLocScope&quot;:&quot;Image loc-scope&quot;,&quot;loc_admin_markdownEditor_imageSource&quot;:&quot;Image source&quot;,&quot;loc_admin_markdownEditor_important&quot;:&quot;Important&quot;,&quot;loc_admin_markdownEditor_inlineCode&quot;:&quot;Inline Code&quot;,&quot;loc_admin_markdownEditor_insertCodeBlock&quot;:&quot;Insert code block&quot;,&quot;loc_admin_markdownEditor_insertFile&quot;:&quot;Insert file&quot;,&quot;loc_admin_markdownEditor_insertHorizontalRule&quot;:&quot;Insert horizontal rule&quot;,&quot;loc_admin_markdownEditor_insertImage&quot;:&quot;Insert image&quot;,&quot;loc_admin_markdownEditor_insertLink&quot;:&quot;Insert link&quot;,&quot;loc_admin_markdownEditor_insertTable&quot;:&quot;Insert table&quot;,&quot;loc_admin_markdownEditor_italics&quot;:&quot;Italics&quot;,&quot;loc_admin_markdownEditor_link&quot;:&quot;Link&quot;,&quot;loc_admin_markdownEditor_markdown&quot;:&quot;Markdown&quot;,&quot;loc_admin_markdownEditor_noMatches&quot;:&quot;We couldn&#39;t find any matches.&quot;,&quot;loc_admin_markdownEditor_note&quot;:&quot;Note&quot;,&quot;loc_admin_markdownEditor_numberedList&quot;:&quot;Numbered list&quot;,&quot;loc_admin_markdownEditor_pleaseSelectImageType&quot;:&quot;Please select image type&quot;,&quot;loc_admin_markdownEditor_quote&quot;:&quot;Quote&quot;,&quot;loc_admin_markdownEditor_redo&quot;:&quot;Redo&quot;,&quot;loc_admin_markdownEditor_remove&quot;:&quot;Remove&quot;,&quot;loc_admin_markdownEditor_removeLink&quot;:&quot;Remove link&quot;,&quot;loc_admin_markdownEditor_save&quot;:&quot;Save&quot;,&quot;loc_admin_markdownEditor_saveNewLink&quot;:&quot;Save Link&quot;,&quot;loc_admin_markdownEditor_selectImageTypePlaceholder&quot;:&quot;Select an image type&quot;,&quot;loc_admin_markdownEditor_showCountResults&quot;:&quot;Showing {count} results&quot;,&quot;loc_admin_markdownEditor_strikethrough&quot;:&quot;Strikethrough&quot;,&quot;loc_admin_markdownEditor_suggestions&quot;:&quot;Suggestions&quot;,&quot;loc_admin_markdownEditor_table&quot;:&quot;Table&quot;,&quot;loc_admin_markdownEditor_table_column&quot;:&quot;Column&quot;,&quot;loc_admin_markdownEditor_table_editTable&quot;:&quot;Edit table&quot;,&quot;loc_admin_markdownEditor_table_insertColumnAfter&quot;:&quot;Insert column after&quot;,&quot;loc_admin_markdownEditor_table_insertColumnBefore&quot;:&quot;Insert column before&quot;,&quot;loc_admin_markdownEditor_table_insertRowBefore&quot;:&quot;Insert row after&quot;,&quot;loc_admin_markdownEditor_table_insertRowAfter&quot;:&quot;Insert row before&quot;,&quot;loc_admin_markdownEditor_table_removeColumn&quot;:&quot;Remove column&quot;,&quot;loc_admin_markdownEditor_table_row&quot;:&quot;Row&quot;,&quot;loc_admin_markdownEditor_table_removeRow&quot;:&quot;Remove row&quot;,&quot;loc_admin_markdownEditor_tip&quot;:&quot;Tip&quot;,&quot;loc_admin_markdownEditor_toggleMarkdownEditing&quot;:&quot;Toggle Markdown editing&quot;,&quot;loc_admin_markdownEditor_typeHere&quot;:&quot;Type here&quot;,&quot;loc_admin_markdownEditor_undo&quot;:&quot;Undo&quot;,&quot;loc_admin_markdownEditor_validations&quot;:&quot;Validation&quot;,&quot;loc_admin_markdownEditor_validations_altTextEndWithPeriod&quot;:&quot;Alt text should end with a period.&quot;,&quot;loc_admin_markdownEditor_validations_altTextStartWithUppercaseLetter&quot;:&quot;Alt text should start with an uppercase letter.&quot;,&quot;loc_admin_markdownEditor_validations_altTextTooLong&quot;:&quot;Alt text too long. The max is 150 characters, including spaces.&quot;,&quot;loc_admin_markdownEditor_validations_imageWidthTooLarge&quot;:&quot;invalid file width&quot;,&quot;loc_admin_markdownEditor_validations_imageWidthTooLargeMessage&quot;:&quot;Image too large. Resize to a max of 1200 pixels on each side.&quot;,&quot;loc_admin_markdownEditor_validations_imageCorrupted&quot;:&quot;image corrupted&quot;,&quot;loc_admin_markdownEditor_validations_imageCorruptedMessage&quot;:&quot;Image corrupted or it is not a valid image&quot;,&quot;loc_admin_markdownEditor_validations_imageInvalidPosition&quot;:&quot;invalid image position&quot;,&quot;loc_admin_markdownEditor_validations_imageInvalidPositionMessage&quot;:&quot;Inline images aren&#39;t supported. Add your image on a new line.&quot;,&quot;loc_admin_markdownEditor_validations_attachmentTooLarge&quot;:&quot;attachment too large&quot;,&quot;loc_admin_markdownEditor_validations_attachmentInvalidName&quot;:&quot;attachment invalid name&quot;,&quot;loc_admin_markdownEditor_validations_attachmentInvalidNameMessage&quot;:&quot;Attachment upload error. Invalid characters in attachment name. Only letters, numbers, and hyphens (-) are allowed.&quot;,&quot;loc_admin_markdownEditor_validations_attachmentInvalidExtension&quot;:&quot;Invalid attachment extension&quot;,&quot;loc_admin_markdownEditor_validations_attachmentTooSmall&quot;:&quot;attachment too small&quot;,&quot;loc_admin_markdownEditor_validations_qnaAttachmentTooSmallMessage&quot;:&quot;Attachment upload error. {filename} is too small to upload (less than {minSize} byte).&quot;,&quot;loc_admin_markdownEditor_validations_multipleAttachments&quot;:&quot;Multiple attachments&quot;,&quot;loc_admin_markdownEditor_validations_qnaMultipleAttachmentsMessage&quot;:&quot;Attachment upload error. You are adding {filecount} attachments and the maximum allowed is {maxCount}. Some attachments were not uploaded.&quot;,&quot;loc_admin_markdownEditor_validations_qnaAttachmentTooLargeMessage&quot;:&quot;Attachment upload error. {filename} is too large to upload (more than {maxSize} MB).&quot;,&quot;loc_admin_markdownEditor_validations_qnaAttachmentInvalidExtensionMessage&quot;:&quot;Attachment upload error. {filename} has an invalid extension. Valid extensions are {validExtensions}.&quot;,&quot;loc_admin_markdownEditor_validations_qnaAttachmentInvalidNameMessage&quot;:&quot;Attachment upload error. {filename} has an invalid character in Unix and Windows system, for other limitations, please go to websites to check: https://kb.acronis.com/content/39790, http://en.wikipedia.org/wiki/C0_and_C1_control_codes.&quot;,&quot;loc_admin_markdownEditor_viewMarkdown&quot;:&quot;View Markdown&quot;,&quot;loc_admin_markdownEditor_viewRichText&quot;:&quot;View rich text&quot;,&quot;loc_admin_markdownEditor_warning&quot;:&quot;Warning&quot;}"
-							placeHolder="Do not use comments to answer questions."
-							isrtl=false
-						>
-						</docs-markdown-editor>
-					
-					<textarea
-						hidden
-						id="body-5547782-12225729-answerComment"
-						aria-label="Comment"
-						class="textarea"
-						name="body"
-						rows="1"
-						data-expanded-rows="5"
-						placeholder="Add a comment..."
-						minlength="5"
-						required
-					></textarea>
-					<input
-						id="attachment-count"
-						aria-label="attachmentCount"
-						class="attachment-input input"
-						maxCount="20"
-						hidden
-						data-skip-validation
-					/>
-					
-				</div>
-			</div>
-			<div class="control">
-				
-							<div class="level">
-								<div class="level-left align-items-flex-start"><div aria-live="polite" class="qna-saved-draft text-align-left font-size-xs"></div></div>
-								<div class="level-right margin-top-xxs margin-top-none-tablet">
-									<div class="buttons justify-content-flex-end">
-										
-		<button
-			data-modal-type="qna-discard-draft"
-			class="button button-clear"
-			data-bi-name="comment-discard-draft"
-			data-question-id="5547782"
-			data-answer-id=12225729
-			type="button"
-			hidden="true"
-		>
-			<span class="icon" aria-hidden="true">
-				<span class="docon docon-delete"></span>
-			</span>
-			<span>Discard draft</span>
-		</button>
-	 
-		<button
-			type="submit"
-			data-bi-name="comment-submit"
-			class="button button-primary button-filled margin-right-none"
-		>
-			Add comment
-		</button>
-	
-									</div>
-								</div>
-							</div>
-					  
-			</div>
-		</form>
-	
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	
-		</div>
-	</div>
-				</div>
-			</li>
-		
-				</ol>
-			</div>
-		</article>
-	
 		<div class="level">
 			<div class="level-left">
-				<h2 class="title is-4">1 additional answer</h2>
+				<h2 class="title is-4">2 answers</h2>
 			</div>
 			<div class="level-right">
 				
@@ -1968,12 +836,12 @@
 		<ol class="list-style-none">
 			
 			<li
-				id="answer-12226220"
+				id="answer-12229043"
 				class="margin-bottom-sm padding-block-sm border border-radius-lg"
 				itemprop="suggestedAnswer"
 				itemscope
 				itemtype="https://schema.org/Answer0"
-				data-test-id="answer-12226220"
+				data-test-id="answer-12229043"
 			>
 				<div
 					class="columns is-multiline margin-left-xs margin-right-xs"
@@ -1982,7 +850,7 @@
 		
 		<div class="level margin-none align-items-flex-start">
 			
-			<div class="level-left flex-direction-column" data-id="a2077aed-450b-464a-bd1b-b2568caebc16">
+			<div class="level-left flex-direction-column" data-id="25e6b30f-2ca2-44a1-9e19-329bf9c1d25e">
 				<div class="display-flex align-items-center">
 					  <div class="image is-32x32 margin-right-xxs">
 					
@@ -1990,26 +858,26 @@
 			class="border-radius-rounded background-color-body-medium"
 			loading="lazy"
 			alt=""
-			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(64, 77%, 16%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3ELB%3C/text%3E%3C/svg%3E"
+			src="https://techprofile.blob.core.windows.net/images/D7PmJaIsoUSeGTKb-cHSXg.png?8DDB8A"
 		/>
 	
 			  </div> <div class="has-line-height-reset has-text-wrap width-250">
 			<span class="display-block"
 						><a
-							href="/en-us/users/na/?userid=a2077aed-450b-464a-bd1b-b2568caebc16"
+							href="/en-us/users/na/?userid=25e6b30f-2ca2-44a1-9e19-329bf9c1d25e"
 							class="profile-url has-text-color font-weight-semibold font-size-sm"
 							data-bi-name="user-link"
-							>Lester Bernard Reyes</a
+							>David-M</a
 						>
 						
 						<span hidden aria-hidden="true" data-bi-name="user-follow-separator"> â¢ </span
 									> <form
-		action="/api/profiles/follow/user/a2077aed-450b-464a-bd1b-b2568caebc16?locale=en-us"
+		action="/api/profiles/follow/user/25e6b30f-2ca2-44a1-9e19-329bf9c1d25e?locale=en-us"
 		method="POST"
 		new
 		novalidate
 		hidden
-		data-follow-user-id=a2077aed-450b-464a-bd1b-b2568caebc16
+		data-follow-user-id=25e6b30f-2ca2-44a1-9e19-329bf9c1d25e
 		
 		
 		class="authenticated display-inline-block"
@@ -2037,7 +905,7 @@
 			<span
 		class=" display-block font-size-xs has-text-subtle"
 	>
-		<span title="Reputation points">55,350</span>
+		<span title="Reputation points">83,635</span>
 		<span class="is-visually-hidden">Reputation points</span> 
 		<span aria-hidden="true">â¢ </span>Independent Advisor
 	</span>
@@ -2046,17 +914,22 @@
 				</div>
 			</div>
 			<div class="level-right margin-top-none">
-				<span class="font-size-xs"> <local-time format="datetime" datetime="2025-09-08T08:06:07.88+00:00" class="is-visually-hidden">2025-09-08T08:06:07.88+00:00</local-time> </span>
+				<span class="font-size-xs"> <local-time format="datetime" datetime="2025-09-09T17:30:13.2033333+00:00" class="is-visually-hidden">2025-09-09T17:30:13.2033333+00:00</local-time> </span>
 			</div>
 		
 		</div>
 		
 		<div>
-			 <div class="content" itemprop="text"><p>Hi, thank you for replying. Can you further check if you have more dump files on the PC? As per checking the Minidump files, it is only displaying general errors. In addition, can you please check the System logs on the PC so I can further examine the root cause of the issue?</p>
-<p>To do this, kindly follow the steps from this link:</p>
-<p><a href="https://www.yourwindowsguide.com/2017/12/how-to-share-event-logs-in-case-of/#.ZFfoIRFByUk" rel="ugc nofollow">https://www.yourwindowsguide.com/2017/12/how-to-share-event-logs-in-case-of/#.ZFfoIRFByUk</a></p>
-<p>Note: This is a non-Microsoft website. The page appears to be providing accurate, safe information. Watch out for ads on the site that may advertise products frequently classified as a PUP (Potentially Unwanted Products). Thoroughly research any product advertised on the site before you decide to download and install it.</p>
-<p>Then please upload it by following the steps from the link.</p>
+			 <div class="content" itemprop="text"><p>Hi. I'm David, and I'm happy to help you.</p>
+<hr />
+<p>Please share a screenshot of your system information.</p>
+<p>(You've already provided some of your PC's specifications. However, some details were not covered.)</p>
+<ul>
+<li> Press &quot;Windows + R&quot;, type msinfo32 and press Enter.</li>
+</ul>
+<p>Maximize the window and use the shortcut &quot;Windows + Shift + S&quot; to use the screenshot tool.</p>
+<hr />
+<p>I await your reply.</p>
 </div> 
 		</div>
 		<div>
@@ -2068,8 +941,8 @@
 			<div class="display-flex flex-grow-1">
 				 <form
 		method="POST"
-		id="answer-rating-form-12226220"
-		data-answer-id="12226220"
+		id="answer-rating-form-12229043"
+		data-answer-id="12229043"
 		new
 		novalidate
 		class="width-full"
@@ -2084,7 +957,7 @@
 						>
 							<label
 								class="field-label margin-bottom-none margin-right-xs"
-								for="answer-helpful-rating-12226220"
+								for="answer-helpful-rating-12229043"
 								>
 				<a
 					class="not-authenticated link-button font-size-sm margin-right-sm docs-sign-in"
@@ -2096,17 +969,17 @@
 		  
 							</label>
 							<div
-								id="answer-helpful-rating-12226220"
+								id="answer-helpful-rating-12229043"
 								class="field-body flex-grow-0 margin-top-none"
 							>
 								
 		<button
-			id="answer-rating-12226220-yes"
+			id="answer-rating-12229043-yes"
 			class="authenticated thumb-rating button button-primary button-sm  like"
 			type="submit"
-			form="answer-rating-form-12226220"
-			formaction="/api/questions/answers/12226220/helpful/yes?_method=PUT&amp;locale=en-us"
-			data-action=/api/questions/answers/12226220/accept?_method=PUT&amp;locale=en-us
+			form="answer-rating-form-12229043"
+			formaction="/api/questions/answers/12229043/helpful/yes?_method=PUT&amp;locale=en-us"
+			data-action=/api/questions/answers/12229043/accept?_method=PUT&amp;locale=en-us
 			data-answer-rating-button
 			data-bi-name="answer-rating-yes"
 			title="This answer was helpful"
@@ -2118,11 +991,11 @@
 	
 								
 		<button
-			id="answer-rating-12226220-no"
+			id="answer-rating-12229043-no"
 			class="authenticated thumb-rating button button-primary button-sm  dislike"
 			type="submit"
-			form="answer-rating-form-12226220"
-			formaction="/api/questions/answers/12226220/helpful/no?_method=PUT&amp;locale=en-us"
+			form="answer-rating-form-12229043"
+			formaction="/api/questions/answers/12229043/helpful/no?_method=PUT&amp;locale=en-us"
 			
 			data-answer-rating-button
 			data-bi-name="answer-rating-no"
@@ -2136,7 +1009,7 @@
 							</div>
 						</div>
 				  
-			<span class="margin-top-xxs margin-top-none-tablet" id="answer-helpful-text-12226220"
+			<span class="margin-top-xxs margin-top-none-tablet" id="answer-helpful-text-12229043"
 				></span
 			>
 		</div>
@@ -2150,7 +1023,7 @@
 				<button
 					class="comment-expander button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary "
 					aria-expanded=false
-					aria-controls="question-answer0-12226220-expander"
+					aria-controls="question-answer0-12229043-expander"
 					
 					data-show-more=""
 					data-title="Show comments for this answer"
@@ -2162,7 +1035,7 @@
 					<span class="icon" aria-hidden="true">
 						<span class="docon docon-comment-outline"></span>
 					</span>
-					<span class="font-size-sm is-visually-hidden-mobile">2 comments</span>
+					<span class="font-size-sm is-visually-hidden-mobile">1 comment</span>
 					<span class="is-visually-hidden show-more-text">
 						Show comments for this answer
 					</span>
@@ -2176,13 +1049,13 @@
 			class="button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary qna-report-post-button  "
 			data-list-type="report"
 			data-bi-name="report"
-			data-reportedUserId="a2077aed-450b-464a-bd1b-b2568caebc16"
-			data-questionId="5547782"
-			data-entityId="12226220"
+			data-reportedUserId="25e6b30f-2ca2-44a1-9e19-329bf9c1d25e"
+			data-questionId="5549812"
+			data-entityId="12229043"
 			data-entityType="answer"
 			data-action="/api/questions/moderation/reportconcern?_method=PUT&amp;locale=en-us"
 			data-page-action-item="overflow-mobile"
-			data-test-id="report-post-button-answer-12226220"
+			data-test-id="report-post-button-answer-12229043"
 		>
 			<span class="icon " aria-hidden="true">
 				<span class="docon docon-flag"></span>
@@ -2197,18 +1070,18 @@
 	
 			</div>
 			
-		<div id="question-answer0-12226220-expander" class="width-full">
+		<div id="question-answer0-12229043-expander" class="width-full">
 			<div class="expandable ">
-				<div id="question-answer0-12226220-moreThan">
+				<div id="question-answer0-12229043-moreThan">
 					
 		<ol>
 			
 						<li
-							id="comment-2205860"
-							data-test-id="comment-2205860"
+							id="comment-2208261"
+							data-test-id="comment-2208261"
 							data="0"
 							class="margin-top-xxs is-unstyled padding-block-xxs
-							margin-bottom-xxs
+							
 							"
 						>
 							
@@ -2219,7 +1092,7 @@
 			class="border-radius-rounded background-color-body-medium"
 			loading="lazy"
 			alt=""
-			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(201.6, 77%, 29%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3ESG%3C/text%3E%3C/svg%3E"
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(249.60000000000002, 18%, 34%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3ENP%3C/text%3E%3C/svg%3E"
 		/>
 	
 						</div>
@@ -2230,25 +1103,25 @@
 								class="level margin-none align-items-flex-start"
 							>
 								
-			<div class="level-left flex-direction-column" data-id="ce6a3771-b38a-45ed-b322-bf9d05723adf">
+			<div class="level-left flex-direction-column" data-id="781ca8df-9459-46c1-81bd-3107be0ae769">
 				<div class="display-flex align-items-center">
 					  <div class="has-line-height-reset has-text-wrap width-250">
 			<span class="display-block"
 						><a
-							href="/en-us/users/na/?userid=ce6a3771-b38a-45ed-b322-bf9d05723adf"
+							href="/en-us/users/na/?userid=781ca8df-9459-46c1-81bd-3107be0ae769"
 							class="profile-url has-text-color font-weight-semibold font-size-sm"
 							data-bi-name="user-link"
-							>Sean Garrison</a
+							>Nathan Petty</a
 						>
 						
 						<span hidden aria-hidden="true" data-bi-name="user-follow-separator"> â¢ </span
 									> <form
-		action="/api/profiles/follow/user/ce6a3771-b38a-45ed-b322-bf9d05723adf?locale=en-us"
+		action="/api/profiles/follow/user/781ca8df-9459-46c1-81bd-3107be0ae769?locale=en-us"
 		method="POST"
 		new
 		novalidate
 		hidden
-		data-follow-user-id=ce6a3771-b38a-45ed-b322-bf9d05723adf
+		data-follow-user-id=781ca8df-9459-46c1-81bd-3107be0ae769
 		
 		
 		class="authenticated display-inline-block"
@@ -2276,7 +1149,7 @@
 			<span
 		class=" display-block font-size-xs has-text-subtle"
 	>
-		<span title="Reputation points">40</span>
+		<span title="Reputation points">0</span>
 		<span class="is-visually-hidden">Reputation points</span> 
 		
 	</span>
@@ -2285,13 +1158,13 @@
 				</div>
 			</div>
 			<div class="level-right margin-top-none">
-				<span class="font-size-xs"> <local-time format="datetime" datetime="2025-09-08T13:11:50.3+00:00" class="is-visually-hidden">2025-09-08T13:11:50.3+00:00</local-time> </span>
+				<span class="font-size-xs"> <local-time format="datetime" datetime="2025-09-09T19:38:38.63+00:00" class="is-visually-hidden">2025-09-09T19:38:38.63+00:00</local-time> </span>
 			</div>
 		
 							</div>
 							<div>
 								 <div class="content font-size-sm">
-											<p>Thank you once again, and sorry for the late reply. Here is my system logs, <a href="https://1drv.ms/u/c/aafa15db647bc993/EW7fRXPCJitEld1eWkA6o3QBZZkSSq29E132fBP0v3W_dg?e=xYThU3" rel="ugc nofollow">https://1drv.ms/u/c/aafa15db647bc993/EW7fRXPCJitEld1eWkA6o3QBZZkSSq29E132fBP0v3W_dg?e=xYThU3</a></p>
+											<p>Sure thing! Here is the screenshot of the Summary. Let me know if you need any sub windows<a href="https://learn-attachment.microsoft.com/api/attachments/1007975e-3798-4424-a2cb-16aad9b1f1fa?platform=QnA" rel="ugc nofollow">System Info.png</a></p>
 
 									  </div>
 							</div>
@@ -2307,7 +1180,7 @@
 			class="comment-vote button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary button-sm sign-in-modal "
 			title="This comment is helpful"
 			data-bi-name="comment-vote-up"
-			data-id="2205860"
+			data-id="2208261"
 			data-vote-count="0"
 		>
 			<span class="icon" aria-hidden="true">
@@ -2322,158 +1195,13 @@
 			class="button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary qna-report-post-button button-sm "
 			data-list-type="report"
 			data-bi-name="report"
-			data-reportedUserId="ce6a3771-b38a-45ed-b322-bf9d05723adf"
-			data-questionId="5547782"
-			data-entityId="2205860"
+			data-reportedUserId="781ca8df-9459-46c1-81bd-3107be0ae769"
+			data-questionId="5549812"
+			data-entityId="2208261"
 			data-entityType="comment"
 			data-action="/api/questions/moderation/reportconcern?_method=PUT&amp;locale=en-us"
 			data-page-action-item="overflow-mobile"
-			data-test-id="report-post-button-comment-2205860"
-		>
-			<span class="icon margin-none" aria-hidden="true">
-				<span class="docon docon-flag"></span>
-			</span>
-			<span class="is-visually-hidden"
-				>Report a concern</span
-			>
-		</button>
-	
-		
-		
-	
-									<div class="comment-vote-error"></div>
-								</div>
-						  
-				
-						</li>
-					
-						<li
-							id="comment-2205865"
-							data-test-id="comment-2205865"
-							data="1"
-							class="margin-top-xxs is-unstyled padding-block-xxs
-							
-							"
-						>
-							
-					<div class="display-flex flex-direction-row">
-						<div class="image is-32x32 margin-top-xs margin-right-xxs">
-							
-		<img
-			class="border-radius-rounded background-color-body-medium"
-			loading="lazy"
-			alt=""
-			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(201.6, 77%, 29%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3ESG%3C/text%3E%3C/svg%3E"
-		/>
-	
-						</div>
-						<div class="background-color-body-medium padding-xs is-full-width border-radius-lg">
-							
-							<div
-								
-								class="level margin-none align-items-flex-start"
-							>
-								
-			<div class="level-left flex-direction-column" data-id="ce6a3771-b38a-45ed-b322-bf9d05723adf">
-				<div class="display-flex align-items-center">
-					  <div class="has-line-height-reset has-text-wrap width-250">
-			<span class="display-block"
-						><a
-							href="/en-us/users/na/?userid=ce6a3771-b38a-45ed-b322-bf9d05723adf"
-							class="profile-url has-text-color font-weight-semibold font-size-sm"
-							data-bi-name="user-link"
-							>Sean Garrison</a
-						>
-						
-						<span hidden aria-hidden="true" data-bi-name="user-follow-separator"> â¢ </span
-									> <form
-		action="/api/profiles/follow/user/ce6a3771-b38a-45ed-b322-bf9d05723adf?locale=en-us"
-		method="POST"
-		new
-		novalidate
-		hidden
-		data-follow-user-id=ce6a3771-b38a-45ed-b322-bf9d05723adf
-		
-		
-		class="authenticated display-inline-block"
-	>
-		<form-behavior
-			navigation="reload"
-			navigation-href="empty"
-			header-content-type="application/json"
-			header-X-DocsAuth="cookie"
-			new
-		></form-behavior>
-		<button
-		class="
-					link-button font-size-sm font-weight-semibold
-					
-					
-				"
-		data-bi-name=follow-user
-		type="submit"
-	>
-		Follow
-	</button>
-	</form>
-				  </span>
-			<span
-		class=" display-block font-size-xs has-text-subtle"
-	>
-		<span title="Reputation points">40</span>
-		<span class="is-visually-hidden">Reputation points</span> 
-		
-	</span>
-			
-		</div>
-				</div>
-			</div>
-			<div class="level-right margin-top-none">
-				<span class="font-size-xs"> <local-time format="datetime" datetime="2025-09-08T13:17:00.1+00:00" class="is-visually-hidden">2025-09-08T13:17:00.1+00:00</local-time> </span>
-			</div>
-		
-							</div>
-							<div>
-								 <div class="content font-size-sm">
-											<p><a href="https://1drv.ms/f/c/aafa15db647bc993/Eg9inPzlODVLjgJulXocT68BpxPYGv692X69DWo5sxHMXQ?e=7uckx2" rel="ugc nofollow">https://1drv.ms/f/c/aafa15db647bc993/Eg9inPzlODVLjgJulXocT68BpxPYGv692X69DWo5sxHMXQ?e=7uckx2</a></p>
-<p>I think I messed up that first link, this one should be the one with the file.</p>
-
-									  </div>
-							</div>
-						</div>
-					</div>
-					
-								<div
-									class="margin-top-xxs margin-left-md padding-left-xxs answer-comment-holder"
-								>
-									
-		
-		<button
-			class="comment-vote button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary button-sm sign-in-modal "
-			title="This comment is helpful"
-			data-bi-name="comment-vote-up"
-			data-id="2205865"
-			data-vote-count="0"
-		>
-			<span class="icon" aria-hidden="true">
-				<span class="docon docon-like"></span>
-			</span>
-			<span class="vote-text is-visually-hidden-mobile">0 votes</span>
-		</button>
-	
-		
-		<button
-			title="Report a concern"
-			class="button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary qna-report-post-button button-sm "
-			data-list-type="report"
-			data-bi-name="report"
-			data-reportedUserId="ce6a3771-b38a-45ed-b322-bf9d05723adf"
-			data-questionId="5547782"
-			data-entityId="2205865"
-			data-entityType="comment"
-			data-action="/api/questions/moderation/reportconcern?_method=PUT&amp;locale=en-us"
-			data-page-action-item="overflow-mobile"
-			data-test-id="report-post-button-comment-2205865"
+			data-test-id="report-post-button-comment-2208261"
 		>
 			<span class="icon margin-none" aria-hidden="true">
 				<span class="docon docon-flag"></span>
@@ -2518,7 +1246,7 @@
 				<button
 					class="button button-secondary button-block button-sm justify-content-flex-start color-text-subtle font-weight-normal"
 					aria-expanded="false"
-					aria-controls="answer-comment-editor-12226220-expander"
+					aria-controls="answer-comment-editor-12229043-expander"
 					data-show-more=""
 					data-title="Add comment"
 					data-bi-name="add-comment"
@@ -2529,17 +1257,17 @@
 					Add comment
 				</button>
 				<div
-					id="answer-comment-editor-12226220-expander"
+					id="answer-comment-editor-12229043-expander"
 				>
 					<div class="expandable">
 						<div class="column is-12">
 							
 		<form
-			action="/api/questions/5547782/answers/12226220/comments?locale=en-us&amp;translated=false"
+			action="/api/questions/5549812/answers/12229043/comments?locale=en-us&amp;translated=false"
 			method="POST"
 			data-form-type="answerComment"
-			data-question-id="5547782"
-			data-answer-id=12226220
+			data-question-id="5549812"
+			data-answer-id=12229043
 			data-question-locale="en-us"
 			data-translation-value="false"
 			new
@@ -2547,7 +1275,7 @@
 		>
 			<form-behavior
 				navigation="follow"
-				navigation-href=?page=1&amp;orderby=Helpful&amp;comment=answer-12226220&amp;translated=false#newest-answer-comment
+				navigation-href=?page=1&amp;orderby=Helpful&amp;comment=answer-12229043&amp;translated=false#newest-answer-comment
 				header-content-type="application/json"
 				header-X-DocsAuth="cookie"
 				new
@@ -2565,18 +1293,18 @@
 			></form-behavior>
 			<input hidden aria-hidden="true" name="locale" value="en-us" />
 			<div class="field">
-				<label class="label margin-none" for="body-5547782-12226220-answerComment" hidden>
+				<label class="label margin-none" for="body-5549812-12229043-answerComment" hidden>
 					Comment
 				</label>
 				<span
-					id="qna-answerComment-12226220-hint"
+					id="qna-answerComment-12229043-hint"
 					class="field-description help margin-bottom-xxs"
 					>Use comments to ask for clarification, additional information, or improvements to the question.</span
 				>
 				<div class="field-body">
 					
 						<docs-markdown-editor
-							aria-describedby="qna-answerComment-12226220-hint"
+							aria-describedby="qna-answerComment-12229043-hint"
 							initialHeightClass="hmn1"
 							isLocal="false"
 							isProduction="true"
@@ -2589,7 +1317,7 @@
 					
 					<textarea
 						hidden
-						id="body-5547782-12226220-answerComment"
+						id="body-5549812-12229043-answerComment"
 						aria-label="Comment"
 						class="textarea"
 						name="body"
@@ -2621,8 +1349,858 @@
 			data-modal-type="qna-discard-draft"
 			class="button button-clear"
 			data-bi-name="comment-discard-draft"
-			data-question-id="5547782"
-			data-answer-id=12226220
+			data-question-id="5549812"
+			data-answer-id=12229043
+			type="button"
+			hidden="true"
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-delete"></span>
+			</span>
+			<span>Discard draft</span>
+		</button>
+	 
+		<button
+			type="submit"
+			data-bi-name="comment-submit"
+			class="button button-primary button-filled margin-right-none"
+		>
+			Add comment
+		</button>
+	
+									</div>
+								</div>
+							</div>
+					  
+			</div>
+		</form>
+	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		</div>
+	</div>
+				</div>
+			</li>
+		 
+			<li
+				id="answer-12229220"
+				class="margin-bottom-sm padding-block-sm border border-radius-lg"
+				itemprop="suggestedAnswer"
+				itemscope
+				itemtype="https://schema.org/Answer1"
+				data-test-id="answer-12229220"
+			>
+				<div
+					class="columns is-multiline margin-left-xs margin-right-xs"
+				>
+					<div class="column is-12">
+		
+		<div class="level margin-none align-items-flex-start">
+			
+			<div class="level-left flex-direction-column" data-id="25e6b30f-2ca2-44a1-9e19-329bf9c1d25e">
+				<div class="display-flex align-items-center">
+					  <div class="image is-32x32 margin-right-xxs">
+					
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="https://techprofile.blob.core.windows.net/images/D7PmJaIsoUSeGTKb-cHSXg.png?8DDB8A"
+		/>
+	
+			  </div> <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=25e6b30f-2ca2-44a1-9e19-329bf9c1d25e"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>David-M</a
+						>
+						
+						<span hidden aria-hidden="true" data-bi-name="user-follow-separator"> â¢ </span
+									> <form
+		action="/api/profiles/follow/user/25e6b30f-2ca2-44a1-9e19-329bf9c1d25e?locale=en-us"
+		method="POST"
+		new
+		novalidate
+		hidden
+		data-follow-user-id=25e6b30f-2ca2-44a1-9e19-329bf9c1d25e
+		
+		
+		class="authenticated display-inline-block"
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					link-button font-size-sm font-weight-semibold
+					
+					
+				"
+		data-bi-name=follow-user
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">83,635</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		<span aria-hidden="true">â¢ </span>Independent Advisor
+	</span>
+			
+		</div>
+				</div>
+			</div>
+			<div class="level-right margin-top-none">
+				<span class="font-size-xs"> <local-time format="datetime" datetime="2025-09-09T19:52:04.8766667+00:00" class="is-visually-hidden">2025-09-09T19:52:04.8766667+00:00</local-time> </span>
+			</div>
+		
+		</div>
+		
+		<div>
+			 <div class="content" itemprop="text"><p>Thanks for the screenshot.</p>
+<hr />
+<p>There is no obvious factor that explains the error.</p>
+<p>Here's a suggestion.</p>
+<ul>
+<li> Try resetting your BIOS settings to factory defaults. This ensures that no advanced settings are interfering with the installation process.</li>
+<li> Also, make sure the XMP/DOCP/EXPO (RAM overclock) memory profile is disabled.</li>
+</ul>
+<p>After these adjustments, try to install Windows 11 again. If possible, disconnect non-essential peripherals and avoid connecting to the internet during the installation to prevent drivers from loading automatically.</p>
+<hr />
+<p>Let me know the result.</p>
+<p>Feel free to ask back any questions.</p>
+</div> 
+		</div>
+		<div>
+			
+			<div
+		class="margin-block-xxs padding-xs background-color-body-medium font-size-sm display-flex flex-direction-column border-radius-lg"
+	>
+		<div class="display-flex justify-content-space-between flex-wrap-wrap align-items-baseline">
+			<div class="display-flex flex-grow-1">
+				 <form
+		method="POST"
+		id="answer-rating-form-12229220"
+		data-answer-id="12229220"
+		new
+		novalidate
+		class="width-full"
+	>
+		<form-behavior header-X-DocsAuth="cookie" new></form-behavior>
+		<div
+			class="display-flex justify-content-space-between align-items-center flex-wrap-wrap"
+		>
+			
+						<div
+							class="field display-inline-flex flex-wrap-wrap align-items-center margin-bottom-none"
+						>
+							<label
+								class="field-label margin-bottom-none margin-right-xs"
+								for="answer-helpful-rating-12229220"
+								>
+				<a
+					class="not-authenticated link-button font-size-sm margin-right-sm docs-sign-in"
+					data-bi-name="answer-rating-sign-in"
+					href="#"
+				>
+					Please sign in to rate this answer.
+				</a>
+		  
+							</label>
+							<div
+								id="answer-helpful-rating-12229220"
+								class="field-body flex-grow-0 margin-top-none"
+							>
+								
+		<button
+			id="answer-rating-12229220-yes"
+			class="authenticated thumb-rating button button-primary button-sm  like"
+			type="submit"
+			form="answer-rating-form-12229220"
+			formaction="/api/questions/answers/12229220/helpful/yes?_method=PUT&amp;locale=en-us"
+			data-action=/api/questions/answers/12229220/accept?_method=PUT&amp;locale=en-us
+			data-answer-rating-button
+			data-bi-name="answer-rating-yes"
+			title="This answer was helpful"
+			
+		>
+			<span aria-hidden="true" class="icon docon docon-like"></span>
+			<span>Yes</span>
+		</button>
+	
+								
+		<button
+			id="answer-rating-12229220-no"
+			class="authenticated thumb-rating button button-primary button-sm  dislike"
+			type="submit"
+			form="answer-rating-form-12229220"
+			formaction="/api/questions/answers/12229220/helpful/no?_method=PUT&amp;locale=en-us"
+			
+			data-answer-rating-button
+			data-bi-name="answer-rating-no"
+			title="This answer was not helpful"
+			
+		>
+			<span aria-hidden="true" class="icon docon docon-dislike"></span>
+			<span>No</span>
+		</button>
+	
+							</div>
+						</div>
+				  
+			<span class="margin-top-xxs margin-top-none-tablet" id="answer-helpful-text-12229220"
+				></span
+			>
+		</div>
+	</form>
+			</div>
+		</div>
+		
+	</div>
+			<div class="buttons margin-block-xxs margin-top-xs">
+				
+				<button
+					class="comment-expander button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary "
+					aria-expanded=false
+					aria-controls="question-answer1-12229220-expander"
+					
+					data-show-more=""
+					data-title="Show comments for this answer"
+					data-bi-name="show-hide-comments"
+					data-expanded-title="Hide comments for this answer"
+					data-test-id="question-Hide comments for this answer"
+					title="Show comments for this answer"
+				>
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-comment-outline"></span>
+					</span>
+					<span class="font-size-sm is-visually-hidden-mobile">3 comments</span>
+					<span class="is-visually-hidden show-more-text">
+						Show comments for this answer
+					</span>
+				</button>
+		  
+				
+		
+		
+		<button
+			title="Report a concern"
+			class="button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary qna-report-post-button  "
+			data-list-type="report"
+			data-bi-name="report"
+			data-reportedUserId="25e6b30f-2ca2-44a1-9e19-329bf9c1d25e"
+			data-questionId="5549812"
+			data-entityId="12229220"
+			data-entityType="answer"
+			data-action="/api/questions/moderation/reportconcern?_method=PUT&amp;locale=en-us"
+			data-page-action-item="overflow-mobile"
+			data-test-id="report-post-button-answer-12229220"
+		>
+			<span class="icon " aria-hidden="true">
+				<span class="docon docon-flag"></span>
+			</span>
+			<span class="font-size-sm is-visually-hidden-mobile"
+				>Report a concern</span
+			>
+		</button>
+	
+		
+		
+	
+			</div>
+			
+		<div id="question-answer1-12229220-expander" class="width-full">
+			<div class="expandable ">
+				<div id="question-answer1-12229220-moreThan">
+					
+		<ol>
+			
+						<li
+							id="comment-2208280"
+							data-test-id="comment-2208280"
+							data="0"
+							class="margin-top-xxs is-unstyled padding-block-xxs
+							margin-bottom-xxs
+							"
+						>
+							
+					<div class="display-flex flex-direction-row">
+						<div class="image is-32x32 margin-top-xs margin-right-xxs">
+							
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="data:image/svg+xml, %3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; height=&#39;64&#39; class=&#39;font-weight-bold&#39; style=&#39;font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial&#39; width=&#39;64&#39;%3E%3Ccircle fill=&#39;hsl(249.60000000000002, 18%, 34%)&#39; cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;32&#39; /%3E%3Ctext x=&#39;50%25&#39; y=&#39;55%25&#39; dominant-baseline=&#39;middle&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FFF&#39; %3ENP%3C/text%3E%3C/svg%3E"
+		/>
+	
+						</div>
+						<div class="background-color-body-medium padding-xs is-full-width border-radius-lg">
+							
+							<div
+								
+								class="level margin-none align-items-flex-start"
+							>
+								
+			<div class="level-left flex-direction-column" data-id="781ca8df-9459-46c1-81bd-3107be0ae769">
+				<div class="display-flex align-items-center">
+					  <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=781ca8df-9459-46c1-81bd-3107be0ae769"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>Nathan Petty</a
+						>
+						
+						<span hidden aria-hidden="true" data-bi-name="user-follow-separator"> â¢ </span
+									> <form
+		action="/api/profiles/follow/user/781ca8df-9459-46c1-81bd-3107be0ae769?locale=en-us"
+		method="POST"
+		new
+		novalidate
+		hidden
+		data-follow-user-id=781ca8df-9459-46c1-81bd-3107be0ae769
+		
+		
+		class="authenticated display-inline-block"
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					link-button font-size-sm font-weight-semibold
+					
+					
+				"
+		data-bi-name=follow-user
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">0</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		
+	</span>
+			
+		</div>
+				</div>
+			</div>
+			<div class="level-right margin-top-none">
+				<span class="font-size-xs"> <local-time format="datetime" datetime="2025-09-09T20:01:49.8766667+00:00" class="is-visually-hidden">2025-09-09T20:01:49.8766667+00:00</local-time> </span>
+			</div>
+		
+							</div>
+							<div>
+								 <div class="content font-size-sm">
+											<p>Thanks David. I did attempt the factory defaults on BIOS earlier, but that turned CSM back on which I believe puts it back into Legacy BIOS mode. Should I leave that on and try the install? I also confirmed XMP is set to Disable. Would DOCP and EXPO be separate settings or would they be the same thing?</p>
+
+									  </div>
+							</div>
+						</div>
+					</div>
+					
+								<div
+									class="margin-top-xxs margin-left-md padding-left-xxs answer-comment-holder"
+								>
+									
+		
+		<button
+			class="comment-vote button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary button-sm sign-in-modal "
+			title="This comment is helpful"
+			data-bi-name="comment-vote-up"
+			data-id="2208280"
+			data-vote-count="0"
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-like"></span>
+			</span>
+			<span class="vote-text is-visually-hidden-mobile">0 votes</span>
+		</button>
+	
+		
+		<button
+			title="Report a concern"
+			class="button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary qna-report-post-button button-sm "
+			data-list-type="report"
+			data-bi-name="report"
+			data-reportedUserId="781ca8df-9459-46c1-81bd-3107be0ae769"
+			data-questionId="5549812"
+			data-entityId="2208280"
+			data-entityType="comment"
+			data-action="/api/questions/moderation/reportconcern?_method=PUT&amp;locale=en-us"
+			data-page-action-item="overflow-mobile"
+			data-test-id="report-post-button-comment-2208280"
+		>
+			<span class="icon margin-none" aria-hidden="true">
+				<span class="docon docon-flag"></span>
+			</span>
+			<span class="is-visually-hidden"
+				>Report a concern</span
+			>
+		</button>
+	
+		
+		
+	
+									<div class="comment-vote-error"></div>
+								</div>
+						  
+				
+						</li>
+					
+						<li
+							id="comment-2208288"
+							data-test-id="comment-2208288"
+							data="1"
+							class="margin-top-xxs is-unstyled padding-block-xxs
+							margin-bottom-xxs
+							"
+						>
+							
+					<div class="display-flex flex-direction-row">
+						<div class="image is-32x32 margin-top-xs margin-right-xxs">
+							
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="https://techprofile.blob.core.windows.net/images/D7PmJaIsoUSeGTKb-cHSXg.png?8DDB8A"
+		/>
+	
+						</div>
+						<div class="background-color-body-medium padding-xs is-full-width border-radius-lg">
+							
+							<div
+								
+								class="level margin-none align-items-flex-start"
+							>
+								
+			<div class="level-left flex-direction-column" data-id="25e6b30f-2ca2-44a1-9e19-329bf9c1d25e">
+				<div class="display-flex align-items-center">
+					  <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=25e6b30f-2ca2-44a1-9e19-329bf9c1d25e"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>David-M</a
+						>
+						
+						<span hidden aria-hidden="true" data-bi-name="user-follow-separator"> â¢ </span
+									> <form
+		action="/api/profiles/follow/user/25e6b30f-2ca2-44a1-9e19-329bf9c1d25e?locale=en-us"
+		method="POST"
+		new
+		novalidate
+		hidden
+		data-follow-user-id=25e6b30f-2ca2-44a1-9e19-329bf9c1d25e
+		
+		
+		class="authenticated display-inline-block"
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					link-button font-size-sm font-weight-semibold
+					
+					
+				"
+		data-bi-name=follow-user
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">83,635</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		<span aria-hidden="true">â¢ </span>Independent Advisor
+	</span>
+			
+		</div>
+				</div>
+			</div>
+			<div class="level-right margin-top-none">
+				<span class="font-size-xs"> <local-time format="datetime" datetime="2025-09-09T20:11:43.9833333+00:00" class="is-visually-hidden">2025-09-09T20:11:43.9833333+00:00</local-time> </span>
+			</div>
+		
+							</div>
+							<div>
+								 <div class="content font-size-sm">
+											<p>Windows 11 is not officially supported in Legacy BIOS mode, and attempting installation under this configuration may lead to failure or system instability. I recommend keeping CSM disabled and ensuring the system is running in UEFI mode with Secure Boot enabled.</p>
+<hr />
+<p>Let me know the result.</p>
+<p>Feel free to ask back any questions.</p>
+
+									  </div>
+							</div>
+						</div>
+					</div>
+					
+								<div
+									class="margin-top-xxs margin-left-md padding-left-xxs answer-comment-holder"
+								>
+									
+		
+		<button
+			class="comment-vote button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary button-sm sign-in-modal "
+			title="This comment is helpful"
+			data-bi-name="comment-vote-up"
+			data-id="2208288"
+			data-vote-count="0"
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-like"></span>
+			</span>
+			<span class="vote-text is-visually-hidden-mobile">0 votes</span>
+		</button>
+	
+		
+		<button
+			title="Report a concern"
+			class="button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary qna-report-post-button button-sm "
+			data-list-type="report"
+			data-bi-name="report"
+			data-reportedUserId="25e6b30f-2ca2-44a1-9e19-329bf9c1d25e"
+			data-questionId="5549812"
+			data-entityId="2208288"
+			data-entityType="comment"
+			data-action="/api/questions/moderation/reportconcern?_method=PUT&amp;locale=en-us"
+			data-page-action-item="overflow-mobile"
+			data-test-id="report-post-button-comment-2208288"
+		>
+			<span class="icon margin-none" aria-hidden="true">
+				<span class="docon docon-flag"></span>
+			</span>
+			<span class="is-visually-hidden"
+				>Report a concern</span
+			>
+		</button>
+	
+		
+		
+	
+									<div class="comment-vote-error"></div>
+								</div>
+						  
+				
+						</li>
+					
+						<li
+							id="comment-2208289"
+							data-test-id="comment-2208289"
+							data="2"
+							class="margin-top-xxs is-unstyled padding-block-xxs
+							
+							"
+						>
+							
+					<div class="display-flex flex-direction-row">
+						<div class="image is-32x32 margin-top-xs margin-right-xxs">
+							
+		<img
+			class="border-radius-rounded background-color-body-medium"
+			loading="lazy"
+			alt=""
+			src="https://techprofile.blob.core.windows.net/images/D7PmJaIsoUSeGTKb-cHSXg.png?8DDB8A"
+		/>
+	
+						</div>
+						<div class="background-color-body-medium padding-xs is-full-width border-radius-lg">
+							
+							<div
+								
+								class="level margin-none align-items-flex-start"
+							>
+								
+			<div class="level-left flex-direction-column" data-id="25e6b30f-2ca2-44a1-9e19-329bf9c1d25e">
+				<div class="display-flex align-items-center">
+					  <div class="has-line-height-reset has-text-wrap width-250">
+			<span class="display-block"
+						><a
+							href="/en-us/users/na/?userid=25e6b30f-2ca2-44a1-9e19-329bf9c1d25e"
+							class="profile-url has-text-color font-weight-semibold font-size-sm"
+							data-bi-name="user-link"
+							>David-M</a
+						>
+						
+						<span hidden aria-hidden="true" data-bi-name="user-follow-separator"> â¢ </span
+									> <form
+		action="/api/profiles/follow/user/25e6b30f-2ca2-44a1-9e19-329bf9c1d25e?locale=en-us"
+		method="POST"
+		new
+		novalidate
+		hidden
+		data-follow-user-id=25e6b30f-2ca2-44a1-9e19-329bf9c1d25e
+		
+		
+		class="authenticated display-inline-block"
+	>
+		<form-behavior
+			navigation="reload"
+			navigation-href="empty"
+			header-content-type="application/json"
+			header-X-DocsAuth="cookie"
+			new
+		></form-behavior>
+		<button
+		class="
+					link-button font-size-sm font-weight-semibold
+					
+					
+				"
+		data-bi-name=follow-user
+		type="submit"
+	>
+		Follow
+	</button>
+	</form>
+				  </span>
+			<span
+		class=" display-block font-size-xs has-text-subtle"
+	>
+		<span title="Reputation points">83,635</span>
+		<span class="is-visually-hidden">Reputation points</span> 
+		<span aria-hidden="true">â¢ </span>Independent Advisor
+	</span>
+			
+		</div>
+				</div>
+			</div>
+			<div class="level-right margin-top-none">
+				<span class="font-size-xs"> <local-time format="datetime" datetime="2025-09-09T20:13:20.75+00:00" class="is-visually-hidden">2025-09-09T20:13:20.75+00:00</local-time> </span>
+			</div>
+		
+							</div>
+							<div>
+								 <div class="content font-size-sm">
+											<p>Hi again.</p>
+<blockquote>
+<p>Would DOCP and EXPO be separate settings or would they be the same thing?</p>
+</blockquote>
+<p>DOCP and EXPO are essentially the same thing as XMP.</p>
+<hr />
+<p>Feel free to ask back any questions.</p>
+
+									  </div>
+							</div>
+						</div>
+					</div>
+					
+								<div
+									class="margin-top-xxs margin-left-md padding-left-xxs answer-comment-holder"
+								>
+									
+		
+		<button
+			class="comment-vote button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary button-sm sign-in-modal "
+			title="This comment is helpful"
+			data-bi-name="comment-vote-up"
+			data-id="2208289"
+			data-vote-count="0"
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-like"></span>
+			</span>
+			<span class="vote-text is-visually-hidden-mobile">0 votes</span>
+		</button>
+	
+		
+		<button
+			title="Report a concern"
+			class="button button-clear text-decoration-none has-inner-focus margin-bottom-none button-primary qna-report-post-button button-sm "
+			data-list-type="report"
+			data-bi-name="report"
+			data-reportedUserId="25e6b30f-2ca2-44a1-9e19-329bf9c1d25e"
+			data-questionId="5549812"
+			data-entityId="2208289"
+			data-entityType="comment"
+			data-action="/api/questions/moderation/reportconcern?_method=PUT&amp;locale=en-us"
+			data-page-action-item="overflow-mobile"
+			data-test-id="report-post-button-comment-2208289"
+		>
+			<span class="icon margin-none" aria-hidden="true">
+				<span class="docon docon-flag"></span>
+			</span>
+			<span class="is-visually-hidden"
+				>Report a concern</span
+			>
+		</button>
+	
+		
+		
+	
+									<div class="comment-vote-error"></div>
+								</div>
+						  
+				
+						</li>
+					
+		</ol>
+	
+				</div>
+				
+			</div>
+		</div>
+	
+			
+		<hr class="hr margin-block-xxs" />
+		<a
+			class="not-authenticated link-button font-size-sm margin-right-sm docs-sign-in"
+			data-bi-name="comment-sign-in"
+			href="#"
+		>
+			Sign in to comment
+		</a>
+		<div class="authenticated columns margin-top-xs">
+			<div class="column is-narrow padding-right-none display-none display-flex-tablet">
+				<div class="image is-32x32">
+					
+				</div>
+			</div>
+			<div class="column is-11 flex-grow-1">
+				<button
+					class="button button-secondary button-block button-sm justify-content-flex-start color-text-subtle font-weight-normal"
+					aria-expanded="false"
+					aria-controls="answer-comment-editor-12229220-expander"
+					data-show-more=""
+					data-title="Add comment"
+					data-bi-name="add-comment"
+					data-expanded-title="Add comment"
+					data-show-once="true"
+					title="Add comment"
+				>
+					Add comment
+				</button>
+				<div
+					id="answer-comment-editor-12229220-expander"
+				>
+					<div class="expandable">
+						<div class="column is-12">
+							
+		<form
+			action="/api/questions/5549812/answers/12229220/comments?locale=en-us&amp;translated=false"
+			method="POST"
+			data-form-type="answerComment"
+			data-question-id="5549812"
+			data-answer-id=12229220
+			data-question-locale="en-us"
+			data-translation-value="false"
+			new
+			novalidate
+		>
+			<form-behavior
+				navigation="follow"
+				navigation-href=?page=1&amp;orderby=Helpful&amp;comment=answer-12229220&amp;translated=false#newest-answer-comment
+				header-content-type="application/json"
+				header-X-DocsAuth="cookie"
+				new
+				noUnload
+				loc-content-has-changed="Content has changed, please reload the page to get the latest changes."
+				loc-input-max-length="{inputLabel} cannot be longer than {maxLength} characters."
+				loc-input-min-length="{inputLabel} must be at least {minLength} characters."
+				loc-input-required="{inputLabel} is required."
+				loc-not-authenticated="You are not authenticated. Please refresh the page and try again. If this issue persists, please log out and log back in."
+				loc-not-authorized="You are not authorized to make this response. If you believe this to be in error, please refresh the page and try again."
+				loc-please-fix-the-following-issues="Please fix the following issues to continue:"
+				loc-there-are-no-edits-to-submit="There are no edits to submit."
+				loc-too-many-requests="You have sent too many requests. Please wait a few minutes and try again."
+				loc-we-encountered-an-unexpected-error="We encountered an unexpected error. Please try again later. If this issue continues, please open a ticket at https://sitehelp.microsoft.com."
+			></form-behavior>
+			<input hidden aria-hidden="true" name="locale" value="en-us" />
+			<div class="field">
+				<label class="label margin-none" for="body-5549812-12229220-answerComment" hidden>
+					Comment
+				</label>
+				<span
+					id="qna-answerComment-12229220-hint"
+					class="field-description help margin-bottom-xxs"
+					>Use comments to ask for clarification, additional information, or improvements to the question.</span
+				>
+				<div class="field-body">
+					
+						<docs-markdown-editor
+							aria-describedby="qna-answerComment-12229220-hint"
+							initialHeightClass="hmn1"
+							isLocal="false"
+							isProduction="true"
+							mode="qna"
+							locStrings="{&quot;loc_admin_markdownEditor&quot;:&quot;Markdown Editor&quot;,&quot;loc_admin_markdownEditor_aDescriptionForTheImage&quot;:&quot;A description for the image&quot;,&quot;loc_admin_markdownEditor_address&quot;:&quot;Address&quot;,&quot;loc_admin_markdownEditor_apply&quot;:&quot;Apply&quot;,&quot;loc_admin_markdownEditor_alert&quot;:&quot;Alert&quot;,&quot;loc_admin_markdownEditor_attachment&quot;:&quot;Attachment&quot;,&quot;loc_admin_markdownEditor_attachment_browse&quot;:&quot;Browse&quot;,&quot;loc_admin_markdownEditor_attachment_maxSize&quot;:&quot;Max size {maxSize} MB&quot;,&quot;loc_admin_markdownEditor_attachment_sizeLessThanMinimum&quot;:&quot;The attachment does not meet the minimum required size. The min size is 1 byte.&quot;,&quot;loc_admin_markdownEditor_attachment_sizeMoreThanMaximum&quot;:&quot;The attachment exceeds the maximum size allowed. The max size is 3145728 bytes.&quot;,&quot;loc_admin_markdownEditor_attachment_extensionNotPermitted&quot;:&quot;The attachment extension is not valid. It could be caused by a wrong attachment signature. Valid extensions are .xml, .pdf, .txt, .log, .gif, .png, .jpg, .jpeg.&quot;,&quot;loc_admin_markdownEditor_attachment_numberMoreThanMaximum&quot;:&quot;The number of attachments exceed the maximum number allowed. Upload up to 20 attachments.&quot;,&quot;loc_admin_markdownEditor_attachment_platformInvalid&quot;:&quot;Platform is not supported.&quot;,&quot;loc_admin_markdownEditor_attachment_internalServerError&quot;:&quot;Internal server error.&quot;,&quot;loc_admin_markdownEditor_attachment_unauthorizedRequest&quot;:&quot;Unauthorized request. Please make sure you are using the correct credential.&quot;,&quot;loc_admin_markdownEditor_blockquote&quot;:&quot;Blockquote&quot;,&quot;loc_admin_markdownEditor_bold&quot;:&quot;Bold&quot;,&quot;loc_admin_markdownEditor_bulletedList&quot;:&quot;Bulleted list&quot;,&quot;loc_admin_markdownEditor_caution&quot;:&quot;Caution&quot;,&quot;loc_admin_markdownEditor_cancel&quot;:&quot;Cancel&quot;,&quot;loc_admin_markdownEditor_code&quot;:&quot;Code&quot;,&quot;loc_admin_markdownEditor_codeBlock&quot;:&quot;Code block&quot;,&quot;loc_admin_markdownEditor_codeBlockLanguagePlaceholder&quot;:&quot;Select development language&quot;,&quot;loc_admin_markdownEditor_codeBlockLanguage&quot;:&quot;Select development language&quot;,&quot;loc_admin_markdownEditor_codeBlockLanguageEdit&quot;:&quot;Edit development language&quot;,&quot;loc_admin_markdownEditor_complex&quot;:&quot;Complex&quot;,&quot;loc_admin_markdownEditor_content&quot;:&quot;Content&quot;,&quot;loc_admin_markdownEditor_disabled&quot;:&quot;Disabled&quot;,&quot;loc_admin_markdownEditor_displayText&quot;:&quot;Display text&quot;,&quot;loc_admin_markdownEditor_devLangsInputPlaceholder&quot;:&quot;Search for a language&quot;,&quot;loc_admin_markdownEditor_file&quot;:&quot;File&quot;,&quot;loc_admin_markdownEditor_fileUpload&quot;:&quot;, drag &amp; drop, or paste a file.&quot;,&quot;loc_admin_markdownEditor_fileUploadFailedMessage&quot;:&quot;File upload failed. Please try again.&quot;,&quot;loc_admin_markdownEditor_headings&quot;:&quot;Headings&quot;,&quot;loc_admin_markdownEditor_heading&quot;:&quot;Heading {number}&quot;,&quot;loc_admin_markdownEditor_help&quot;:&quot;Help&quot;,&quot;loc_admin_markdownEditor_horizontalRule&quot;:&quot;Horizontal rule&quot;,&quot;loc_admin_markdownEditor_icon&quot;:&quot;Icon&quot;,&quot;loc_admin_markdownEditor_image&quot;:&quot;Image&quot;,&quot;loc_admin_markdownEditor_imageAlt&quot;:&quot;User&#39;s image&quot;,&quot;loc_admin_markdownEditor_imageUpload&quot;:&quot;, drag &amp; drop, or paste an image&quot;,&quot;loc_admin_markdownEditor_imageUploadFailedMessage&quot;:&quot;Image upload failed. Please try again.&quot;,&quot;loc_admin_markdownEditor_imageBorder&quot;:&quot;Image border&quot;,&quot;loc_admin_markdownEditor_imageDescription&quot;:&quot;Image description&quot;,&quot;loc_admin_markdownEditor_imageDescriptionAltText&quot;:&quot;Image description (alt text)&quot;,&quot;loc_admin_markdownEditor_imageDescriptionAltTextPlaceholder&quot;:&quot;Enter a description (alt text) for the image&quot;,&quot;loc_admin_markdownEditor_imageHasALightbox&quot;:&quot;Image has a lightbox&quot;,&quot;loc_admin_markdownEditor_imageLightbox&quot;:&quot;Image lightbox&quot;,&quot;loc_admin_markdownEditor_imageLocScope&quot;:&quot;Image loc-scope&quot;,&quot;loc_admin_markdownEditor_imageSource&quot;:&quot;Image source&quot;,&quot;loc_admin_markdownEditor_important&quot;:&quot;Important&quot;,&quot;loc_admin_markdownEditor_inlineCode&quot;:&quot;Inline Code&quot;,&quot;loc_admin_markdownEditor_insertCodeBlock&quot;:&quot;Insert code block&quot;,&quot;loc_admin_markdownEditor_insertFile&quot;:&quot;Insert file&quot;,&quot;loc_admin_markdownEditor_insertHorizontalRule&quot;:&quot;Insert horizontal rule&quot;,&quot;loc_admin_markdownEditor_insertImage&quot;:&quot;Insert image&quot;,&quot;loc_admin_markdownEditor_insertLink&quot;:&quot;Insert link&quot;,&quot;loc_admin_markdownEditor_insertTable&quot;:&quot;Insert table&quot;,&quot;loc_admin_markdownEditor_italics&quot;:&quot;Italics&quot;,&quot;loc_admin_markdownEditor_link&quot;:&quot;Link&quot;,&quot;loc_admin_markdownEditor_markdown&quot;:&quot;Markdown&quot;,&quot;loc_admin_markdownEditor_noMatches&quot;:&quot;We couldn&#39;t find any matches.&quot;,&quot;loc_admin_markdownEditor_note&quot;:&quot;Note&quot;,&quot;loc_admin_markdownEditor_numberedList&quot;:&quot;Numbered list&quot;,&quot;loc_admin_markdownEditor_pleaseSelectImageType&quot;:&quot;Please select image type&quot;,&quot;loc_admin_markdownEditor_quote&quot;:&quot;Quote&quot;,&quot;loc_admin_markdownEditor_redo&quot;:&quot;Redo&quot;,&quot;loc_admin_markdownEditor_remove&quot;:&quot;Remove&quot;,&quot;loc_admin_markdownEditor_removeLink&quot;:&quot;Remove link&quot;,&quot;loc_admin_markdownEditor_save&quot;:&quot;Save&quot;,&quot;loc_admin_markdownEditor_saveNewLink&quot;:&quot;Save Link&quot;,&quot;loc_admin_markdownEditor_selectImageTypePlaceholder&quot;:&quot;Select an image type&quot;,&quot;loc_admin_markdownEditor_showCountResults&quot;:&quot;Showing {count} results&quot;,&quot;loc_admin_markdownEditor_strikethrough&quot;:&quot;Strikethrough&quot;,&quot;loc_admin_markdownEditor_suggestions&quot;:&quot;Suggestions&quot;,&quot;loc_admin_markdownEditor_table&quot;:&quot;Table&quot;,&quot;loc_admin_markdownEditor_table_column&quot;:&quot;Column&quot;,&quot;loc_admin_markdownEditor_table_editTable&quot;:&quot;Edit table&quot;,&quot;loc_admin_markdownEditor_table_insertColumnAfter&quot;:&quot;Insert column after&quot;,&quot;loc_admin_markdownEditor_table_insertColumnBefore&quot;:&quot;Insert column before&quot;,&quot;loc_admin_markdownEditor_table_insertRowBefore&quot;:&quot;Insert row after&quot;,&quot;loc_admin_markdownEditor_table_insertRowAfter&quot;:&quot;Insert row before&quot;,&quot;loc_admin_markdownEditor_table_removeColumn&quot;:&quot;Remove column&quot;,&quot;loc_admin_markdownEditor_table_row&quot;:&quot;Row&quot;,&quot;loc_admin_markdownEditor_table_removeRow&quot;:&quot;Remove row&quot;,&quot;loc_admin_markdownEditor_tip&quot;:&quot;Tip&quot;,&quot;loc_admin_markdownEditor_toggleMarkdownEditing&quot;:&quot;Toggle Markdown editing&quot;,&quot;loc_admin_markdownEditor_typeHere&quot;:&quot;Type here&quot;,&quot;loc_admin_markdownEditor_undo&quot;:&quot;Undo&quot;,&quot;loc_admin_markdownEditor_validations&quot;:&quot;Validation&quot;,&quot;loc_admin_markdownEditor_validations_altTextEndWithPeriod&quot;:&quot;Alt text should end with a period.&quot;,&quot;loc_admin_markdownEditor_validations_altTextStartWithUppercaseLetter&quot;:&quot;Alt text should start with an uppercase letter.&quot;,&quot;loc_admin_markdownEditor_validations_altTextTooLong&quot;:&quot;Alt text too long. The max is 150 characters, including spaces.&quot;,&quot;loc_admin_markdownEditor_validations_imageWidthTooLarge&quot;:&quot;invalid file width&quot;,&quot;loc_admin_markdownEditor_validations_imageWidthTooLargeMessage&quot;:&quot;Image too large. Resize to a max of 1200 pixels on each side.&quot;,&quot;loc_admin_markdownEditor_validations_imageCorrupted&quot;:&quot;image corrupted&quot;,&quot;loc_admin_markdownEditor_validations_imageCorruptedMessage&quot;:&quot;Image corrupted or it is not a valid image&quot;,&quot;loc_admin_markdownEditor_validations_imageInvalidPosition&quot;:&quot;invalid image position&quot;,&quot;loc_admin_markdownEditor_validations_imageInvalidPositionMessage&quot;:&quot;Inline images aren&#39;t supported. Add your image on a new line.&quot;,&quot;loc_admin_markdownEditor_validations_attachmentTooLarge&quot;:&quot;attachment too large&quot;,&quot;loc_admin_markdownEditor_validations_attachmentInvalidName&quot;:&quot;attachment invalid name&quot;,&quot;loc_admin_markdownEditor_validations_attachmentInvalidNameMessage&quot;:&quot;Attachment upload error. Invalid characters in attachment name. Only letters, numbers, and hyphens (-) are allowed.&quot;,&quot;loc_admin_markdownEditor_validations_attachmentInvalidExtension&quot;:&quot;Invalid attachment extension&quot;,&quot;loc_admin_markdownEditor_validations_attachmentTooSmall&quot;:&quot;attachment too small&quot;,&quot;loc_admin_markdownEditor_validations_qnaAttachmentTooSmallMessage&quot;:&quot;Attachment upload error. {filename} is too small to upload (less than {minSize} byte).&quot;,&quot;loc_admin_markdownEditor_validations_multipleAttachments&quot;:&quot;Multiple attachments&quot;,&quot;loc_admin_markdownEditor_validations_qnaMultipleAttachmentsMessage&quot;:&quot;Attachment upload error. You are adding {filecount} attachments and the maximum allowed is {maxCount}. Some attachments were not uploaded.&quot;,&quot;loc_admin_markdownEditor_validations_qnaAttachmentTooLargeMessage&quot;:&quot;Attachment upload error. {filename} is too large to upload (more than {maxSize} MB).&quot;,&quot;loc_admin_markdownEditor_validations_qnaAttachmentInvalidExtensionMessage&quot;:&quot;Attachment upload error. {filename} has an invalid extension. Valid extensions are {validExtensions}.&quot;,&quot;loc_admin_markdownEditor_validations_qnaAttachmentInvalidNameMessage&quot;:&quot;Attachment upload error. {filename} has an invalid character in Unix and Windows system, for other limitations, please go to websites to check: https://kb.acronis.com/content/39790, http://en.wikipedia.org/wiki/C0_and_C1_control_codes.&quot;,&quot;loc_admin_markdownEditor_viewMarkdown&quot;:&quot;View Markdown&quot;,&quot;loc_admin_markdownEditor_viewRichText&quot;:&quot;View rich text&quot;,&quot;loc_admin_markdownEditor_warning&quot;:&quot;Warning&quot;}"
+							placeHolder="Do not use comments to answer questions."
+							isrtl=false
+						>
+						</docs-markdown-editor>
+					
+					<textarea
+						hidden
+						id="body-5549812-12229220-answerComment"
+						aria-label="Comment"
+						class="textarea"
+						name="body"
+						rows="1"
+						data-expanded-rows="5"
+						placeholder="Add a comment..."
+						minlength="5"
+						required
+					></textarea>
+					<input
+						id="attachment-count"
+						aria-label="attachmentCount"
+						class="attachment-input input"
+						maxCount="20"
+						hidden
+						data-skip-validation
+					/>
+					
+				</div>
+			</div>
+			<div class="control">
+				
+							<div class="level">
+								<div class="level-left align-items-flex-start"><div aria-live="polite" class="qna-saved-draft text-align-left font-size-xs"></div></div>
+								<div class="level-right margin-top-xxs margin-top-none-tablet">
+									<div class="buttons justify-content-flex-end">
+										
+		<button
+			data-modal-type="qna-discard-draft"
+			class="button button-clear"
+			data-bi-name="comment-discard-draft"
+			data-question-id="5549812"
+			data-answer-id=12229220
 			type="button"
 			hidden="true"
 		>
@@ -2674,10 +2252,10 @@
 									</h2>
 									
 		<form
-			action="/api/questions/5547782/answers?locale=en-us&amp;translated=false"
+			action="/api/questions/5549812/answers?locale=en-us&amp;translated=false"
 			method="POST"
 			data-form-type="answer"
-			data-question-id="5547782"
+			data-question-id="5549812"
 			
 			data-question-locale="en-us"
 			data-translation-value="false"
@@ -2704,7 +2282,7 @@
 			></form-behavior>
 			<input hidden aria-hidden="true" name="locale" value="en-us" />
 			<div class="field">
-				<label class="label margin-none" for="body-5547782-answer" hidden>
+				<label class="label margin-none" for="body-5549812-answer" hidden>
 					Answer
 				</label>
 				<span
@@ -2728,7 +2306,7 @@
 					
 					<textarea
 						hidden
-						id="body-5547782-answer"
+						id="body-5549812-answer"
 						aria-label="Answer"
 						class="textarea"
 						name="body"
@@ -2763,7 +2341,7 @@
 			data-modal-type="qna-discard-draft"
 			class="button button-clear"
 			data-bi-name="answer-discard-draft"
-			data-question-id="5547782"
+			data-question-id="5549812"
 			
 			type="button"
 			hidden="true"
@@ -2826,14 +2404,14 @@
 			Sign in to follow questions and users
 		</a>
 		 <form
-		action="/api/profiles/follow/question/5547782?locale=en-us"
+		action="/api/profiles/follow/question/5549812?locale=en-us"
 		method="POST"
 		new
 		novalidate
 		hidden
 		
 		
-		data-follow-question-id=5547782
+		data-follow-question-id=5549812
 		class="authenticated "
 	>
 		<form-behavior

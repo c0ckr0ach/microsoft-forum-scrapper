@@ -26,13 +26,15 @@ def extract_question_details(question_link):
 
     question_id = re.search(r'/questions/(\d+)/', question_link).group(1)
 
-    title = soup.find('h1', id= "answers").text
+    title = soup.find('h1', class_="title is-2").text
 
     description = soup.find('div', class_="content margin-top-xxs").text
     
     answers_list = []
-    answers = soup.find('div', class_="margin-top-xxs")
-    print(answers)
+    for answer in soup.find_all('li', id= re.compile(r'answer-\d+')):
+        content = answer.find('div', class_='content').text
+        answers_list.append(content)
+    
     
     return {'event_id': question_id,'title': title, 'description': description, 'answers': answers_list} 
 
@@ -57,7 +59,7 @@ with open('output_files/links.json', 'w', encoding='utf-8') as file:
         json.dump(item, file)
         file.write('\n')
 
-# details = extract_question_details(data[8])
-# print(details)
+details = extract_question_details('https://learn.microsoft.com/en-us/answers/questions/5549812/installing-windows-11-fails-with-multiple-bsod-err')
+print(details)
 print('end---')
 print( )
