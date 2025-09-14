@@ -67,7 +67,7 @@ output_list =[]
 for link in links:
     details = extract_question_details(link)
     output_list.append(details)
-print(output_list)
+# print(output_list)
 with open('output_files/topic_details.json', 'w', encoding= 'utf-8') as file:
     json.dump(output_list, file, indent=4, ensure_ascii= False)
 print('end---')
