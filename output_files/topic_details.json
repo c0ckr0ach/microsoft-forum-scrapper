@@ -1,0 +1,217 @@
+[
+    {
+        "event_id": "5553673",
+        "title": "How do I upgrade to windows 11 pro when the app store keeps failing and I did not receive a key in an email?",
+        "description": "How do I upgrade to windows 11 pro when the app store keeps failing and I did not receive a key in an email? I purchased 11 pro through the app store. I've reached my limit for phone call and the tech support was helpful but did accomplish much\n",
+        "answers": [
+            {
+                "content": "Hi, good day!\nPlease try the method below to trigger the edition change with a generic key:\nTemporarily disconnect from the Internet\nPress Windows key+I to open Settings\nSelect System > Activation > Change product key > Change\nEnter the generic product key below:\nVK7JG-NPHTM-C97JM-9MPGT-3V66T\nWhen prompted, Click Activate Product\nMake sure to sign in to the Microsoft account you used to purchase the Pro upgrade.\nI look forward to receiving your update and I'm willing to collaborate with you till we resolve the issue. Do keep me informed.\n",
+                "comments": []
+            },
+            {
+                "content": "It didn't work for me. I tried this yesterday, microsoft tried this yesterday and Wednesday. My company tech support tried this before I saw your response. Thank you. I changed my drives last year and that could be the issue or there is a bug in the app store. Others have this issue so its probably the app store. After 3 days of this I might run Ubuntu for a while and later buy a Mac. Fresh install of windows going on.  I hope that the restore of my data works. Wish me luck. \n",
+                "comments": [
+                    "\nIt failed. I'm still at windows home. Purchasing full version of Pro. Getting refunds for two upgrades. Should have gotten the full version originally. \n"
+                ]
+            },
+            {
+                "content": "When you said fresh install did you perform a Reset this PC or Clean Install of Windows via USB flash drive?\nIf the issue persists, you may need to perform a Clean Install of Windows 11 Pro.\nDownload the Media Creation tool (Click Download tool now). Use the tool to \"Create installation media (USB flash drive at least 8GB in size) to install Windows 11\". Instructions inside the link.\nNote: Please make sure to uncheck the \"Use the recommended options for this PC\" box. Please check the link below for more details.\nhttps://support.microsoft.com/windows/create-installation-media-for-windows-99a58364-8c02-206f-aa6f-40c3b507420d\nInsert the USB Installation media into your computer. Please change the boot order in the Bios Settings. Boot your PC from the Installation Media you created.\nKindly refer to the link below on How to Perform a Clean Install for more details.\nhttps://support.microsoft.com/windows/reinstall-windows-with-the-installation-media-d8369486-3e33-7d9c-dccc-859e2b022fc7\nI look forward to receiving your update and I'm willing to collaborate with you till we resolve the issue. Do keep me informed.\n",
+                "comments": [
+                    "\nThanks for your answer. I requested refunds for the two upgrades that I purchased. The first was associated with an old email address. I bought the full version from best buy. I needed to use the included key after the new version of home was installed. Then the update to Pro happened. 9I know that I lost some files however Pro is installed and recover brought back a lot. This took why too long. Thanks for trying to help. \n"
+                ]
+            }
+        ]
+    },
+    {
+        "event_id": "5555014",
+        "title": "How to fix black screen in windows 11",
+        "description": "Hello Windows Support, today i faced a problem when i was installing visual c++ from 2010 to 2022 that my game demanded and i downloaded from the official site of microsoft. After the installation, it demanded me to restart my pc (a button appeared directly from the installer). I pressed it and when it was about to restart, i faced a black screen with a note \"your pc ran into a problem, we will restart it for you\" with the error code unmountable_boot_volume.. i waited for an entire hour, nothing happened. I wish you could help me fixing this without a usb diagnostic.. If there isn't, tell me about the process of the usb. Note that i already tried forcing shutdowns for 2 times to make the diagnostic screen show up but nothing still.\n",
+        "answers": []
+    },
+    {
+        "event_id": "5527181",
+        "title": "Windows 10 showing me Weather, News and other widgets on my Lock screen when I have that disabled",
+        "description": "Windows 10 is showing me a bunch of stuff I do not want on my lock screen. The widgets are Weather, Daily wonder, Quiz and events near me. I really do not want these there as I like my screens clear of clutter and I've spent so long trying to get rid of all the other news sources forced on me. I have disabled everything in Personalization - Lock screen. The Get fun facts,Tips and more is disabled. all the Detailed and Quick status is set to none but they still show. How do I get rid of these widgets\n",
+        "answers": [
+            {
+                "content": "Hi ,  \nThe background is in Windows spotlight, if you have it, you would have to change it to a photo and you will stop receiving notifications in the lock screen settings.\nGive feedback if the information was useful or not.  \nThanks\n",
+                "comments": [
+                    "\nThanks, this suggestion worked. I had to switch from my Picture set for my lock screen to the 'Windows Spotlight' - from there I saw a widget/app set to appear, set it to 'none' and then switched back to 'Picture' from the dropdown. This resolved it!\n",
+                    "\nHi ,  \nI'm glad it worked out, you can always count on the Microsoft Q&A community, have a good week.  \nGive feedback if the information was useful or not.  \nThanks\n",
+                    "\nI have the SAME DAMNED PROBLEM !!! Why does MS push this crap on us!! THIS did NOT happen prior to the last update.\nI have tried all the \"fixes\" mentioned in this and other places. NO-GO.\nAnyone know of a rogue registry key where I can turn this ridiculous crap OFF?\n** UPDATE ** I just tried Adams Woods fix, and THAT worked for me as well. FIXED !!\nAgain, Why does MS feel the need to push this crap on us!! Helpful? NOT !!\n"
+                ]
+            }
+        ]
+    },
+    {
+        "event_id": "5554990",
+        "title": "can i delete this",
+        "description": "\ncan i delete this info\n",
+        "answers": [
+            {
+                "content": "Hi, I'm Rodrigo and I will help you.  \nThis is a security info of your Google account, selecting \"Remove\" will remove the account from the device. If you don't use it, it is ok to remove, in any case, you can add the account again. \n",
+                "comments": []
+            }
+        ]
+    },
+    {
+        "event_id": "5555012",
+        "title": "i can not dowload win 11 for my pc",
+        "description": "Error\nWe are unable to complete your request at this time. Some users, entities and locations are banned from using this service. For this reason, leveraging anonymous or location hiding technologies when connecting to this service is not generally allowed. If you believe that you encountered this problem in error, please try again. If the problem persists you may contactÂ Microsoft Support â Contact UsÂ page for assistance. Refer to message code 715-123130 and 1f961f84-094e-4fe9-bc19-63295f702bd6.\nHow i fix ?\n",
+        "answers": []
+    },
+    {
+        "event_id": "5554988",
+        "title": "storage space",
+        "description": "is this enough storage and how do i fr\nee up more\n",
+        "answers": [
+            {
+                "content": "Hi, \nIt really depends on what you are using the storage for.\nFor basic stuff like file backups, a handful of documents, and some emails. That should be fine for now.\nBut if you are storing a bunch of photos, videos, or those large attachments, you will run out of space pretty quick.\nYou are already at 72%, so yeah, it is a good idea to clean things up or add more storage soon.\n",
+                "comments": []
+            }
+        ]
+    },
+    {
+        "event_id": "5554871",
+        "title": "Win11 Updates on my PC get Hung Up",
+        "description": "For the past year or so, whenever I install an update to Win 11, the restart process seems to get hung up.  I know it takes some time to install, but after 30 minutes there doesn't appear to be any progress and, despite my laptop's fan running at high speed, the air coming out is very warm.  I shut down the laptop by holding the power button down and after about 5 minutes, restart my laptop.  Sometimes, I have to do this several times before it reboots.\nI've tried using the troubleshooters, but haven't determined a cause.  It is time to take my laptop in for repair (e.g. reinstallation of Win 11)?\n",
+        "answers": [
+            {
+                "content": "1\nClick your Start Button, type winver and hit Enter\nPlease provide a screenshot of the resulting dialog.\n2\nOpen the Settings App\nGo to Windows Updates\nPlease provide a screenshot of that window\n",
+                "comments": [
+                    "\n\n",
+                    "\n\n",
+                    "\nI wonder if the problem has to do with HP Wolf Security.\n"
+                ]
+            }
+        ]
+    },
+    {
+        "event_id": "5547797",
+        "title": "rotation lock greyed out",
+        "description": "Can't click on the rotation lock on my windows pc because it was greyed out\n",
+        "answers": [
+            {
+                "content": "Hi, thank you for reaching out to the Microsoft Q&A forum. Iâm happy to help.\nIn the rotation settings, aside from being greyed out, do you also see any error message like 'Managed by your organization'?\nIs this your personal computer? When did the issue start, and what changes were made?\n",
+                "comments": [
+                    "\nNo, no error message.  \nYes, it's my personal computer, and the issue has been ongoing for a while now. Thought it would go someday, but it didn't.\n",
+                    "\nThank you for your reply. Please try the following:\n1: Reset Settings via PowerShell (Admin)\nRight-click the Start Menu and choose Windows PowerShell (Admin).\nCopy and paste the command below, then hit Enter:\nGet-AppxPackage windows.immersivecontrolpanel | Reset-AppxPackage\nRestart your computer then check.\n2: Run SFC and DISM to check and repair system corrupted files:\nOpen Command Prompt as an administrator.\nCopy and paste each command below, then press Enter. Please run each command one at a time:\nsfc /scannow\nDISM /Online /Cleanup-Image /CheckHealth\nDISM /Online /Cleanup-Image /ScanHealth\nDISM /Online /Cleanup-Image /RestoreHealth\nRestart your PC\n3. If that fails, the next step is to try System Recovery without deleting your files and apps.\nClick the Start menu > Settings > System > Recovery.\nChoose Reinstall Now under the section labeled 'Fix problems using Windows Update.'\nOnce completed, your system will restart. Please check afterward.\n",
+                    "\nIssue still persist   \nStill greyed out\n",
+                    "\nI'm sorry to hear that. When did the issue start? Can you take a screenshot of the page where it is greyed out? Please make sure not to include any personal information.\n",
+                    "\n\n",
+                    "\n\n",
+                    "\nThanks for the screenshot. Were you able to use screen rotation before? Could you also provide the exact make and model of your device?\n",
+                    "\nYes, I could use the rotation lock before. HP EliteBook x360 1030 G2\n",
+                    "\nThank you for your reply. I noticed that the HP EliteBook x360 1030 G2 seems to be incompatible with Windows 11. Can you confirm if you are using Windows 10 or Windows 11?\nThe rotation issue may also be related to a graphics driver problem. In the meantime, please try the following:\n\n Press Windows + X, select Device Manager, and expand Display adapters. \n\nRight-click your display driver, select Uninstall Device.\nCheck Delete driver software for this device, then proceed with the uninstallation.\nRestart your PC, and Windows will reinstall the drivers automatically.\nCheck if the issue is resolved.\n\n Download and install the graphics driver from the HP support website, then restart your computer and check if the issue is resolved:\n\nhttps://support.hp.com/gb-en/drivers/hp-elitebook-x360-1030-g2-notebook-pc/model/14169376\nDisclaimer: This is a non-Microsoft website. The page appears to be providing accurate, safe information. Watch out for ads on the site that may advertise products frequently classified as a PUP (Potentially Unwanted Products). Thoroughly research any product advertised on the site before you decide to download and install it.\n",
+                    "\nWindows 11 and it still didn't work.\n",
+                    "\nThank you for your reply. Which version of Windows are you on? For example, 22H2, 23H2, or 24H2. Go to Settings > System > Windows Update and apply all updates.\nYou can also try the suggestions from the HP website for this model: https://h30434.www3.hp.com/t5/Notebook-Video-Display-and-Touch/rotation-lock-is-grayed-out-Disabled/td-p/7714663\nDisclaimer: This is a non-Microsoft website. The page appears to be providing accurate, safe information. Watch out for ads on the site that may advertise products frequently classified as a PUP (Potentially Unwanted Products). Thoroughly research any product advertised on the site before you decide to download and install it.\n",
+                    "\nVersion 22H2\n",
+                    "\nThanks a lot.  \nFinally fixed it.\n"
+                ]
+            }
+        ]
+    },
+    {
+        "event_id": "5555006",
+        "title": "iPhone as audio output option",
+        "description": "I have my iPhone connected via Bluetooth  to my Windows 11 laptop but it doesn't show as an audio output option\n",
+        "answers": []
+    },
+    {
+        "event_id": "5553823",
+        "title": "Device manager does not work to uninstall a PS/2 keyboard",
+        "description": "I want to uninstall the keyboard on my Dell laptop because I want to use a wireless keyboard.\nWhen I use device manager, keyboards, standard ps/2 keyboard, Uninstall, reboot: the Dell keyboard still works.\nHow do I turn off the Dell laptop keyboard?\n",
+        "answers": [
+            {
+                "content": "Hello, James Margolis.\nIn order to disable any device in the Device Manager, you need to disable it, not delete it. The deletion causes the P&P function to be triggered when the PC is rebooted and finds a \"new device\" (previously deleted), installs the drivers and activates the device. And when disconnected, the system \"sees\" the device, but \"knows\" that it is disabled and should not be activated.\n",
+                "comments": []
+            },
+            {
+                "content": "Hi Alexandr S,\nThank you for your prompt response which does not solve the problem.\nDevice manager does not have any options to \"disable\" or \"delete\" a keyboard. The only option is \"uninstall\". And uninstall does not uninstall, or delete, or disable the keyboard. See enclosed jpg file.\nMicrosoft-2025-09-12-device manager does not work.jpg\nHow does one \"disable\" the keyboard as you suggest?\nAnd why are you mentioning the plug and play function? I am not trying to disable a plug and play device. I am trying to disable the keyboard that is installed in the Dell laptop.\nThanks,\nJames\n",
+                "comments": []
+            }
+        ]
+    },
+    {
+        "event_id": "5555005",
+        "title": "Upgrade to Windows11",
+        "description": "In settings on my Windows 10 Gateway laptop, it says my machine is not compatible to Upgrade. I checked with Gateway support, and they say it is. This laptop is aGWTN141-1bk model, and the specs say there is 64 GB storage. I checked 2 other problems that were indicated. Both are what is required to install Windows 11. Why am I being told I cannot upgrade? Should I just download Windows 11 and do the install?\n",
+        "answers": [
+            {
+                "content": "Click on start menu and type msinfo32  \nOpen System Information  \nPlease take a screenshot and post it here.\n",
+                "comments": []
+            }
+        ]
+    },
+    {
+        "event_id": "5554947",
+        "title": "how to reactivate windows security",
+        "description": "i might have used some software that disabled my windows security and  defender . its not launching anyhow so i cant turn it back on. is there anyway to rectify this error?\n",
+        "answers": []
+    },
+    {
+        "event_id": "5555002",
+        "title": "Sound from my Altec Lansing PC speakers is barely audible unless the volume scale is set way up high.",
+        "description": "Sound from my Altec Lansing PC speakers used to be great, but now is barely audible unless the volume scale is set way up high. How do I fix this?\n",
+        "answers": []
+    },
+    {
+        "event_id": "5554985",
+        "title": "Das Update zu 24H2 wird immer wieder zurÃ¼ckgesetzt. Was kann ich tun?",
+        "description": "Mein Update zu 24H2 wird immer wieder zurÃ¼ckgesetzt. Was kann ich tun?\n",
+        "answers": []
+    },
+    {
+        "event_id": "5554983",
+        "title": "Issues During Windows 11 Reinstallation on Asus Tuf A15",
+        "description": "Experiencing difficulties reinstalling Windows 11 on an Asus Tuf A15 due to a BSOD error \"unmountable boot volume.\" After downloading Windows 11 using the Media Creation Tool and preparing a bootable pen drive, the installation process starts but often crashes, restarts automatically, or freezes during the initial phase where Windows files are copied. If there are no BSOD errors or freezes, it ends up in a restart loop shortly after beginning the file copying. \nAttempts to resolve this issue have not been successful, and assistance is urgently needed. My asus model is FA566NC.\n",
+        "answers": [
+            {
+                "content": "Hi, \nOkay, so first thing, you gotta check those BIOS settings if things are acting up. Just restart your computer and hit F2 or DEL right away to get into the BIOS menu. That's for the ASUS TUF, you know, the usual way in.\nNow, once you're in there. Load up the optimized defaults to reset everything. Pretty much wipes the slate clean.\nThen, look for SATA Mode. Set that to AHCI, not RAID or anything else. Makes a big difference sometimes.\nFast Boot, disable it. Yeah, turn that off so it doesn't skip stuff.\nSecure Boot, go ahead and disable it for now. Just temporarily, to test things out.\nCSM, that's the Compatibility Support Module. Enable that one. Helps with older boot stuff.\nKeep UEFI Boot Mode enabled, no changes there.\nTPM can stay on if you're running Windows 11, but flip it off for testing purposes. See if that fixes whatever.\nAlright, save those changes and exit. Restart and see how it goes.\n",
+                "comments": []
+            }
+        ]
+    },
+    {
+        "event_id": "5554993",
+        "title": "i need help set up windows 32kfull.sys_BSOD_exception",
+        "description": "\ntype here\n\n1.Header 1Header 2Cell 1Cell 2Cell 3Cell 4\n",
+        "answers": []
+    },
+    {
+        "event_id": "5554981",
+        "title": "Unable to register my device",
+        "description": "I'm unable to register my home built computer with an Aorus Mother board\n",
+        "answers": [
+            {
+                "content": "Hello! Have you changed your motherboard and want to activate your Windows? Please provide us with more information.\nIf you've changed your computer or motherboard and want to activate your Windows, check what type of license you have. Was your license already installed on your old computer when you purchased it, or did you purchase the license from the Microsoft website?\n",
+                "comments": []
+            }
+        ]
+    },
+    {
+        "event_id": "5554922",
+        "title": "having issues with my Audio and Video.",
+        "description": "having issues with my Audio and Video. I recently purchased the Microsoft surface laptop 7 and the audio and video are out of sync on all streaming platforms as well as online like youtube netflix etc . I have tried updating my drivers . Deleting and reinstalling them. Clearing my cache data on web browser as well. Please provide me with assistanceâ¦ iâve basically done everything iâve seen on the internet \n",
+        "answers": [
+            {
+                "content": "Hi James,\nThis is April, I'll be happy to assist you. Sorry to hear that you're having issue with Windows 11 Audio and Video. Let me help you out. \nBased on the description you provided, you recently purchased Microsoft Surface laptop 7 and the audio and video are out of sync on all streaming platforms. Since you have already covered the common troubleshooting steps (like updating drivers, clearing browser cache and reinstalling), let's move on to some deeper system-level fixes. These have worked for other Surface laptop 7 users experiencing the same sync issues.\n\n Disable Audio Enhancements   Audio Enhancements, especially on devices with Qualcomm audio chips, are a known cause of sync problems.\n\n Right-click the speaker icon in the taskbar > Sound settings\n Under Output, select your default device > Device properties > Additional device properties\n Go to the Enhancements tab and check Disable all enhancements\n Click Apply and restart your system\n\n\n Change the Audio Format   The default audio format can sometimes introduce latency.\n\n Follow the same steps above, but go to the Advance tab\n Try changing the default format to 16 bit, 44100 Hz (CD Quality) or 24 bit, 48000 Hz\n Test playback after each change to see if sync improves\n\n\n Disable Hardware Acceleration in Your Browser   Browsers like Chrome and Edge use GPU acceleration, which can cause audio/video desync.\n\n In Chrome: Settings > System > Toggle off Use hardware acceleration when available\n Restart the browser after making the change\n\n\n Install the Latest Firmware Updates   Even with updated drivers, outdated firmware can cause persistent sync issues.\n\n Visit the official Microsoft Surface Laptop 7 download page https://learn.microsoft.com/en-us/answers/questions/2297733/new-surface-laptop-7-audio-video-sync\n Manually download and install the latest firmware and driver package for your model\n\n\n Test with Local Playback   Try playing a downloaded video using the built-in Movies & TV app instead of streaming.\n\n If sync issues occur even with local files, it's likely a deeper system-level audio processing issue - not just browser-related.\n\n\n\nIf the issue continues, please donât hesitate to contact us again. Weâre here to help, and we appreciate your continued trust in us.\nWarm Regards,\nApril P.\nIndependent Advisor\n",
+                "comments": [
+                    "\nHi April thanks for response '\nIve tried all of the above and nothing has worked\n"
+                ]
+            }
+        ]
+    },
+    {
+        "event_id": "5554999",
+        "title": "Need Help: Random BSODs with ntoskrnl.exe and NETIO.SYS Errors - High-End System",
+        "description": "Need Help: Random BSODs with ntoskrnl.exe and NETIO.SYS Errors - High-End System\nSystem Specifications\n\n CPU: Intel i9-13900K\n Motherboard: ASUS ROG MAXIMUS Z690 FORMULA\n GPU: NVIDIA RTX 3090 Ti\n RAM: 4x ADATA AX5U6400C4016G-DCCARGY (total 64GB)\n Storage: 2x M.2 SSDs (1 for OS, 1 for games)\n PSU: Corsair HX1200\n BIOS: Latest version 4301 (released 2025/05/26)\n\nProblem Description\nI'm experiencing random Blue Screen of Death (BSOD) crashes on my high-end gaming system. The crashes seem to occur randomly during general use. It happens since I bought my PC in 2022 and I already changed every HW component except the MoBo. Asus EMEA support team that I contacted more than once during those years always refused to change it. During those years the problem seemd to diasappear but in reality some time happened when PC was in idle and I was far from PC for some other reason and didn't provoke frustration. Yesterday started to trigger itself continuosly making PC experience impossible.\nError Information\nThe crashes are associated with these memory addresses:\n\n ntoskrnl.exe+4fec10\n NETIO.SYS+1c688\n NETIO.SYS+23ca8\n ntoskrnl.exe+4f9280\n\nTroubleshooting Steps Already Taken\nDriver Updates\n\n All drivers and BIOS are completely up to date\n Using Intel Driver & Support Assistant for automatic updates\n Following comprehensive driver update guide from ASUS MoBo Driver thread on elevenforum.com\n Manually verified and updated all system drivers\n\nAdvanced Troubleshooting\n\n Driver Verifier: Attempted to use Windows Driver Verifier to identify problematic drivers\n\n Result: System became stuck in restart loop and eventually froze completely\n Had to restore from previous system image to recover\n This suggests a potential driver compatibility issue\n\n\n\nWhat I'm Looking For\n\n Suggestions for identifying which specific driver or hardware component might be causing the crashes\n Alternative methods to Driver Verifier for troubleshooting driver issues\n Experience with similar error addresses on Z690 chipset systems\n Recommendations for memory testing or other hardware diagnostics\n Any known issues with this hardware combination\n\nAdditional Information\n\n System is relatively new but crashes have been occurring intermittently\n No obvious pattern to when crashes occur (not tied to specific applications)\n System runs stable most of the time, crashes are sporadic\n All components are running at stock speeds (no overclocking)\n RAM QVL \n\nAny help or suggestions would be greatly appreciated. Has anyone experienced similar issues with this hardware combination or these specific error addresses?\n",
+        "answers": []
+    },
+    {
+        "event_id": "5554998",
+        "title": "SFC, DISM Windows file repairs",
+        "description": "Frequently, in an effort to solve numerous non-specific problems, questioners are asked to run SFC and DISM.  While I understand WHAT these tools do, I'm not sure HOW Windows system and other files become corrupted and need to be \"fixed.\"  Digital copies are SUPPOSED to be exact and disk files are NOT SUPPOSED to be over-written.  Guess you have some splainin' to do.\nThanks.\n",
+        "answers": []
+    }
+]

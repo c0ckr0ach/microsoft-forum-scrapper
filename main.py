@@ -33,8 +33,13 @@ def extract_question_details(question_link):
     answers_list = []
     for answer in soup.find_all('li', id= re.compile(r'answer-\d+')):
         content = answer.find('div', class_='content').text
-        answers_list.append(content)
-    
+        comment_list = []
+        for comment in answer.find_all('li', id = re.compile(r'comment-\d+')):
+            comment_text = comment.find('div', class_="content font-size-sm").text
+            if comment_text:
+                comment_list.append(comment_text)
+        if content:
+            answers_list.append({'content': content, 'comments': comment_list})
     
     return {'event_id': question_id,'title': title, 'description': description, 'answers': answers_list} 
 
@@ -42,7 +47,7 @@ def extract_question_details(question_link):
 
 
 site = requests.get('https://learn.microsoft.com/en-us/answers/tags/824/windows-home')
-# create a folder named htmls in the current directory before running this code
+
 with open('htmls/index.html', 'w', encoding='utf-8') as f:
     f.write(site.text) 
 
@@ -53,13 +58,17 @@ soup = BeautifulSoup(content, 'lxml')
 
 
 
-data = extract_topic_list(soup)
+links = extract_topic_list(soup)
 with open('output_files/links.json', 'w', encoding='utf-8') as file:
-    for item in data:
-        json.dump(item, file)
-        file.write('\n')
+    for item in links:
+        json.dump(item, file, indent=4, ensure_ascii= False)
 
-details = extract_question_details('https://learn.microsoft.com/en-us/answers/questions/5549812/installing-windows-11-fails-with-multiple-bsod-err')
-print(details)
+output_list =[]
+for link in links:
+    details = extract_question_details(link)
+    output_list.append(details)
+print(output_list)
+with open('output_files/topic_details.json', 'w', encoding= 'utf-8') as file:
+    json.dump(output_list, file, indent=4, ensure_ascii= False)
 print('end---')
 print( )
