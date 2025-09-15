@@ -42,7 +42,7 @@ def extract_question_details(question_link):
 
 
 site = requests.get('https://learn.microsoft.com/en-us/answers/tags/824/windows-home')
-# create a folder named htmls in the current directory before running this code
+
 with open('htmls/index.html', 'w', encoding='utf-8') as f:
     f.write(site.text) 
 
@@ -52,14 +52,17 @@ with open('htmls/index.html', 'r', encoding='utf-8') as f:
 soup = BeautifulSoup(content, 'lxml')
 
 
-
+data = []
 data = extract_topic_list(soup)
+
 with open('output_files/links.json', 'w', encoding='utf-8') as file:
     for item in data:
         json.dump(item, file)
         file.write('\n')
-
-details = extract_question_details('https://learn.microsoft.com/en-us/answers/questions/5549812/installing-windows-11-fails-with-multiple-bsod-err')
-print(details)
+answer_details = []
+for link in data:
+    details = extract_question_details(link)
+    answer_details.append(details)
+with open('output_files/answers_list.json', 'w', encoding = 'utf-8') as file:
+    json.dump(answer_details, file, indent= 4)
 print('end---')
-print( )
